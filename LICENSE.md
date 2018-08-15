@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 DVS-Lab
+Copyright (c) 2018 fareri-lab
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
