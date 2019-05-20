@@ -1,0 +1,180 @@
+leftmoney,Right,rightmoney,Left,leftmoney1,rightmoney1,Left1,Right1,Loop.thisRepN,Loop.thisTrialN,Loop.thisN,Loop.thisIndex,Loop2.thisRepN,Loop2.thisTrialN,Loop2.thisN,Loop2.thisIndex,questions.thisRepN,questions.thisTrialN,questions.thisN,questions.thisIndex,spacebar.keys,spacebar.rt,responses.keys,responses.rt,response1.keys,response1.corr,response1.rt,key_resp_2.keys,key_resp_2.rt,rating.response,rating.rt,rating.history,rating_2.response,rating_2.rt,rating_3.response,rating_3.rt,rating_4.response,rating_4.rt,rating_5.response,rating_5.rt,date,frameRate,expName,session,participant,
+,,,,,,,,,,,,,,,,,,,,space,1.30049516796,,,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Studying abroad 
+with friends",0.05,Playing with a pet,,,,,0,0,0,45,,,,,,,,,,,1,2.68468587263,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Buying coffee on 
+the way to work",0.05,"Getting retweets 
+on a picture",,,,,0,1,1,6,,,,,,,,,,,1,1.93473182525,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,Exercising from home,0.03,"Attending a Superbowl 
+party",,,,,0,2,2,22,,,,,,,,,,,2,1.23477975279,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Having a movie marathon 
+with a roommate",0.04,"Looking through old 
+photo albums",,,,,0,3,3,35,,,,,,,,,,,1,1.05117699178,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Going to the movies 
+by yourself",0.01,"Seeing a play with a 
+significant other",,,,,0,4,4,34,,,,,,,,,,,1,0.684191358043,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Going to a family 
+member’s baby shower",0.02,Watching the news,,,,,0,5,5,31,,,,,,,,,,,1,1.5014432678,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Getting lunch with 
+coworkers",0.01,"Going to a farmer's
+market by yourself",,,,,0,6,6,43,,,,,,,,,,,2,1.90162950382,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Having a romantic dinner 
+with a significant other",0.02,"Painting your bedroom
+a new color",,,,,0,7,7,25,,,,,,,,,,,1,0.817434787052,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Going to the movies
+with a significant other",0.05,"Driving to school
+by yourself",,,,,0,8,8,46,,,,,,,,,,,1,1.76823118888,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Getting breakfast with 
+a significant other",0.02,Listening to a podcast,,,,,0,9,9,27,,,,,,,,,,,2,2.20174461068,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Going for a walk 
+in the park",0.01,Playing a team sport,,,,,0,10,10,8,,,,,,,,,,,1,1.07706810581,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Watching YouTube
+videos",0.02,"Making breakfast 
+for your family",,,,,0,11,11,41,,,,,,,,,,,2,1.18402667507,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Snapchatting with
+friends",0.05,"Playing a videogame 
+at home",,,,,0,12,12,19,,,,,,,,,,,1,0.584126760019,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Getting a slice of pizza 
+by yourself",0.02,Joining a study group,,,,,0,13,13,24,,,,,,,,,,,1,0.80132666789,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Going camping 
+with family",0.01,"Learning how to 
+perform card tricks",,,,,0,14,14,29,,,,,,,,,,,2,1.26755022048,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Adding new friends
+on facebook",0.01,Running a marathon,,,,,0,15,15,9,,,,,,,,,,,1,1.23497258243,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Playing cards with 
+friends",0.02,Studying for a test alone,,,,,0,16,16,21,,,,,,,,,,,1,1.65168089932,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,Shopping online,0.01,"Catching up with friends 
+from high school",,,,,0,17,17,18,,,,,,,,,,,1,1.93491034815,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Buying clothes 
+for yourself",0.03,"Going to a party
+with roommates",,,,,0,18,18,48,,,,,,,,,,,2,1.10090993834,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Cleaning up around 
+the house",0.05,"Playing a tennis match
+ with a friend",,,,,0,19,19,38,,,,,,,,,,,2,1.25094354339,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Putting together 
+a puzzle",0.01,"Going to the movies 
+with a friend",,,,,0,20,20,0,,,,,,,,,,,1,1.06807851163,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Having dinner with 
+family",0.02,"Going grocery shopping 
+alone",,,,,0,21,21,1,,,,,,,,,,,2,0.667853398481,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Planting flowers 
+in a garden",0.02,"Taking a road trip 
+with family",,,,,0,22,22,14,,,,,,,,,,,1,0.917559411144,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Having a picnic 
+with family",0.02,"Watching a new 
+episode of a television 
+show",,,,,0,23,23,17,,,,,,,,,,,1,1.71813995251,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Going on a 
+dinner date",0.04,Getting a haircut,,,,,0,24,24,5,,,,,,,,,,,1,0.884541374864,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Going on Spring Break 
+vacation with friends",0.01,"Going for a bicycle
+ride alone",,,,,0,25,25,13,,,,,,,,,,,1,0.900685260771,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,Practicing photography,0.04,"Going to a concert 
+with a friend",,,,,0,26,26,10,,,,,,,,,,,2,1.11802605866,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,Drawing a picture,0.03,"Getting likes on an 
+Instagram picture",,,,,0,27,27,20,,,,,,,,,,,2,1.13478046819,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Getting breakfast
+by yourself",0.04,"Gaining Instagram
+followers",,,,,0,28,28,44,,,,,,,,,,,2,2.0515965519,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Going to a carnival 
+with friends",0.01,"Rearranging furniture 
+in your house",,,,,0,29,29,23,,,,,,,,,,,2,1.10174128297,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Going to a work outing
+with colleagues",0.01,"Going on vacation 
+by yourself",,,,,0,30,30,11,,,,,,,,,,,2,1.50190699194,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Taking an online
+class",0.03,"Gaining Twitter
+followers ",,,,,0,31,31,49,,,,,,,,,,,2,2.46807067399,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Going to a nightclub with 
+a group of friends",0.05,Writing journal entries,,,,,0,32,32,37,,,,,,,,,,,1,2.30176722165,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Practicing an
+ instrument",0.05,"Attending a family member’s 
+wedding",,,,,0,33,33,2,,,,,,,,,,,2,1.98500842694,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Going to a sporting
+event with friends",0.05,Putting gas in a car,,,,,0,34,34,3,,,,,,,,,,,1,1.20147278323,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Watching a football 
+game from home",0.01,"Attending a family 
+barbeque",,,,,0,35,35,4,,,,,,,,,,,1,2.10091242637,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Teaching yourself a 
+different language",0.03,"Joining a club 
+at school",,,,,0,36,36,12,,,,,,,,,,,2,1.46724399459,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Giving a friend a ride
+to school",0.05,"Listening to music
+by yourself",,,,,0,37,37,42,,,,,,,,,,,2,2.68520340254,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Participating in 
+a debate",0.03,"Going to a museum 
+alone",,,,,0,38,38,15,,,,,,,,,,,1,1.5513562921,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Shopping for clothes
+with friends",0.03,"Going to the beach 
+alone",,,,,0,39,39,40,,,,,,,,,,,1,2.71873399243,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Taking a road trip 
+by yourself",0.03,"Traveling abroad with 
+a significant other",,,,,0,40,40,30,,,,,,,,,,,2,1.65093570598,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Reading news 
+articles",0.04,"Watching television
+with family",,,,,0,41,41,47,,,,,,,,,,,1,2.20054999995,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.03,"Watching Netflix at home 
+by yourself",0.03,"Meeting new people 
+at a party",,,,,0,42,42,32,,,,,,,,,,,2,1.41730950982,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,"Going on a double 
+date",0.04,Doing your laundry,,,,,0,43,43,33,,,,,,,,,,,1,0.967075579567,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.02,Reading at the library,0.05,"Watching the sunset 
+with a significant other",,,,,0,44,44,36,,,,,,,,,,,2,1.00041862717,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Babysitting for a 
+family member",0.01,"Going on a hike 
+by yourself",,,,,0,45,45,39,,,,,,,,,,,2,1.36754732812,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,"Trying to solve a 
+Rubik’s cube",0.03,"Going shopping with
+a significant other",,,,,0,46,46,26,,,,,,,,,,,2,1.71780467778,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.05,Taking a nap,0.02,"Getting likes on a 
+facebook post",,,,,0,47,47,28,,,,,,,,,,,2,1.884306869,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.01,"Going to a friend’s 
+birthday party",0.04,Reading a book,,,,,0,48,48,7,,,,,,,,,,,1,1.73395011877,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+0.04,"Trying out a new 
+recipe at home",0.03,"Spending a day at the 
+beach with a friend",,,,,0,49,49,16,,,,,,,,,,,1,1.40072149388,,,,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.09,0.04,Going on a blind date,"Going to a coffee 
+shop with friends",,,,,0,0,0,9,,,,,,,,,1,0,1.05090018804,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.03,0.08,"Going to a bar 
+with friends","Getting a slice of 
+pizza with a friend",,,,,0,1,1,10,,,,,,,,,1,0,1.10050779511,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.01,0.02,"Going to an amusement 
+park with a friend","Baking a cake for a 
+family member’s birthday",,,,,0,2,2,2,,,,,,,,,1,0,1.35080660321,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.02,0.01,Taking classes with a friend,"Taking a family member
+ on a shopping trip",,,,,0,3,3,0,,,,,,,,,2,0,1.250655232,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.04,0.03,"Going apple-picking 
+with family","Planning a surprise 
+party for a family member",,,,,0,4,4,4,,,,,,,,,2,0,1.5840247469,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.07,0.08,"Sleeping over at 
+a friend's house","Taking your friend 
+to the spa",,,,,0,5,5,1,,,,,,,,,1,0,1.48400555714,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.04,0.04,"Baking cookies for
+a neighbor","Getting tagged in 
+Instagram pictures",,,,,0,6,6,11,,,,,,,,,1,0,1.83422962832,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.02,0.07,"Going to a music
+festival with friends","Buying flowers for 
+a significant other",,,,,0,7,7,5,,,,,,,,,1,0,1.30057323282,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.01,0.04,"Playing videogames 
+with friends","Taking your friend 
+on a cruise",,,,,0,8,8,6,,,,,,,,,1,0,1.76732488978,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.05,0.07,"Celebrating holidays 
+with family","Talking to a friend 
+over Skype",,,,,0,9,9,12,,,,,,,,,2,0,1.08359321277,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.05,0.08,"Going to the gym 
+with friends","Making cookies to 
+give to a friend",,,,,0,10,10,8,,,,,,,,,2,0,1.30087833921,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.06,0.06,"Eating dinner at a 
+restaurant with family","Eating dinner at a
+restaurant with friends ",,,,,0,11,11,14,,,,,,,,,1,0,1.33482102444,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.06,0.03,"Taking an art class 
+with friends","Walking around Central 
+Park with family",,,,,0,12,12,13,,,,,,,,,1,0,1.71826498094,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.04,0.07,"Talking over the phone
+with a friend","Talking over the phone
+with a significant other",,,,,0,13,13,7,,,,,,,,,1,0,2.33467640216,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,0.03,0.09,"Going to a parade 
+with family","Making a friend’s 
+favorite dinner",,,,,0,14,14,3,,,,,,,,,2,0,1.90120154666,,,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,space,2.13499444677,,,,,,,,,,,,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,
+,,,,,,,,,,,,,,,,0,0,0,0,,,,,,,,,,6,7.266,"[(None, 0.0), (6, 5.432), (6, 7.266)]",3,4.934,6,6.155,2,6.068,7,3.802,2018_Feb_09_1546,59.9805056426,newer wtp,001,1,

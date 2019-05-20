@@ -1,0 +1,4 @@
+selectBlock,alltrials.thisRepN,alltrials.thisTrialN,alltrials.thisN,alltrials.thisIndex,Reward.thisRepN,Reward.thisTrialN,Reward.thisN,Reward.thisIndex,Loss.thisRepN,Loss.thisTrialN,Loss.thisN,Loss.thisIndex,response1.keys,response1.rt,response2.keys,date,frameRate,expName,session,participant,
+,,,,,,,,,,,,,space,0.750094004441,,2018_Feb_09_1600,59.9793867363,Experiment1,001,1,
+1,0,0,0,0,0,0,0,0,,,,,,,None,2018_Feb_09_1600,59.9793867363,Experiment1,001,1,
+1,0,0,0,0,,,,,,,,,,,,2018_Feb_09_1600,59.9793867363,Experiment1,001,1,
