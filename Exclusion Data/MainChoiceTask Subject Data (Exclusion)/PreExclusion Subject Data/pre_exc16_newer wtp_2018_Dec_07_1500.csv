@@ -1,0 +1,208 @@
+leftmoney,Right,rightmoney,Left,leftmoney1,rightmoney1,Left1,Right1,Loop.thisRepN,Loop.thisTrialN,Loop.thisN,Loop.thisIndex,Loop2.thisRepN,Loop2.thisTrialN,Loop2.thisN,Loop2.thisIndex,questions.thisRepN,questions.thisTrialN,questions.thisN,questions.thisIndex,spacebar.keys,spacebar.rt,responses.keys,responses.rt,response1.keys,response1.corr,response1.rt,key_resp_2.keys,key_resp_2.rt,rating.response,rating.rt,rating.history,rating_2.response,rating_2.rt,rating_3.response,rating_3.rt,rating_4.response,rating_4.rt,rating_6.response,rating_6.rt,rating_7.response,rating_7.rt,rating_8.response,rating_8.rt,rating_9.response,rating_9.rt,rating_5.response,rating_5.rt,expName,participant,age,frameRate,sex,session,date,
+,,,,,,,,,,,,,,,,,,,,space,3.01788215153,,,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Buying coffee on 
+the way to work",0.05,"Getting retweets 
+on a picture",,,,,0,0,0,6,,,,,,,,,,,None,,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Getting lunch with 
+coworkers",0.01,"Going to a farmer's
+market by yourself",,,,,0,1,1,43,,,,,,,,,,,2,3.16813440062,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Watching YouTube
+videos",0.02,"Making breakfast 
+for your family",,,,,0,2,2,41,,,,,,,,,,,1,2.48516813386,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Going for a walk 
+in the park",0.01,Playing a team sport,,,,,0,3,3,8,,,,,,,,,,,2,2.10101443995,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Planting flowers 
+in a garden",0.02,"Taking a road trip 
+with family",,,,,0,4,4,14,,,,,,,,,,,1,2.75159434415,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Watching Netflix at home 
+by yourself",0.03,"Meeting new people 
+at a party",,,,,0,5,5,32,,,,,,,,,,,1,2.40120076854,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Going to a nightclub with 
+a group of friends",0.05,Writing journal entries,,,,,0,6,6,37,,,,,,,,,,,2,2.5009770561,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Going to a family 
+member’s baby shower",0.02,Watching the news,,,,,0,7,7,31,,,,,,,,,,,2,2.83465074375,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Taking an online
+class",0.03,"Gaining Twitter
+followers ",,,,,0,8,8,49,,,,,,,,,,,2,2.46744677611,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,Shopping online,0.01,"Catching up with friends 
+from high school",,,,,0,9,9,18,,,,,,,,,,,2,2.48463505227,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Cleaning up around 
+the house",0.05,"Playing a tennis match
+ with a friend",,,,,0,10,10,38,,,,,,,,,,,1,3.01796830259,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Playing cards with 
+friends",0.02,Studying for a test alone,,,,,0,11,11,21,,,,,,,,,,,1,1.98485043086,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,Practicing photography,0.04,"Going to a concert 
+with a friend",,,,,0,12,12,10,,,,,,,,,,,1,2.10100168828,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Trying to solve a 
+Rubik’s cube",0.03,"Going shopping with
+a significant other",,,,,0,13,13,26,,,,,,,,,,,2,1.86804635171,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Going on Spring Break 
+vacation with friends",0.01,"Going for a bicycle
+ride alone",,,,,0,14,14,13,,,,,,,,,,,2,2.33446615562,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,Taking a nap,0.02,"Getting likes on a 
+facebook post",,,,,0,15,15,28,,,,,,,,,,,2,1.7842385387,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Babysitting for a 
+family member",0.01,"Going on a hike 
+by yourself",,,,,0,16,16,39,,,,,,,,,,,2,2.21783593576,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Shopping for clothes
+with friends",0.03,"Going to the beach 
+alone",,,,,0,17,17,40,,,,,,,,,,,2,1.83444889449,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Going to a sporting
+event with friends",0.05,Putting gas in a car,,,,,0,18,18,3,,,,,,,,,,,1,2.46795715392,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Going on a double 
+date",0.04,Doing your laundry,,,,,0,19,19,33,,,,,,,,,,,1,2.33434174955,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Having a romantic dinner 
+with a significant other",0.02,"Painting your bedroom
+a new color",,,,,0,20,20,25,,,,,,,,,,,2,3.2682425417,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Adding new friends
+on facebook",0.01,Running a marathon,,,,,0,21,21,9,,,,,,,,,,,2,1.98457673751,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Having a picnic 
+with family",0.02,"Watching a new 
+episode of a television 
+show",,,,,0,22,22,17,,,,,,,,,,,2,2.85189562384,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Reading news 
+articles",0.04,"Watching television
+with family",,,,,0,23,23,47,,,,,,,,,,,1,2.38457916304,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Watching a football 
+game from home",0.01,"Attending a family 
+barbeque",,,,,0,24,24,4,,,,,,,,,,,1,1.48436664604,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Having a movie marathon 
+with a roommate",0.04,"Looking through old 
+photo albums",,,,,0,25,25,35,,,,,,,,,,,2,2.13543204591,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,Reading at the library,0.05,"Watching the sunset 
+with a significant other",,,,,0,26,26,36,,,,,,,,,,,1,1.60056611057,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Getting breakfast with 
+a significant other",0.02,Listening to a podcast,,,,,0,27,27,27,,,,,,,,,,,2,1.78436947614,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Snapchatting with
+friends",0.05,"Playing a videogame 
+at home",,,,,0,28,28,19,,,,,,,,,,,2,2.86774031352,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Putting together 
+a puzzle",0.01,"Going to the movies 
+with a friend",,,,,0,29,29,0,,,,,,,,,,,2,2.45114489552,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Going on a 
+dinner date",0.04,Getting a haircut,,,,,0,30,30,5,,,,,,,,,,,2,1.51777407434,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,Exercising from home,0.03,"Attending a Superbowl 
+party",,,,,0,31,31,22,,,,,,,,,,,1,3.58492047247,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Participating in 
+a debate",0.03,"Going to a museum 
+alone",,,,,0,32,32,15,,,,,,,,,,,2,2.43517611083,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Going to a carnival 
+with friends",0.01,"Rearranging furniture 
+in your house",,,,,0,33,33,23,,,,,,,,,,,2,1.86772880517,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Taking a road trip 
+by yourself",0.03,"Traveling abroad with 
+a significant other",,,,,0,34,34,30,,,,,,,,,,,1,2.3680384215,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Going to the movies 
+by yourself",0.01,"Seeing a play with a 
+significant other",,,,,0,35,35,34,,,,,,,,,,,1,2.85209933948,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Buying clothes 
+for yourself",0.03,"Going to a party
+with roommates",,,,,0,36,36,48,,,,,,,,,,,2,2.18447080534,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Going to a friend’s 
+birthday party",0.04,Reading a book,,,,,0,37,37,7,,,,,,,,,,,1,1.60122639593,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Getting a slice of pizza 
+by yourself",0.02,Joining a study group,,,,,0,38,38,24,,,,,,,,,,,1,2.23441368714,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Going camping 
+with family",0.01,"Learning how to 
+perform card tricks",,,,,0,39,39,29,,,,,,,,,,,2,1.78423076309,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Going to the movies
+with a significant other",0.05,"Driving to school
+by yourself",,,,,0,40,40,46,,,,,,,,,,,1,2.16799662169,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Trying out a new 
+recipe at home",0.03,"Spending a day at the 
+beach with a friend",,,,,0,41,41,16,,,,,,,,,,,2,2.48473488912,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Getting breakfast
+by yourself",0.04,"Gaining Instagram
+followers",,,,,0,42,42,44,,,,,,,,,,,2,2.36799643468,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Giving a friend a ride
+to school",0.05,"Listening to music
+by yourself",,,,,0,43,43,42,,,,,,,,,,,2,2.83459071722,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.04,"Going to a work outing
+with colleagues",0.01,"Going on vacation 
+by yourself",,,,,0,44,44,11,,,,,,,,,,,1,1.21825673897,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.05,"Having dinner with 
+family",0.02,"Going grocery shopping 
+alone",,,,,0,45,45,1,,,,,,,,,,,2,1.75069053192,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,"Studying abroad 
+with friends",0.05,Playing with a pet,,,,,0,46,46,45,,,,,,,,,,,1,1.40155283827,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.02,"Practicing an
+ instrument",0.05,"Attending a family member’s 
+wedding",,,,,0,47,47,2,,,,,,,,,,,1,1.95121813938,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.03,"Teaching yourself a 
+different language",0.03,"Joining a club 
+at school",,,,,0,48,48,12,,,,,,,,,,,2,1.60141020641,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+0.01,Drawing a picture,0.03,"Getting likes on an 
+Instagram picture",,,,,0,49,49,20,,,,,,,,,,,1,2.30139804631,,,,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.05,0.02,"Sleeping over at 
+a friend's house","Taking your friend 
+to the spa",,,,,0,0,0,1,,,,,,,,,2,0,1.65157204401,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.02,"Learning to drive 
+with a family member","Going dancing with
+a significant other",,,,,0,1,1,21,,,,,,,,,2,0,2.00111063663,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.05,0.02,"Eating dinner at a 
+restaurant with family","Eating dinner at a
+restaurant with friends ",,,,,0,2,2,14,,,,,,,,,1,0,2.55128444731,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.05,0.01,Taking classes with a friend,"Taking a family member
+ on a shopping trip",,,,,0,3,3,0,,,,,,,,,2,0,3.15876567829,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.05,"Playing videogames 
+with friends","Taking your friend 
+on a cruise",,,,,0,4,4,6,,,,,,,,,2,0,2.3184799552,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.03,0.01,"Going to a karaoke
+bar with friends","Going on a weekend
+getaway with family",,,,,0,5,5,18,,,,,,,,,1,0,1.6849309532,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.05,0.01,Posting Instagram stories,"Making cookies to 
+give to a friend",,,,,0,6,6,8,,,,,,,,,1,0,2.7354768943,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.03,0.02,"Getting ice cream
+with friends","Going sight-seeing
+with family",,,,,0,7,7,24,,,,,,,,,2,0,2.2679635603,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.05,0.03,"Going to a street fair
+with friends",Having a Tweet go viral,,,,,0,8,8,15,,,,,,,,,1,0,3.16820189171,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.02,"Working on a group
+project with classmates","Getting likes on an
+Instagram picture",,,,,0,9,9,17,,,,,,,,,1,0,2.68465663772,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.04,0.03,"Going to a flea market
+with family","Playing volleyball
+with friends",,,,,0,10,10,16,,,,,,,,,1,0,2.73472672515,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.01,Going on a blind date,"Going to a coffee 
+shop with friends",,,,,0,11,11,9,,,,,,,,,2,0,1.70094825514,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.04,"Talking over the phone
+with a friend","Talking over the phone
+with a significant other",,,,,0,12,12,7,,,,,,,,,2,0,2.28487565462,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.03,"Getting verified on 
+Instagram","Playing ping-pong
+with friends",,,,,0,13,13,22,,,,,,,,,2,0,2.70095758606,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.05,"Taking an art class 
+with friends","Walking around Central 
+Park with family",,,,,0,14,14,13,,,,,,,,,2,0,2.36758216191,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.05,"Getting drinks 
+with co-workers","Playing icebreakers
+with classmates",,,,,0,15,15,19,,,,,,,,,2,0,2.06783094257,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.03,0.03,"Celebrating holidays 
+with family","Talking to a friend 
+over Skype",,,,,0,16,16,12,,,,,,,,,1,0,1.33483502083,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.04,0.02,"Baking cookies for
+a neighbor","Getting tagged in 
+Instagram pictures",,,,,0,17,17,11,,,,,,,,,1,0,2.58480073046,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.05,"Going to an amusement 
+park with a friend","Baking a cake for a 
+family member’s birthday",,,,,0,18,18,2,,,,,,,,,1,0,2.85177806113,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.03,"Getting likes on a 
+Facebook status","Going on a first date 
+to the movies",,,,,0,19,19,20,,,,,,,,,2,0,2.65161154326,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.03,0.05,"Going to a parade 
+with family","Making a friend’s 
+favorite dinner",,,,,0,20,20,3,,,,,,,,,1,0,2.85187509656,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.04,0.01,"Getting retweeted by 
+a celebrity","Planning a surprise 
+party for a family member",,,,,0,21,21,4,,,,,,,,,1,0,2.08441429399,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.02,0.04,"Going to a bar 
+with friends","Getting a slice of 
+pizza with a friend",,,,,0,22,22,10,,,,,,,,,1,0,2.36820014939,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.03,0.04,"Going to a music
+festival with friends","Buying flowers for 
+a significant other",,,,,0,23,23,5,,,,,,,,,2,0,1.55122442171,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,0.01,0.01,"Going to a comedy show 
+with a significant other","Watching friends'
+Snapchat stories",,,,,0,24,24,23,,,,,,,,,1,0,1.43480880093,,,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,space,9.15367124323,,,,,,,,,,,,,,,,,,,,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
+,,,,,,,,,,,,,,,,0,0,0,0,,,,,,,,,,1,30.551,"[(None, 0.0), (1, 29.051), (1, 30.551)]",4,14.201,4,12.755,4,6.57,6,7.553,7,3.756,4,5.834,1,4.536,4,7.037,newer wtp,EXC17,18,59.8800824391,0,001,2018_Dec_07_1500,
