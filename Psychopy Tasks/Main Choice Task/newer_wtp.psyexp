@@ -4,7 +4,7 @@
     <Param name="Completed URL" updates="None" val="" valType="str"/>
     <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
-    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="HTML path" updates="None" val="html" valType="str"/>
@@ -22,7 +22,7 @@
     <Param name="Show mouse" updates="None" val="False" valType="bool"/>
     <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
-    <Param name="Window size (pixels)" updates="None" val="[1536, 864]" valType="code"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
     <Param name="blendMode" updates="None" val="avg" valType="str"/>
     <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
@@ -528,7 +528,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="text" updates="set every repeat" val="$LeftEx" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$Left" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -549,7 +549,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="text" updates="set every repeat" val="$RightEx" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$Right" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -586,7 +586,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="text" updates="set every repeat" val="$LMoneyEx" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$leftmoney" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -607,7 +607,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
-        <Param name="text" updates="set every repeat" val="$RMoneyEx" valType="str"/>
+        <Param name="text" updates="set every repeat" val="$rightmoney" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -1004,8 +1004,8 @@
     <Routine name="trial"/>
     <LoopInitiator loopType="TrialHandler" name="Loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('LeftEx', 'Going to a family\nbarbeque'), ('RightEx', 'Going shopping\nby yourself'), ('LMoneyEx', 0.03), ('RMoneyEx', 0.02)]), OrderedDict([('LeftEx', 'Helping a friend\nstudy for a test'), ('RightEx', 'Watching television\nat home'), ('LMoneyEx', 0.01), ('RMoneyEx', 0.04)]), OrderedDict([('LeftEx', 'Going for a run\nby yourself'), ('RightEx', 'Having lunch with\na significant other'), ('LMoneyEx', 0.05), ('RMoneyEx', 0.05)])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="Examples\Activities1_DF2.xlsx" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'leftmoney': 0.05, 'Right': 'Putting together \na puzzle', 'rightmoney': 0.01, 'Left': 'Going to the movies \nwith a friend'}, {'leftmoney': 0.05, 'Right': 'Having dinner with \nfamily', 'rightmoney': 0.02, 'Left': 'Going grocery shopping \nalone'}, {'leftmoney': 0.02, 'Right': 'Practicing an\n instrument', 'rightmoney': 0.05, 'Left': 'Attending a family member’s \nwedding'}, {'leftmoney': 0.03, 'Right': 'Going to a sporting\nevent with friends', 'rightmoney': 0.05, 'Left': 'Putting gas in a car'}, {'leftmoney': 0.04, 'Right': 'Watching a football \ngame from home', 'rightmoney': 0.01, 'Left': 'Attending a family \nbarbeque'}, {'leftmoney': 0.03, 'Right': 'Going on a \ndinner date', 'rightmoney': 0.04, 'Left': 'Getting a haircut'}, {'leftmoney': 0.01, 'Right': 'Buying coffee on \nthe way to work', 'rightmoney': 0.05, 'Left': 'Getting retweets \non a picture'}, {'leftmoney': 0.01, 'Right': 'Going to a friend’s \nbirthday party', 'rightmoney': 0.04, 'Left': 'Reading a book'}, {'leftmoney': 0.05, 'Right': 'Going for a walk \nin the park', 'rightmoney': 0.01, 'Left': 'Playing a team sport'}, {'leftmoney': 0.02, 'Right': 'Adding new friends\non facebook', 'rightmoney': 0.01, 'Left': 'Running a marathon'}, {'leftmoney': 0.02, 'Right': 'Practicing photography', 'rightmoney': 0.04, 'Left': 'Going to a concert \nwith a friend'}, {'leftmoney': 0.04, 'Right': 'Going to a work outing\nwith colleagues', 'rightmoney': 0.01, 'Left': 'Going on vacation \nby yourself'}, {'leftmoney': 0.03, 'Right': 'Teaching yourself a \ndifferent language', 'rightmoney': 0.03, 'Left': 'Joining a club \nat school'}, {'leftmoney': 0.05, 'Right': 'Going on Spring Break \nvacation with friends', 'rightmoney': 0.01, 'Left': 'Going for a bicycle\nride alone'}, {'leftmoney': 0.05, 'Right': 'Planting flowers \nin a garden', 'rightmoney': 0.02, 'Left': 'Taking a road trip \nwith family'}, {'leftmoney': 0.05, 'Right': 'Participating in \na debate', 'rightmoney': 0.03, 'Left': 'Going to a museum \nalone'}, {'leftmoney': 0.04, 'Right': 'Trying out a new \nrecipe at home', 'rightmoney': 0.03, 'Left': 'Spending a day at the \nbeach with a friend'}, {'leftmoney': 0.02, 'Right': 'Having a picnic \nwith family', 'rightmoney': 0.02, 'Left': 'Watching a new \nepisode of a television \nshow'}, {'leftmoney': 0.03, 'Right': 'Shopping online', 'rightmoney': 0.01, 'Left': 'Catching up with friends \nfrom high school'}, {'leftmoney': 0.04, 'Right': 'Snapchatting with\nfriends', 'rightmoney': 0.05, 'Left': 'Playing a videogame \nat home'}, {'leftmoney': 0.01, 'Right': 'Drawing a picture', 'rightmoney': 0.03, 'Left': 'Getting likes on an \nInstagram picture'}, {'leftmoney': 0.01, 'Right': 'Playing cards with \nfriends', 'rightmoney': 0.02, 'Left': 'Studying for a test alone'}, {'leftmoney': 0.02, 'Right': 'Exercising from home', 'rightmoney': 0.03, 'Left': 'Attending a Superbowl \nparty'}, {'leftmoney': 0.01, 'Right': 'Going to a carnival \nwith friends', 'rightmoney': 0.01, 'Left': 'Rearranging furniture \nin your house'}, {'leftmoney': 0.03, 'Right': 'Getting a slice of pizza \nby yourself', 'rightmoney': 0.02, 'Left': 'Joining a study group'}, {'leftmoney': 0.02, 'Right': 'Having a romantic dinner \nwith a significant other', 'rightmoney': 0.02, 'Left': 'Painting your bedroom\na new color'}, {'leftmoney': 0.05, 'Right': 'Trying to solve a \nRubik’s cube', 'rightmoney': 0.03, 'Left': 'Going shopping with\na significant other'}, {'leftmoney': 0.04, 'Right': 'Getting breakfast with \na significant other', 'rightmoney': 0.02, 'Left': 'Listening to a podcast'}, {'leftmoney': 0.05, 'Right': 'Taking a nap', 'rightmoney': 0.02, 'Left': 'Getting likes on a \nfacebook post'}, {'leftmoney': 0.05, 'Right': 'Going camping \nwith family', 'rightmoney': 0.01, 'Left': 'Learning how to \nperform card tricks'}, {'leftmoney': 0.05, 'Right': 'Taking a road trip \nby yourself', 'rightmoney': 0.03, 'Left': 'Traveling abroad with \na significant other'}, {'leftmoney': 0.03, 'Right': 'Going to a family \nmember’s baby shower', 'rightmoney': 0.02, 'Left': 'Watching the news'}, {'leftmoney': 0.03, 'Right': 'Watching Netflix at home \nby yourself', 'rightmoney': 0.03, 'Left': 'Meeting new people \nat a party'}, {'leftmoney': 0.02, 'Right': 'Going on a double \ndate', 'rightmoney': 0.04, 'Left': 'Doing your laundry'}, {'leftmoney': 0.03, 'Right': 'Going to the movies \nby yourself', 'rightmoney': 0.01, 'Left': 'Seeing a play with a \nsignificant other'}, {'leftmoney': 0.01, 'Right': 'Having a movie marathon \nwith a roommate', 'rightmoney': 0.04, 'Left': 'Looking through old \nphoto albums'}, {'leftmoney': 0.02, 'Right': 'Reading at the library', 'rightmoney': 0.05, 'Left': 'Watching the sunset \nwith a significant other'}, {'leftmoney': 0.01, 'Right': 'Going to a nightclub with \na group of friends', 'rightmoney': 0.05, 'Left': 'Writing journal entries'}, {'leftmoney': 0.03, 'Right': 'Cleaning up around \nthe house', 'rightmoney': 0.05, 'Left': 'Playing a tennis match\n with a friend'}, {'leftmoney': 0.04, 'Right': 'Babysitting for a \nfamily member', 'rightmoney': 0.01, 'Left': 'Going on a hike \nby yourself'}, {'leftmoney': 0.02, 'Right': 'Shopping for clothes\nwith friends', 'rightmoney': 0.03, 'Left': 'Going to the beach \nalone'}, {'leftmoney': 0.01, 'Right': 'Watching YouTube\nvideos', 'rightmoney': 0.02, 'Left': 'Making breakfast \nfor your family'}, {'leftmoney': 0.01, 'Right': 'Giving a friend a ride\nto school', 'rightmoney': 0.05, 'Left': 'Listening to music\nby yourself'}, {'leftmoney': 0.02, 'Right': 'Getting lunch with \ncoworkers', 'rightmoney': 0.01, 'Left': &quot;Going to a farmer's\nmarket by yourself&quot;}, {'leftmoney': 0.01, 'Right': 'Getting breakfast\nby yourself', 'rightmoney': 0.04, 'Left': 'Gaining Instagram\nfollowers'}, {'leftmoney': 0.01, 'Right': 'Studying abroad \nwith friends', 'rightmoney': 0.05, 'Left': 'Playing with a pet'}, {'leftmoney': 0.02, 'Right': 'Going to the movies\nwith a significant other', 'rightmoney': 0.05, 'Left': 'Driving to school\nby yourself'}, {'leftmoney': 0.04, 'Right': 'Reading news \narticles', 'rightmoney': 0.04, 'Left': 'Watching television\nwith family'}, {'leftmoney': 0.01, 'Right': 'Buying clothes \nfor yourself', 'rightmoney': 0.03, 'Left': 'Going to a party\nwith roommates'}, {'leftmoney': 0.04, 'Right': 'Taking an online\nclass', 'rightmoney': 0.03, 'Left': 'Gaining Twitter\nfollowers '}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Activities1_DF.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
@@ -1016,5 +1016,37 @@
     <Routine name="Choice"/>
     <Routine name="ISI"/>
     <LoopTerminator name="Loop"/>
+    <LoopInitiator loopType="TrialHandler" name="Loop2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'leftmoney1': 0.02, 'rightmoney1': 0.01, 'Left1': 'Taking classes with a friend', 'Right1': 'Taking a family member\n on a shopping trip'}, {'leftmoney1': 0.07, 'rightmoney1': 0.08, 'Left1': &quot;Sleeping over at \na friend's house&quot;, 'Right1': 'Taking your friend \nto the spa'}, {'leftmoney1': 0.01, 'rightmoney1': 0.02, 'Left1': 'Going to an amusement \npark with a friend', 'Right1': 'Baking a cake for a \nfamily member’s birthday'}, {'leftmoney1': 0.03, 'rightmoney1': 0.09, 'Left1': 'Going to a parade \nwith family', 'Right1': 'Making a friend’s \nfavorite dinner'}, {'leftmoney1': 0.04, 'rightmoney1': 0.03, 'Left1': 'Going apple-picking \nwith family', 'Right1': 'Planning a surprise \nparty for a family member'}, {'leftmoney1': 0.02, 'rightmoney1': 0.07, 'Left1': 'Going to a music\nfestival with friends', 'Right1': 'Buying flowers for \na significant other'}, {'leftmoney1': 0.01, 'rightmoney1': 0.04, 'Left1': 'Playing videogames \nwith friends', 'Right1': 'Taking your friend \non a cruise'}, {'leftmoney1': 0.04, 'rightmoney1': 0.07, 'Left1': 'Talking over the phone\nwith a friend', 'Right1': 'Talking over the phone\nwith a significant other'}, {'leftmoney1': 0.05, 'rightmoney1': 0.08, 'Left1': 'Going to the gym \nwith friends', 'Right1': 'Making cookies to \ngive to a friend'}, {'leftmoney1': 0.09, 'rightmoney1': 0.04, 'Left1': 'Going on a blind date', 'Right1': 'Going to a coffee \nshop with friends'}, {'leftmoney1': 0.03, 'rightmoney1': 0.08, 'Left1': 'Going to a bar \nwith friends', 'Right1': 'Getting a slice of \npizza with a friend'}, {'leftmoney1': 0.04, 'rightmoney1': 0.04, 'Left1': 'Baking cookies for\na neighbor', 'Right1': 'Getting tagged in \nInstagram pictures'}, {'leftmoney1': 0.05, 'rightmoney1': 0.07, 'Left1': 'Celebrating holidays \nwith family', 'Right1': 'Talking to a friend \nover Skype'}, {'leftmoney1': 0.06, 'rightmoney1': 0.03, 'Left1': 'Taking an art class \nwith friends', 'Right1': 'Walking around Central \nPark with family'}, {'leftmoney1': 0.06, 'rightmoney1': 0.06, 'Left1': 'Eating dinner at a \nrestaurant with family', 'Right1': 'Eating dinner at a\nrestaurant with friends '}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Social Activities.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="Loop2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="social1"/>
+    <Routine name="ISI2"/>
+    <LoopTerminator name="Loop2"/>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="questions">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="questions" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Q1"/>
+    <Routine name="Q2"/>
+    <Routine name="Q3"/>
+    <Routine name="Q4"/>
+    <Routine name="Q5"/>
+    <LoopTerminator name="questions"/>
   </Flow>
 </PsychoPy2experiment>
