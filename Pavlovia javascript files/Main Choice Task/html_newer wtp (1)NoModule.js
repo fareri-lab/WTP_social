@@ -2,16 +2,7 @@
  * Newer Wtp (1) Test *
  **********************/
 
-import { PsychoJS } from 'https://pavlovia.org/lib/core.js';
-import * as core from 'https://pavlovia.org/lib/core.js';
-import { TrialHandler } from 'https://pavlovia.org/lib/data.js';
-import { Scheduler } from 'https://pavlovia.org/lib/util.js';
-import * as util from 'https://pavlovia.org/lib/util.js';
-import * as visual from 'https://pavlovia.org/lib/visual.js';
-import { Sound } from 'https://pavlovia.org/lib/sound.js';
-
-
-// initiate psychoJS:
+// init psychoJS:
 var psychoJS = new PsychoJS({
   debug: true
 });
@@ -25,14 +16,14 @@ psychoJS.openWindow({
 
 // store info about the experiment session:
 let expName = 'newer wtp (1)';  // from the Builder filename that created this script
-let expInfo = {'MTurk ID' : '', 'age': '', 'sex': ''};
+let expInfo = {'age': '', 'session': '001', 'participant': '', 'sex': ''};
 
 // schedule the experiment:
 psychoJS.schedule(psychoJS.gui.DlgFromDict({
   dictionary: expInfo,
   title: expName
 }));
-//use these to set up routines and schedule the loops
+
 const flowScheduler = new Scheduler(psychoJS);
 const dialogCancelScheduler = new Scheduler(psychoJS);
 psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); }, flowScheduler, dialogCancelScheduler);
@@ -58,9 +49,6 @@ const questionsLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(questionsLoopBegin, questionsLoopScheduler);
 flowScheduler.add(questionsLoopScheduler);
 flowScheduler.add(questionsLoopEnd);
-flowScheduler.add(endingCodeRoutineBegin);
-flowScheduler.add(endingCodeRoutineEachFrame);
-flowScheduler.add(endingCodeRoutineEnd);
 flowScheduler.add(quitPsychoJS, '', true);
 
 // quit if user presses Cancel in dialog box:
@@ -86,15 +74,15 @@ function updateInfo() {
   
   return Scheduler.Event.NEXT;
 }
-//add variables
+
 var trialClock;
 var Instructions;
-var Instructions2;
 var ChoiceClock;
 var leftbox;
 var rightbox;
 var money1;
 var money2;
+var blank;
 var ISIClock;
 var text_3;
 var social1Clock;
@@ -102,6 +90,7 @@ var leftbox1;
 var rightbox1;
 var money3;
 var money4;
+var blank1;
 var ISI2Clock;
 var text4;
 var instructionsClock;
@@ -111,38 +100,10 @@ var Question1;
 var scale_msg1;
 var scale_msg2;
 var scale_msg3;
-var slider1Clock;
-var slider2Clock;
-var slider3Clock;
-var slider4Clock;
-var slider5Clock;
-var slider6Clock;
-var slider7Clock;
-var slider8Clock;
-var slider9Clock;
-var slider1;
 var Q2Clock;
 var Question2;
-var scales1;
-var slider;
-var slider2;
-var slider3;
-var slider4;
-var slider5;
-var slider6;
-var slider7;
-var slider8;
-var slider9;
-var scales2;
-var slideKeys;
-var slideKeys2;
-var slideKeys3;
-var slideKeys4;
-var slideKeys5;
-var slideKeys6;
-var slideKeys7;
-var slideKeys8;
-var slideKeys9;
+var scale1;
+var scale2;
 var text;
 var Q3Clock;
 var Question3;
@@ -151,9 +112,7 @@ var text_2;
 var text_4;
 var Q4Clock;
 var Question4;
-var scale1;
-var scale2;
-var scale3;
+var scales1;
 var scales2;
 var scales3;
 var Q6_2Clock;
@@ -183,81 +142,76 @@ var text_5;
 var text_6;
 var globalClock;
 var routineTimer;
-var endCode;
-var endingCodeClock;
-
 function experimentInit() {
   // Initialize components for Routine "trial"
   trialClock = new util.Clock();
   Instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'Instructions',
-    text: "In this part of the task, you will be choosing between two options.\n\n ",
+    text: 'In this part of the task, you will be \nchoosing between two options.\n\nPress the spacebar to start!\n',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.07,  wrapWidth: undefined, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: 0.0 
-  });
-  
-   Instructions2 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'Instructions',
-    text: "Please indicate which option you would prefer by using your keyboard to press '1' for the choice on the left, or '2' for the choice on the right. \n\n Each option is associated with a price, which will be subtracted from your earnings upon making a selection. \n\n Press the spacebar to start!",
-    font: 'Arial',
-    units : undefined, 
-    pos: [0, -0.1], height: 0.044,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
   // Initialize components for Routine "Choice"
   ChoiceClock = new util.Clock();
-  //choice text shown on the left
   leftbox = new visual.TextStim({
     win: psychoJS.window,
     name: 'leftbox',
     text: 'default text',
     font: 'Times New Roman',
     units : undefined, 
-    pos: [(- 0.5), 0.1], height: 0.07,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), 0.1], height: 0.094,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
-  //choice text shown on the right
+  
   rightbox = new visual.TextStim({
     win: psychoJS.window,
     name: 'rightbox',
     text: 'default text',
     font: 'Times New Roman',
     units : undefined, 
-    pos: [0.5, 0.1], height: 0.07,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, 0.1], height: 0.094,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
-//   money amounts on the left 
+  
   money1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'money1',
     text: 'default text',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.5), (- 0.35)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.5)], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-  //money amounts on the right
+  
   money2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'money2',
     text: 'default text',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.35)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.5)], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -4.0 
   });
   
+  blank = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'blank',
+    text: '',
+    font: 'Arial',
+    units : undefined, 
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -6.0 
+  });
   
   // Initialize components for Routine "ISI"
   ISIClock = new util.Clock();
@@ -274,51 +228,61 @@ function experimentInit() {
   
   // Initialize components for Routine "social1"
   social1Clock = new util.Clock();
-  //social choice text on the left
   leftbox1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'leftbox1',
     text: 'default text',
     font: 'Times New Roman',
     units : undefined, 
-    pos: [(- 0.5), 0.1], height: 0.07,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), 0.1], height: 0.094,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
-  //social choice text on the right
+  
   rightbox1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'rightbox1',
     text: 'default text',
     font: 'Times New Roman',
     units : undefined, 
-    pos: [0.5, 0.1], height: 0.07,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, 0.1], height: 0.094,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
-  //money amounts on the left
+  
   money3 = new visual.TextStim({
     win: psychoJS.window,
     name: 'money3',
     text: 'default text',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.5), (- 0.35)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.5)], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-  //money amounts on the right
+  
   money4 = new visual.TextStim({
     win: psychoJS.window,
     name: 'money4',
     text: 'default text',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.35)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.5)], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -4.0 
   });
- 
+  
+  blank1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'blank1',
+    text: '',
+    font: 'Arial',
+    units : undefined, 
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -6.0 
+  });
+  
   // Initialize components for Routine "ISI2"
   ISI2Clock = new util.Clock();
   text4 = new visual.TextStim({
@@ -327,36 +291,33 @@ function experimentInit() {
     text: '+',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
   // Initialize components for Routine "instructions"
   instructionsClock = new util.Clock();
-  //instruction text for next questions
   ty = new visual.TextStim({
     win: psychoJS.window,
     name: 'ty',
     text: 'default text',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
   // Initialize components for Routine "Q1"
   Q1Clock = new util.Clock();
-  slideKeys = new core.BuilderKeyResponse(psychoJS);
-  
   Question1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'Question1',
     text: 'How likely were you to choose a social experience over a non-social experience?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
@@ -364,21 +325,21 @@ function experimentInit() {
   scale_msg1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'scale_msg1',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
   
-    scale_msg2 = new visual.TextStim({
+  scale_msg2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'scale_msg2',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -389,38 +350,12 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, - 0.3], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
   
-  
-  slider1Clock = new util.Clock();
-   slider1 = new visual.Slider({
-    win: psychoJS.window, name: 'slider1',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-
-
-// Question 2 Components
-  slideKeys2 = new core.BuilderKeyResponse(psychoJS);
-  
-  slider2Clock = new util.Clock();
-   slider2 = new visual.Slider({
-    win: psychoJS.window, name: 'slider2',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-  
+  // Initialize components for Routine "Q2"
   Q2Clock = new util.Clock();
   Question2 = new visual.TextStim({
     win: psychoJS.window,
@@ -428,59 +363,45 @@ function experimentInit() {
     text: 'How likely were you to choose a non-social experience over a social experience?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
   scale1 = new visual.TextStim({
     win: psychoJS.window,
-    name: 'scales1',
-    text: 'Very Unlikely',
+    name: 'scale1',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
   
   scale2 = new visual.TextStim({
     win: psychoJS.window,
-    name: 'scales2',
+    name: 'scale2',
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
   
-  scale3 = new visual.TextStim({
+  text = new visual.TextStim({
     win: psychoJS.window,
-    name: 'scales3',
-    text: 'Very Likely',
+    name: 'text',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-
-// Question 3 Components
-  slideKeys3 = new core.BuilderKeyResponse(psychoJS);
   
-  slider3Clock = new util.Clock();
-   slider3 = new visual.Slider({
-    win: psychoJS.window, name: 'slider3',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-  
-
+  // Initialize components for Routine "Q3"
   Q3Clock = new util.Clock();
   Question3 = new visual.TextStim({
     win: psychoJS.window,
@@ -488,19 +409,18 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving friends over experiences involving family?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
-
   scalemsg1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'scalemsg1',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -511,7 +431,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -519,27 +439,12 @@ function experimentInit() {
   text_4 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_4',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
-  });
-
-
-// Question 4 Components
-  slideKeys4 = new core.BuilderKeyResponse(psychoJS);
-  
-  slider4Clock = new util.Clock();
-   slider4 = new visual.Slider({
-    win: psychoJS.window, name: 'slider4',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
   });
   
   // Initialize components for Routine "Q4"
@@ -550,7 +455,7 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving family over experiences involving a significant other?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
@@ -558,10 +463,10 @@ function experimentInit() {
   scales1 = new visual.TextStim({
     win: psychoJS.window,
     name: 'scales1',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -572,7 +477,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -580,90 +485,15 @@ function experimentInit() {
   scales3 = new visual.TextStim({
     win: psychoJS.window,
     name: 'scales3',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
   
-
-
-//Q5 Components
-  slideKeys5 = new core.BuilderKeyResponse(psychoJS);
-  slider5Clock = new util.Clock();
-   slider5 = new visual.Slider({
-    win: psychoJS.window, name: 'slider6',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-  
-
-  Q5Clock = new util.Clock();
-  Question5 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'Question5',
-    text: 'How much did you enjoy participating?',
-    font: 'Arial',
-    units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: 0.0 
-  });
-
-  scale_1 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'scale_1',
-    text: 'Not at all',
-    font: 'Arial',
-    units : undefined, 
-    pos: [(- 0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: -1.0 
-  });
-  
-  text_5 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_5',
-    text: 'Neutral',
-    font: 'Arial',
-    units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: -2.0 
-  });
-  
-  text_6 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_6',
-    text: 'Very Much',
-    font: 'Arial',
-    units : undefined, 
-    pos: [0.5, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
-    color: new util.Color('white'),  opacity: 1,
-    depth: -3.0 
-  });
-
-//  Question 6 Components
-
-  slideKeys6 = new core.BuilderKeyResponse(psychoJS);
-  
-  slider6Clock = new util.Clock();
-   slider6 = new visual.Slider({
-    win: psychoJS.window, name: 'slider5',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-  
+  // Initialize components for Routine "Q6_2"
   Q6_2Clock = new util.Clock();
   text_8 = new visual.TextStim({
     win: psychoJS.window,
@@ -671,19 +501,18 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving a significant other over experiences involving friends?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
-
   text_12 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_12',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -694,7 +523,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -702,30 +531,15 @@ function experimentInit() {
   text_14 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_14',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-
-
-// Q7Components
-  slideKeys7 = new core.BuilderKeyResponse(psychoJS);
-
-  slider7Clock = new util.Clock();
-   slider7 = new visual.Slider({
-    win: psychoJS.window, name: 'slider7',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
   
-  
+  // Initialize components for Routine "Q7"
   Q7Clock = new util.Clock();
   text_9 = new visual.TextStim({
     win: psychoJS.window,
@@ -733,19 +547,18 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving family over experiences involving friends?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
-
   text_15 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_15',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -756,7 +569,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -764,28 +577,15 @@ function experimentInit() {
   text_17 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_17',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-
-//Q8 Components
-  slideKeys8 = new core.BuilderKeyResponse(psychoJS);
   
-  slider8Clock = new util.Clock();
-   slider8 = new visual.Slider({
-    win: psychoJS.window, name: 'slider8',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-
+  // Initialize components for Routine "q8"
   q8Clock = new util.Clock();
   text_10 = new visual.TextStim({
     win: psychoJS.window,
@@ -793,20 +593,18 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving friends over experiences involving a significant other?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
-
-  
   text_18 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_18',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -817,7 +615,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -825,28 +623,15 @@ function experimentInit() {
   text_20 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_20',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
-
-//Q9 Components
-  slideKeys9 = new core.BuilderKeyResponse(psychoJS);
-  slider9Clock = new util.Clock();
-   slider9 = new visual.Slider({
-    win: psychoJS.window, name: 'slider9',
-    size: [0.9, 0.03], pos: [0, (- 0.15)],
-    labels: ['1', '2', '3', '4', '5', '6', '7'], ticks: [1, 2, 3, 4, 5, 6, 7],
-    granularity: 1, style: [visual.Slider.Style.RATING, visual.Slider.Style.TRIANGLE_MARKER],
-    color: new util.Color('LightGray'), 
-    fontFamily: 'HelveticaBold', bold: true, italic: false, 
-    flip: false,
-  });
-
-
+  
+  // Initialize components for Routine "q9"
   q9Clock = new util.Clock();
   text_11 = new visual.TextStim({
     win: psychoJS.window,
@@ -854,7 +639,7 @@ function experimentInit() {
     text: 'How likely were you to choose experiences involving a significant other over experiences involving family?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.2], height: 0.08,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
@@ -862,10 +647,10 @@ function experimentInit() {
   text_21 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_21',
-    text: 'Very Unlikely',
+    text: 'Very Unlikely (1)',
     font: 'Arial',
     units : undefined, 
-    pos: [(- 0.47), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -1.0 
   });
@@ -876,7 +661,7 @@ function experimentInit() {
     text: 'Neutral',
     font: 'Arial',
     units : undefined, 
-    pos: [0, (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -2.0 
   });
@@ -884,27 +669,59 @@ function experimentInit() {
   text_23 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_23',
-    text: 'Very Likely',
+    text: 'Very Likely (7)',
     font: 'Arial',
     units : undefined, 
-    pos: [(0.5), (- 0.3)], height: 0.04,  wrapWidth: undefined, ori: 0,
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: -3.0 
   });
   
-    // Initialize components for Routine "endCode"
-  endingCodeClock = new util.Clock();
-  endCode = new visual.TextStim({
+  // Initialize components for Routine "Q5"
+  Q5Clock = new util.Clock();
+  Question5 = new visual.TextStim({
     win: psychoJS.window,
-    name: 'ending text',
-    text: "Thank you for participating! \n\nYour survey code is 8514623942 \n\nPlease enter the code into the survey response box, then press space to submit your work.",
+    name: 'Question5',
+    text: 'How much did you enjoy participating?',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0.0], height: 0.07,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0.3], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
-
+  
+  scale_1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'scale_1',
+    text: 'Not at all (1)',
+    font: 'Arial',
+    units : undefined, 
+    pos: [(- 0.5), (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -1.0 
+  });
+  
+  text_5 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_5',
+    text: 'Neutral',
+    font: 'Arial',
+    units : undefined, 
+    pos: [0, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -2.0 
+  });
+  
+  text_6 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text_6',
+    text: 'Very Much (7)',
+    font: 'Arial',
+    units : undefined, 
+    pos: [0.5, (- 0.3)], height: 0.07,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -3.0 
+  });
   
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
@@ -928,12 +745,12 @@ function trialRoutineBegin() {
   // keep track of which components have finished
   trialComponents = [];
   trialComponents.push(Instructions);
-  trialComponents.push(Instructions2);
   trialComponents.push(spacebar);
   
-  for (const thisComponent of trialComponents)
+  trialComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -955,12 +772,7 @@ function trialRoutineEachFrame() {
     Instructions.setAutoDraw(true);
   }
 
-  if (t >= 0.0 && Instructions2.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    Instructions2.tStart = t;  // (not accounting for frame time here)
-    Instructions2.frameNStart = frameN;  // exact frame index
-    Instructions2.setAutoDraw(true);
-  }
+  
   // *spacebar* updates
   if (t >= 0.0 && spacebar.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
@@ -972,7 +784,7 @@ function trialRoutineEachFrame() {
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
-  if (spacebar.status == PsychoJS.Status.STARTED) {
+  if (spacebar.status === PsychoJS.Status.STARTED) {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
     
     // check for quit:
@@ -999,11 +811,10 @@ function trialRoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of trialComponents)
+  trialComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1017,11 +828,10 @@ function trialRoutineEachFrame() {
 
 function trialRoutineEnd() {
   //------Ending Routine 'trial'-------
-  for (const thisComponent of trialComponents) {
+  trialComponents.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   
   // check responses
   if (spacebar.keys === undefined || spacebar.keys.length === 0) {    // No response was made
@@ -1042,19 +852,25 @@ function trialRoutineEnd() {
 
 var Loop;
 var currentLoop;
+var trialIterator;
 function LoopLoopBegin(thisScheduler) {
   // set up handler to look after randomisation of conditions etc
   Loop = new TrialHandler({
     psychoJS: psychoJS,
     nReps: 1, method: TrialHandler.Method.RANDOM,
     extraInfo: expInfo, originPath: undefined,
-    trialList: 'Activities1_DF_dollars.xlsx',
+    trialList: 'Activities1_DF (1).xlsx',
     seed: undefined, name: 'Loop'});
   psychoJS.experiment.addLoop(Loop); // add the loop to the experiment
   currentLoop = Loop;  // we're now the current loop
 
   // Schedule all the trials in the trialList:
-  for (const thisLoop of Loop) {
+  trialIterator = Loop[Symbol.iterator]();
+  while(true) {
+    let result = trialIterator.next();
+    if (result.done);
+      break;
+    let thisLoop = result.value;
     thisScheduler.add(importConditions(Loop));
     thisScheduler.add(ChoiceRoutineBegin);
     thisScheduler.add(ChoiceRoutineEachFrame);
@@ -1088,7 +904,12 @@ function Loop2LoopBegin(thisScheduler) {
   currentLoop = Loop2;  // we're now the current loop
 
   // Schedule all the trials in the trialList:
-  for (const thisLoop2 of Loop2) {
+  trialIterator = Loop2[Symbol.iterator]();
+  while(true) {
+    let result = trialIterator.next();
+    if (result.done);
+      break;
+    let thisLoop2 = result.value;
     thisScheduler.add(importConditions(Loop2));
     thisScheduler.add(social1RoutineBegin);
     thisScheduler.add(social1RoutineEachFrame);
@@ -1102,7 +923,7 @@ function Loop2LoopBegin(thisScheduler) {
   return Scheduler.Event.NEXT;
 }
 
-//to end the loop
+
 function Loop2LoopEnd() {
   psychoJS.experiment.removeLoop(Loop2);
 
@@ -1122,7 +943,12 @@ function questionsLoopBegin(thisScheduler) {
   currentLoop = questions;  // we're now the current loop
 
   // Schedule all the trials in the trialList:
-  for (const thisQuestion of questions) {
+  trialIterator = questions[Symbol.iterator]();
+  while(true) {
+    let result = trialIterator.next();
+    if (result.done);
+      break;
+    let thisQuestion = result.value;
     thisScheduler.add(importConditions(questions));
     thisScheduler.add(Q1RoutineBegin);
     thisScheduler.add(Q1RoutineEachFrame);
@@ -1157,7 +983,7 @@ function questionsLoopBegin(thisScheduler) {
   return Scheduler.Event.NEXT;
 }
 
-//end loop
+
 function questionsLoopEnd() {
   psychoJS.experiment.removeLoop(questions);
 
@@ -1171,18 +997,14 @@ function ChoiceRoutineBegin() {
   t = 0;
   ChoiceClock.reset(); // clock
   frameN = -1;
-  
   // update component parameters for each repeat
-  //uses conditions from spreadsheet to setText
   leftbox.setText(Left);
   rightbox.setText(Right);
-    
+  responses = new core.BuilderKeyResponse(psychoJS);
+  
   money1.setText(leftmoney);
   money2.setText(rightmoney);
-  // create key response
-  responses = new core.BuilderKeyResponse(psychoJS);
-
- 
+  blank.setText('');
   // keep track of which components have finished
   ChoiceComponents = [];
   ChoiceComponents.push(leftbox);
@@ -1190,11 +1012,12 @@ function ChoiceRoutineBegin() {
   ChoiceComponents.push(responses);
   ChoiceComponents.push(money1);
   ChoiceComponents.push(money2);
-
- //if the components have a status function, say that it has not started yet and go to the next event 
-  for (const thisComponent of ChoiceComponents)
+  ChoiceComponents.push(blank);
+  
+  ChoiceComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1208,33 +1031,33 @@ function ChoiceRoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // *leftbox* updates, draw left text
+  // *leftbox* updates
   if (t >= 0.0 && leftbox.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     leftbox.tStart = t;  // (not accounting for frame time here)
     leftbox.frameNStart = frameN;  // exact frame index
     leftbox.setAutoDraw(true);
   }
-//after 4 seconds take it away 
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (leftbox.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     leftbox.setAutoDraw(false);
   }
   
-  // *rightbox* updates, draw right text
+  // *rightbox* updates
   if (t >= 0.0 && rightbox.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     rightbox.tStart = t;  // (not accounting for frame time here)
     rightbox.frameNStart = frameN;  // exact frame index
     rightbox.setAutoDraw(true);
   }
-//after 4 seconds take it away 
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (rightbox.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     rightbox.setAutoDraw(false);
   }
   
-  // *responses* updates, let them respond with keyboard
+  // *responses* updates
   if (t >= 0.0 && responses.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     responses.tStart = t;  // (not accounting for frame time here)
@@ -1244,12 +1067,12 @@ function ChoiceRoutineEachFrame() {
     psychoJS.window.callOnFlip(function() { responses.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
-//after 4 seconds, they can't respond
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (responses.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     responses.status = PsychoJS.Status.FINISHED;
   }
-//get keys that they chose
+
   if (responses.status === PsychoJS.Status.STARTED) {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['1', '2']});
     
@@ -1265,41 +1088,43 @@ function ChoiceRoutineEachFrame() {
   }
   
   
-  // *money1* updates, draw left money
-  if (t >= 0.0 && money1.status == PsychoJS.Status.NOT_STARTED) {
+  // *money1* updates
+  if (t >= 0.0 && money1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     money1.tStart = t;  // (not accounting for frame time here)
     money1.frameNStart = frameN;  // exact frame index
     money1.setAutoDraw(true);
   }
-//show for 4 seconds then take off screen
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-  if (money1.status == PsychoJS.Status.STARTED && t >= frameRemains) {
+  if (money1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     money1.setAutoDraw(false);
   }
   
-  // *money2* updates. draw right money
-  if (t >= 0.0 && money2.status == PsychoJS.Status.NOT_STARTED) {
+  // *money2* updates
+  if (t >= 0.0 && money2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     money2.tStart = t;  // (not accounting for frame time here)
     money2.frameNStart = frameN;  // exact frame index
     money2.setAutoDraw(true);
   }
-//after 4 seconds take it off screen 
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-  if (money2.status == PsychoJS.Status.STARTED && t >= frameRemains) {
+  if (money2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     money2.setAutoDraw(false);
   }
-  // if they pressed 1, make left text green
-  if (responses.keys == '1') {
-    leftbox.setColor(new util.Color(greenText));
-  }    
-  //if they pressed 2, make right text green
-  if (responses.keys == '2') {
-    rightbox.setColor(new util.Color(greenText));
+  
+  // *blank* updates
+  if (((border_right.autoDraw == False)) && blank.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    blank.tStart = t;  // (not accounting for frame time here)
+    blank.frameNStart = frameN;  // exact frame index
+    blank.setAutoDraw(true);
   }
-        
- 
+
+  if (blank.status === PsychoJS.Status.STARTED && t >= (blank.tStart + 1.0)) {
+    blank.setAutoDraw(false);
+  }
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
     return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
@@ -1311,11 +1136,10 @@ function ChoiceRoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of ChoiceComponents)
+  ChoiceComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1329,11 +1153,10 @@ function ChoiceRoutineEachFrame() {
 
 function ChoiceRoutineEnd() {
   //------Ending Routine 'Choice'-------
-  for (const thisComponent of ChoiceComponents) {
+  ChoiceComponents.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   
   // check responses
   if (responses.keys === undefined || responses.keys.length === 0) {    // No response was made
@@ -1346,11 +1169,6 @@ function ChoiceRoutineEnd() {
       }
   
   // the Routine "Choice" was not non-slip safe, so reset the non-slip timer
-  
-//   reset text color for next trial
-  leftbox.setColor(new util.Color("white"));
-  rightbox.setColor(new util.Color("white"));
-  
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
@@ -1362,15 +1180,16 @@ function ISIRoutineBegin() {
   t = 0;
   ISIClock.reset(); // clock
   frameN = -1;
-  routineTimer.add(1.000000);
+  routineTimer.add(2.000000);
   // update component parameters for each repeat
   // keep track of which components have finished
   ISIComponents = [];
   ISIComponents.push(text_3);
   
-  for (const thisComponent of ISIComponents)
+  ISIComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1384,14 +1203,14 @@ function ISIRoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // *text_3* updates, draw the fixation cross
+  // *text_3* updates
   if (t >= 0.0 && text_3.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_3.tStart = t;  // (not accounting for frame time here)
     text_3.frameNStart = frameN;  // exact frame index
     text_3.setAutoDraw(true);
   }
-// show for 2 seconds then take off screen
+
   frameRemains = 0.0 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (text_3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     text_3.setAutoDraw(false);
@@ -1407,11 +1226,10 @@ function ISIRoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of ISIComponents)
+  ISIComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine && routineTimer.getTime() > 0) {
@@ -1425,11 +1243,10 @@ function ISIRoutineEachFrame() {
 
 function ISIRoutineEnd() {
   //------Ending Routine 'ISI'-------
-  for (const thisComponent of ISIComponents) {
+  ISIComponents.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   return Scheduler.Event.NEXT;
 }
 
@@ -1441,14 +1258,13 @@ function social1RoutineBegin() {
   social1Clock.reset(); // clock
   frameN = -1;
   // update component parameters for each repeat
-//   set text conditions for social vs social 
   leftbox1.setText(Left1);
   rightbox1.setText(Right1);
   response1 = new core.BuilderKeyResponse(psychoJS);
   
   money3.setText(leftmoney1);
   money4.setText(rightmoney1);
-
+  blank1.setText('');
   // keep track of which components have finished
   social1Components = [];
   social1Components.push(leftbox1);
@@ -1456,11 +1272,12 @@ function social1RoutineBegin() {
   social1Components.push(response1);
   social1Components.push(money3);
   social1Components.push(money4);
-
+  social1Components.push(blank1);
   
-  for (const thisComponent of social1Components)
+  social1Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1474,27 +1291,27 @@ function social1RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // *leftbox1* updates, draw left text
+  // *leftbox1* updates
   if (t >= 0.0 && leftbox1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     leftbox1.tStart = t;  // (not accounting for frame time here)
     leftbox1.frameNStart = frameN;  // exact frame index
     leftbox1.setAutoDraw(true);
   }
-// show for 4 seconds then take off screen
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (leftbox1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     leftbox1.setAutoDraw(false);
   }
   
-  // *rightbox1* updates, draw right text
+  // *rightbox1* updates
   if (t >= 0.0 && rightbox1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     rightbox1.tStart = t;  // (not accounting for frame time here)
     rightbox1.frameNStart = frameN;  // exact frame index
     rightbox1.setAutoDraw(true);
   }
-// show for 4 seconds then take off screen 
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (rightbox1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     rightbox1.setAutoDraw(false);
@@ -1510,12 +1327,12 @@ function social1RoutineEachFrame() {
     psychoJS.window.callOnFlip(function() { response1.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
-// allowed to respond within 4 seconds then they cannot respond
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (response1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     response1.status = PsychoJS.Status.FINISHED;
   }
-// get chosen keys
+
   if (response1.status === PsychoJS.Status.STARTED) {
     let theseKeys = psychoJS.eventManager.getKeys({keyList:['1', '2']});
     
@@ -1537,41 +1354,44 @@ function social1RoutineEachFrame() {
   }
   
   
-  // *money3* updates, draw left money
+  // *money3* updates
   if (t >= 0.0 && money3.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     money3.tStart = t;  // (not accounting for frame time here)
     money3.frameNStart = frameN;  // exact frame index
     money3.setAutoDraw(true);
   }
-// show for 4 seconds
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (money3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     money3.setAutoDraw(false);
   }
   
-  // *money4* updates, draw right money
+  // *money4* updates
   if (t >= 0.0 && money4.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     money4.tStart = t;  // (not accounting for frame time here)
     money4.frameNStart = frameN;  // exact frame index
     money4.setAutoDraw(true);
   }
-// show for 4 seconds
+
   frameRemains = 0.0 + 4.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (money4.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     money4.setAutoDraw(false);
   }
-//   if they pressed 1, make text green 
-  if (response1.keys == '1') {
-    leftbox1.setColor(new util.Color(greenText2));
-  }
   
-//   if they pressed 2, make text green 
-  if (response1.keys == '2') {
-    rightbox1.setColor(new util.Color(greenText2));
+  // *blank1* updates
+  if (t >= (border_right.autoDraw == False) && blank1.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    blank1.tStart = t;  // (not accounting for frame time here)
+    blank1.frameNStart = frameN;  // exact frame index
+    blank1.setAutoDraw(true);
   }
- 
+
+  frameRemains = (border_right.autoDraw == False) + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (blank1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    blank1.setAutoDraw(false);
+  }
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
     return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
@@ -1583,11 +1403,10 @@ function social1RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of social1Components)
+  social1Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1601,11 +1420,10 @@ function social1RoutineEachFrame() {
 
 function social1RoutineEnd() {
   //------Ending Routine 'social1'-------
-  for (const thisComponent of social1Components) {
+  social1Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   
   // check responses
   if (response1.keys === undefined || response1.keys.length === 0) {    // No response was made
@@ -1630,11 +1448,6 @@ function social1RoutineEnd() {
   // the Routine "social1" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
-//   reset text color so it won't stay green for next trial
-  leftbox1.setColor(new util.Color("white"));
-  rightbox1.setColor(new util.Color("white"));
-  
-  
   return Scheduler.Event.NEXT;
 }
 
@@ -1644,15 +1457,16 @@ function ISI2RoutineBegin() {
   t = 0;
   ISI2Clock.reset(); // clock
   frameN = -1;
-  routineTimer.add(1.000000);
+  routineTimer.add(2.000000);
   // update component parameters for each repeat
   // keep track of which components have finished
   ISI2Components = [];
   ISI2Components.push(text4);
   
-  for (const thisComponent of ISI2Components)
+  ISI2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1666,7 +1480,7 @@ function ISI2RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display fixation cross for 2 seconds
+  // *text4* updates
   if (t >= 0.0 && text4.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text4.tStart = t;  // (not accounting for frame time here)
@@ -1689,11 +1503,10 @@ function ISI2RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of ISI2Components)
+  ISI2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine && routineTimer.getTime() > 0) {
@@ -1707,11 +1520,10 @@ function ISI2RoutineEachFrame() {
 
 function ISI2RoutineEnd() {
   //------Ending Routine 'ISI2'-------
-  for (const thisComponent of ISI2Components) {
+  ISI2Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   return Scheduler.Event.NEXT;
 }
 
@@ -1722,8 +1534,8 @@ function instructionsRoutineBegin() {
   t = 0;
   instructionsClock.reset(); // clock
   frameN = -1;
-  // set question instruction text and add key response
-  ty.setText('Thank you for participating!\n\nNow you will be answering a few questions about your experience during the task. \n\nUse your mouse to click on the slider to respond to the question, then press enter to move on. \n\nPlease press space to continue!');
+  // update component parameters for each repeat
+  ty.setText('Thank you for participating!\n\nPlease notify the experimenter before moving on to the final part of the task');
   key_resp_2 = new core.BuilderKeyResponse(psychoJS);
   
   // keep track of which components have finished
@@ -1731,9 +1543,10 @@ function instructionsRoutineBegin() {
   instructionsComponents.push(ty);
   instructionsComponents.push(key_resp_2);
   
-  for (const thisComponent of instructionsComponents)
+  instructionsComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1747,7 +1560,7 @@ function instructionsRoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display question instruction text
+  // *ty* updates
   if (t >= 0.0 && ty.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     ty.tStart = t;  // (not accounting for frame time here)
@@ -1756,7 +1569,7 @@ function instructionsRoutineEachFrame() {
   }
 
   
-  // press space to continue
+  // *key_resp_2* updates
   if (t >= 0.0 && key_resp_2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     key_resp_2.tStart = t;  // (not accounting for frame time here)
@@ -1794,11 +1607,10 @@ function instructionsRoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of instructionsComponents)
+  instructionsComponents.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1812,11 +1624,10 @@ function instructionsRoutineEachFrame() {
 
 function instructionsRoutineEnd() {
   //------Ending Routine 'instructions'-------
-  for (const thisComponent of instructionsComponents) {
+  instructionsComponents.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   
   // check responses
   if (key_resp_2.keys === undefined || key_resp_2.keys.length === 0) {    // No response was made
@@ -1845,16 +1656,14 @@ function Q1RoutineBegin() {
   // keep track of which components have finished
   Q1Components = [];
   Q1Components.push(Question1);
-  Q1Components.push(slideKeys);
-  Q1Components.push(slider1);
-  Q1Components.push(slider1Clock);
   Q1Components.push(scale_msg1);
   Q1Components.push(scale_msg2);
   Q1Components.push(scale_msg3);
   
-  for (const thisComponent of Q1Components)
+  Q1Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -1868,7 +1677,7 @@ function Q1RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question
+  // *Question1* updates
   if (t >= 0.0 && Question1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     Question1.tStart = t;  // (not accounting for frame time here)
@@ -1877,7 +1686,7 @@ function Q1RoutineEachFrame() {
   }
 
   
-  // display Very Unlikely, Neutral, and Very Likely
+  // *scale_msg1* updates
   if (t >= 0.0 && scale_msg1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale_msg1.tStart = t;  // (not accounting for frame time here)
@@ -1885,6 +1694,8 @@ function Q1RoutineEachFrame() {
     scale_msg1.setAutoDraw(true);
   }
 
+  
+  // *scale_msg2* updates
   if (t >= 0.0 && scale_msg2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale_msg2.tStart = t;  // (not accounting for frame time here)
@@ -1892,46 +1703,14 @@ function Q1RoutineEachFrame() {
     scale_msg2.setAutoDraw(true);
   }
 
+  
+  // *scale_msg3* updates
   if (t >= 0.0 && scale_msg3.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale_msg3.tStart = t;  // (not accounting for frame time here)
     scale_msg3.frameNStart = frameN;  // exact frame index
     scale_msg3.setAutoDraw(true);
   }
-  
-//   display the ratings scale
-  if (t >= 0.0 && slider1.status === PsychoJS.Status.NOT_STARTED) {
-    slider1.tStart = t;
-    slider1.frameNStart = frameN;
-    slider1.setAutoDraw(true);
-  }
-
-// let them press enter to record the answer
-  if (t >= 0.0 && slideKeys.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys.tStart = t;  // (not accounting for frame time here)
-    slideKeys.frameNStart = frameN;  // exact frame index
-    slideKeys.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
- if (slideKeys.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys.rt = slideKeys.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
-  }
-
 
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
@@ -1944,11 +1723,10 @@ function Q1RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q1Components)
+  Q1Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -1962,31 +1740,15 @@ function Q1RoutineEachFrame() {
 
 function Q1RoutineEnd() {
   //------Ending Routine 'Q1'-------
-  for (const thisComponent of Q1Components) {
+  Q1Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
+    }});
   // the Routine "Q1" was not non-slip safe, so reset the non-slip timer
-//   get their ratings
-  psychoJS.experiment.addData('slider1.response', slider1.getRating());
-  psychoJS.experiment.addData('slider1.rt', slider1.getRT());
-  
-  if (slideKeys.keys === undefined || slideKeys.keys.length === 0) {   
-    slideKeys.keys = undefined;
-  }
-
-  if (typeof slideKeys.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys.rt', slideKeys.rt);
-    routineTimer.reset();
-  }
-
-  
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
 }
-
 
 var Q2Components;
 function Q2RoutineBegin() {
@@ -1998,16 +1760,14 @@ function Q2RoutineBegin() {
   // keep track of which components have finished
   Q2Components = [];
   Q2Components.push(Question2);
-  Q2Components.push(slideKeys2);
-  Q2Components.push(slider2);
-  Q2Components.push(slider2Clock);
   Q2Components.push(scale1);
   Q2Components.push(scale2);
-  Q2Components.push(scale3);
+  Q2Components.push(text);
   
-  for (const thisComponent of Q1Components)
+  Q2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2021,7 +1781,7 @@ function Q2RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display Question 2 text
+  // *Question2* updates
   if (t >= 0.0 && Question2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     Question2.tStart = t;  // (not accounting for frame time here)
@@ -2030,14 +1790,7 @@ function Q2RoutineEachFrame() {
   }
 
   
-// display Very Unlikely, Neutral, Very Likely
-  if (t >= 0.0 && scale3.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    scale3.tStart = t;  // (not accounting for frame time here)
-    scale3.frameNStart = frameN;  // exact frame index
-    scale3.setAutoDraw(true);
-  }
-
+  // *scale1* updates
   if (t >= 0.0 && scale1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale1.tStart = t;  // (not accounting for frame time here)
@@ -2046,45 +1799,21 @@ function Q2RoutineEachFrame() {
   }
 
   
+  // *scale2* updates
   if (t >= 0.0 && scale2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale2.tStart = t;  // (not accounting for frame time here)
     scale2.frameNStart = frameN;  // exact frame index
     scale2.setAutoDraw(true);
   }
-  
-//   set rating scale
-  if (t >= 0.0 && slider2.status === PsychoJS.Status.NOT_STARTED) {
-    slider2.tStart = t;
-    slider2.frameNStart = frameN;
-    slider2.setAutoDraw(true);
-  }
 
-// set keys to respond to scale
-  if (t >= 0.0 && slideKeys2.status === PsychoJS.Status.NOT_STARTED) {
+  
+  // *text* updates
+  if (t >= 0.0 && text.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
-    slideKeys2.tStart = t;  // (not accounting for frame time here)
-    slideKeys2.frameNStart = frameN;  // exact frame index
-    slideKeys2.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys2.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-  if (slideKeys2.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys2.rt = slideKeys2.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
+    text.tStart = t;  // (not accounting for frame time here)
+    text.frameNStart = frameN;  // exact frame index
+    text.setAutoDraw(true);
   }
 
   // check for quit (typically the Esc key)
@@ -2098,11 +1827,10 @@ function Q2RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q2Components)
+  Q2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2113,31 +1841,18 @@ function Q2RoutineEachFrame() {
   }
 }
 
+
 function Q2RoutineEnd() {
   //------Ending Routine 'Q2'-------
-  for (const thisComponent of Q2Components) {
+  Q2Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-// add their ratings to the data 
-  psychoJS.experiment.addData('slider2.response', slider2.getRating());
-  psychoJS.experiment.addData('slider2.rt', slider2.getRT());
-//   check for no response
-  if (slideKeys2.keys === undefined || slideKeys2.keys.length === 0) {   
-    slideKeys2.keys = undefined;
-  }
-
-  if (typeof slideKeys2.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys2.rt', slideKeys2.rt);
-    routineTimer.reset();
-  }
-
+    }});
+  // the Routine "Q2" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
 }
-
 
 var Q3Components;
 function Q3RoutineBegin() {
@@ -2149,17 +1864,14 @@ function Q3RoutineBegin() {
   // keep track of which components have finished
   Q3Components = [];
   Q3Components.push(Question3);
-  Q3Components.push(slideKeys3);
-  Q3Components.push(slider3);
-  Q3Components.push(slider3Clock);
   Q3Components.push(scalemsg1);
   Q3Components.push(text_2);
   Q3Components.push(text_4);
   
-  
-  for (const thisComponent of Q3Components)
+  Q3Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2173,7 +1885,7 @@ function Q3RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  //display text for Q3
+  // *Question3* updates
   if (t >= 0.0 && Question3.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     Question3.tStart = t;  // (not accounting for frame time here)
@@ -2182,7 +1894,7 @@ function Q3RoutineEachFrame() {
   }
 
   
-  // display Very Unlikely, Neutral, Very Likely
+  // *scalemsg1* updates
   if (t >= 0.0 && scalemsg1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scalemsg1.tStart = t;  // (not accounting for frame time here)
@@ -2190,6 +1902,8 @@ function Q3RoutineEachFrame() {
     scalemsg1.setAutoDraw(true);
   }
 
+  
+  // *text_2* updates
   if (t >= 0.0 && text_2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_2.tStart = t;  // (not accounting for frame time here)
@@ -2197,47 +1911,15 @@ function Q3RoutineEachFrame() {
     text_2.setAutoDraw(true);
   }
 
+  
+  // *text_4* updates
   if (t >= 0.0 && text_4.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_4.tStart = t;  // (not accounting for frame time here)
     text_4.frameNStart = frameN;  // exact frame index
     text_4.setAutoDraw(true);
   }
-  
-//   display ratings scale
-  if (t >= 0.0 && slider3.status === PsychoJS.Status.NOT_STARTED) {
-    slider3.tStart = t;
-    slider3.frameNStart = frameN;
-    slider3.setAutoDraw(true);
-  }
 
-// set up key response
-  if (t >= 0.0 && slideKeys3.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys3.tStart = t;  // (not accounting for frame time here)
-    slideKeys3.frameNStart = frameN;  // exact frame index
-    slideKeys3.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-  if (slideKeys3.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys3.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys3.rt = slideKeys3.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
-  }
-  
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
     return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
@@ -2249,11 +1931,10 @@ function Q3RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q3Components)
+  Q3Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2267,27 +1948,11 @@ function Q3RoutineEachFrame() {
 
 function Q3RoutineEnd() {
   //------Ending Routine 'Q3'-------
-  for (const thisComponent of Q3Components) {
+  Q3Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-
-//   add ratings to data
-  psychoJS.experiment.addData('slider3.response', slider3.getRating());
-  psychoJS.experiment.addData('slider3.rt', slider3.getRT());
-
-//   check for no response
-  if (slideKeys3.keys === undefined || slideKeys3.keys.length === 0) {   
-    slideKeys3.keys = undefined;
-  }
-  
-  if (typeof slideKeys3.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys3.rt', slideKeys3.rt);
-    routineTimer.reset();
-  }
-
-  
+    }});
+  // the Routine "Q3" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
@@ -2303,16 +1968,14 @@ function Q4RoutineBegin() {
   // keep track of which components have finished
   Q4Components = [];
   Q4Components.push(Question4);
-  Q4Components.push(slideKeys4);
-  Q4Components.push(slider4);
-  Q4Components.push(slider4Clock);
   Q4Components.push(scales1);
   Q4Components.push(scales2);
   Q4Components.push(scales3);
   
-  for (const thisComponent of Q4Components)
+  Q4Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2326,7 +1989,7 @@ function Q4RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question4
+  // *Question4* updates
   if (t >= 0.0 && Question4.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     Question4.tStart = t;  // (not accounting for frame time here)
@@ -2335,7 +1998,7 @@ function Q4RoutineEachFrame() {
   }
 
   
-  // display Very Unlikely, Neutral, Very Likely
+  // *scales1* updates
   if (t >= 0.0 && scales1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scales1.tStart = t;  // (not accounting for frame time here)
@@ -2343,6 +2006,8 @@ function Q4RoutineEachFrame() {
     scales1.setAutoDraw(true);
   }
 
+  
+  // *scales2* updates
   if (t >= 0.0 && scales2.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scales2.tStart = t;  // (not accounting for frame time here)
@@ -2350,46 +2015,13 @@ function Q4RoutineEachFrame() {
     scales2.setAutoDraw(true);
   }
 
+  
+  // *scales3* updates
   if (t >= 0.0 && scales3.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scales3.tStart = t;  // (not accounting for frame time here)
     scales3.frameNStart = frameN;  // exact frame index
     scales3.setAutoDraw(true);
-  }
-  
-//  display ratings scale
-  if (t >= 0.0 && slider4.status === PsychoJS.Status.NOT_STARTED) {
-    slider4.tStart = t;
-    slider4.frameNStart = frameN;
-    slider4.setAutoDraw(true);
-  }
-
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys4.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys4.tStart = t;  // (not accounting for frame time here)
-    slideKeys4.frameNStart = frameN;  // exact frame index
-    slideKeys4.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys4.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-
-  if (slideKeys4.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys4.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys4.rt = slideKeys4.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
   }
 
   // check for quit (typically the Esc key)
@@ -2403,11 +2035,10 @@ function Q4RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q4Components)
+  Q4Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2420,26 +2051,12 @@ function Q4RoutineEachFrame() {
 
 
 function Q4RoutineEnd() {
-  for (const thisComponent of Q4Components) {
+  //------Ending Routine 'Q4'-------
+  Q4Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // get data 
-  psychoJS.experiment.addData('slider4.response', slider4.getRating());
-  psychoJS.experiment.addData('slider4.rt', slider4.getRT());
-  
-//   check for no response
-  if (slideKeys4.keys === undefined || slideKeys4.keys.length === 0) {   
-    slideKeys4.keys = undefined;
-  }
-
-  if (typeof slideKeys4.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys4.rt', slideKeys4.rt);
-    routineTimer.reset();
-  }
-
-  
+    }});
+  // the Routine "Q4" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
@@ -2455,16 +2072,14 @@ function Q6_2RoutineBegin() {
   // keep track of which components have finished
   Q6_2Components = [];
   Q6_2Components.push(text_8);
-  Q6_2Components.push(slideKeys6);
-  Q6_2Components.push(slider6);
-  Q6_2Components.push(slider6Clock);
   Q6_2Components.push(text_12);
   Q6_2Components.push(text_13);
   Q6_2Components.push(text_14);
   
-  for (const thisComponent of Q6_2Components)
+  Q6_2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2478,7 +2093,7 @@ function Q6_2RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question 6
+  // *text_8* updates
   if (t >= 0.0 && text_8.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_8.tStart = t;  // (not accounting for frame time here)
@@ -2487,7 +2102,7 @@ function Q6_2RoutineEachFrame() {
   }
 
   
-  // display Very Unlikely, Neutral, Very Likely
+  // *text_12* updates
   if (t >= 0.0 && text_12.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_12.tStart = t;  // (not accounting for frame time here)
@@ -2495,6 +2110,8 @@ function Q6_2RoutineEachFrame() {
     text_12.setAutoDraw(true);
   }
 
+  
+  // *text_13* updates
   if (t >= 0.0 && text_13.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_13.tStart = t;  // (not accounting for frame time here)
@@ -2502,48 +2119,15 @@ function Q6_2RoutineEachFrame() {
     text_13.setAutoDraw(true);
   }
 
+  
+  // *text_14* updates
   if (t >= 0.0 && text_14.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_14.tStart = t;  // (not accounting for frame time here)
     text_14.frameNStart = frameN;  // exact frame index
     text_14.setAutoDraw(true);
   }
-  
-//   display rating scale
-  if (t >= 0.0 && slider6.status === PsychoJS.Status.NOT_STARTED) {
-    slider6.tStart = t;
-    slider6.frameNStart = frameN;
-    slider6.setAutoDraw(true);
-  }
 
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys6.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys6.tStart = t;  // (not accounting for frame time here)
-    slideKeys6.frameNStart = frameN;  // exact frame index
-    slideKeys6.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys6.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-
-
-  if (slideKeys6.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys6.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys6.rt = slideKeys6.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
-  }
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
     return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
@@ -2555,11 +2139,10 @@ function Q6_2RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q6_2Components)
+  Q6_2Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2573,30 +2156,16 @@ function Q6_2RoutineEachFrame() {
 
 function Q6_2RoutineEnd() {
   //------Ending Routine 'Q6_2'-------
-  for (const thisComponent of Q6_2Components) {
+  Q6_2Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // get data
-  psychoJS.experiment.addData('slider6.response', slider6.getRating());
-  psychoJS.experiment.addData('slider6.rt', slider6.getRT());
-  
-//   check for no response
-  if (slideKeys6.keys === undefined || slideKeys6.keys.length === 0) {   
-    slideKeys6.keys = undefined;
-  }
-
-  if (typeof slideKeys6.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys6.rt', slideKeys6.rt);
-    routineTimer.reset();
-  }
-
-  
+    }});
+  // the Routine "Q6_2" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
 }
+
 var Q7Components;
 function Q7RoutineBegin() {
   //------Prepare to start Routine 'Q7'-------
@@ -2607,16 +2176,14 @@ function Q7RoutineBegin() {
   // keep track of which components have finished
   Q7Components = [];
   Q7Components.push(text_9);
-  Q7Components.push(slideKeys7);
-  Q7Components.push(slider7);
-  Q7Components.push(slider7Clock);
   Q7Components.push(text_15);
   Q7Components.push(text_16);
   Q7Components.push(text_17);
   
-  for (const thisComponent of Q7Components)
+  Q7Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2630,7 +2197,7 @@ function Q7RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for Question 7
+  // *text_9* updates
   if (t >= 0.0 && text_9.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_9.tStart = t;  // (not accounting for frame time here)
@@ -2638,7 +2205,8 @@ function Q7RoutineEachFrame() {
     text_9.setAutoDraw(true);
   }
 
-  // display Very Unlikely, Neutral, Very Likely
+  
+  // *text_15* updates
   if (t >= 0.0 && text_15.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_15.tStart = t;  // (not accounting for frame time here)
@@ -2646,6 +2214,8 @@ function Q7RoutineEachFrame() {
     text_15.setAutoDraw(true);
   }
 
+  
+  // *text_16* updates
   if (t >= 0.0 && text_16.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_16.tStart = t;  // (not accounting for frame time here)
@@ -2653,47 +2223,13 @@ function Q7RoutineEachFrame() {
     text_16.setAutoDraw(true);
   }
 
+  
+  // *text_17* updates
   if (t >= 0.0 && text_17.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_17.tStart = t;  // (not accounting for frame time here)
     text_17.frameNStart = frameN;  // exact frame index
     text_17.setAutoDraw(true);
-  }
-  
-//   display rating scale
-  if (t >= 0.0 && slider7.status === PsychoJS.Status.NOT_STARTED) {
-    slider7.tStart = t;
-    slider7.frameNStart = frameN;
-    slider7.setAutoDraw(true);
-  }
-
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys7.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys7.tStart = t;  // (not accounting for frame time here)
-    slideKeys7.frameNStart = frameN;  // exact frame index
-    slideKeys7.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys7.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-
-
-  if (slideKeys7.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys7.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys7.rt = slideKeys7.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
   }
 
   // check for quit (typically the Esc key)
@@ -2707,11 +2243,10 @@ function Q7RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q7Components)
+  Q7Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2725,24 +2260,11 @@ function Q7RoutineEachFrame() {
 
 function Q7RoutineEnd() {
   //------Ending Routine 'Q7'-------
-  for (const thisComponent of Q7Components) {
+  Q7Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // add data
-  psychoJS.experiment.addData('slider7.response', slider7.getRating());
-  psychoJS.experiment.addData('slider7.rt', slider7.getRT());
-//   check for no response
-  if (slideKeys7.keys === undefined || slideKeys7.keys.length === 0) {   
-    slideKeys7.keys = undefined;
-  }
-
-  if (typeof slideKeys7.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys7.rt', slideKeys7.rt);
-    routineTimer.reset();
-  }
-
+    }});
+  // the Routine "Q7" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
@@ -2758,17 +2280,14 @@ function q8RoutineBegin() {
   // keep track of which components have finished
   q8Components = [];
   q8Components.push(text_10);
-  q8Components.push(slideKeys8);
-  q8Components.push(slider8);
   q8Components.push(text_18);
   q8Components.push(text_19);
   q8Components.push(text_20);
-  q8Components.push(slider8Clock);
   
-  
-  for (const thisComponent of q8Components)
+  q8Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2782,7 +2301,7 @@ function q8RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question 8
+  // *text_10* updates
   if (t >= 0.0 && text_10.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_10.tStart = t;  // (not accounting for frame time here)
@@ -2791,7 +2310,7 @@ function q8RoutineEachFrame() {
   }
 
   
-  // display Very Unlikely, Neutral, Very Likely
+  // *text_18* updates
   if (t >= 0.0 && text_18.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_18.tStart = t;  // (not accounting for frame time here)
@@ -2799,6 +2318,8 @@ function q8RoutineEachFrame() {
     text_18.setAutoDraw(true);
   }
 
+  
+  // *text_19* updates
   if (t >= 0.0 && text_19.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_19.tStart = t;  // (not accounting for frame time here)
@@ -2806,47 +2327,13 @@ function q8RoutineEachFrame() {
     text_19.setAutoDraw(true);
   }
 
+  
+  // *text_20* updates
   if (t >= 0.0 && text_20.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_20.tStart = t;  // (not accounting for frame time here)
     text_20.frameNStart = frameN;  // exact frame index
     text_20.setAutoDraw(true);
-  }
-  
-//   display rating scale
-  if (t >= 0.0 && slider8.status === PsychoJS.Status.NOT_STARTED) {
-    slider8.tStart = t;
-    slider8.frameNStart = frameN;
-    slider8.setAutoDraw(true);
-  }
-
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys8.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys8.tStart = t;  // (not accounting for frame time here)
-    slideKeys8.frameNStart = frameN;  // exact frame index
-    slideKeys8.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys8.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-
-
-  if (slideKeys8.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys8.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys8.rt = slideKeys8.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
   }
 
   // check for quit (typically the Esc key)
@@ -2859,13 +2346,11 @@ function q8RoutineEachFrame() {
     return Scheduler.Event.NEXT;
   }
   
-   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of q8Components)
+  q8Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -2879,31 +2364,15 @@ function q8RoutineEachFrame() {
 
 function q8RoutineEnd() {
   //------Ending Routine 'q8'-------
-  for (const thisComponent of q8Components) {
+  q8Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // add data
-  psychoJS.experiment.addData('slider8.response', slider8.getRating());
-  psychoJS.experiment.addData('slider8.rt', slider8.getRT());
-
-// check for no response
-  if (slideKeys8.keys === undefined || slideKeys8.keys.length === 0) {    // No response was made
-      slideKeys8.keys = undefined;
-  }
-
-  if (typeof slideKeys8.keys !== 'undefined') {  // we had a response
-      psychoJS.experiment.addData('slideKeys8.rt', slideKeys8.rt);
-      routineTimer.reset();
-  }
-  
-  // the Routine "End" was not non-slip safe, so reset the non-slip timer
+    }});
+  // the Routine "q8" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
 }
-
 
 var q9Components;
 function q9RoutineBegin() {
@@ -2915,16 +2384,14 @@ function q9RoutineBegin() {
   // keep track of which components have finished
   q9Components = [];
   q9Components.push(text_11);
-  q9Components.push(slideKeys9);
-  q9Components.push(slider9);
   q9Components.push(text_21);
   q9Components.push(text_22);
   q9Components.push(text_23);
-  q9Components.push(slider9Clock);
   
-  for (const thisComponent of q9Components)
+  q9Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -2938,7 +2405,7 @@ function q9RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question 9
+  // *text_11* updates
   if (t >= 0.0 && text_11.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_11.tStart = t;  // (not accounting for frame time here)
@@ -2946,7 +2413,8 @@ function q9RoutineEachFrame() {
     text_11.setAutoDraw(true);
   }
 
-// display Very Unlikely, Neutral, Very Likely
+  
+  // *text_21* updates
   if (t >= 0.0 && text_21.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_21.tStart = t;  // (not accounting for frame time here)
@@ -2954,6 +2422,8 @@ function q9RoutineEachFrame() {
     text_21.setAutoDraw(true);
   }
 
+  
+  // *text_22* updates
   if (t >= 0.0 && text_22.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_22.tStart = t;  // (not accounting for frame time here)
@@ -2961,45 +2431,13 @@ function q9RoutineEachFrame() {
     text_22.setAutoDraw(true);
   }
 
+  
+  // *text_23* updates
   if (t >= 0.0 && text_23.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_23.tStart = t;  // (not accounting for frame time here)
     text_23.frameNStart = frameN;  // exact frame index
     text_23.setAutoDraw(true);
-  }
-  
-//   display rating scale
-  if (t >= 0.0 && slider9.status === PsychoJS.Status.NOT_STARTED) {
-    slider9.tStart = t;
-    slider9.frameNStart = frameN;
-    slider9.setAutoDraw(true);
-  }
-
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys9.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys9.tStart = t;  // (not accounting for frame time here)
-    slideKeys9.frameNStart = frameN;  // exact frame index
-    slideKeys9.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys9.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-  if (slideKeys9.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys9.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys9.rt = slideKeys.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
   }
 
   // check for quit (typically the Esc key)
@@ -3013,11 +2451,10 @@ function q9RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of q9Components)
+  q9Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -3031,26 +2468,11 @@ function q9RoutineEachFrame() {
 
 function q9RoutineEnd() {
   //------Ending Routine 'q9'-------
-  for (const thisComponent of q9Components) {
+  q9Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // get data
-  psychoJS.experiment.addData('slider9.response', slider9.getRating());
-  psychoJS.experiment.addData('slider9.rt', slider9.getRT()); 
-  
-//   check for no answer
-  if (slideKeys9.keys === undefined || slideKeys9.keys.length === 0) {   
-    slideKeys9.keys = undefined;
-  }
-
-  if (typeof slideKeys9.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys9.rt', slideKeys9.rt);
-    routineTimer.reset();
-  }
-
-  
+    }});
+  // the Routine "q9" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
@@ -3066,15 +2488,14 @@ function Q5RoutineBegin() {
   // keep track of which components have finished
   Q5Components = [];
   Q5Components.push(Question5);
-  Q5Components.push(slideKeys5);
-  Q5Components.push(slider5);
-  Q5Components.push(slider5Clock);
   Q5Components.push(scale_1);
   Q5Components.push(text_5);
   Q5Components.push(text_6);
-  for (const thisComponent of Q5Components)
+  
+  Q5Components.forEach( function(thisComponent) {
     if ('status' in thisComponent)
       thisComponent.status = PsychoJS.Status.NOT_STARTED;
+     });
   
   return Scheduler.Event.NEXT;
 }
@@ -3088,7 +2509,7 @@ function Q5RoutineEachFrame() {
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
   
-  // display text for question 5
+  // *Question5* updates
   if (t >= 0.0 && Question5.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     Question5.tStart = t;  // (not accounting for frame time here)
@@ -3097,7 +2518,7 @@ function Q5RoutineEachFrame() {
   }
 
   
-// display Very Unlikely, Neutral, Very Likely
+  // *scale_1* updates
   if (t >= 0.0 && scale_1.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     scale_1.tStart = t;  // (not accounting for frame time here)
@@ -3105,6 +2526,8 @@ function Q5RoutineEachFrame() {
     scale_1.setAutoDraw(true);
   }
 
+  
+  // *text_5* updates
   if (t >= 0.0 && text_5.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_5.tStart = t;  // (not accounting for frame time here)
@@ -3112,48 +2535,15 @@ function Q5RoutineEachFrame() {
     text_5.setAutoDraw(true);
   }
 
+  
+  // *text_6* updates
   if (t >= 0.0 && text_6.status === PsychoJS.Status.NOT_STARTED) {
     // keep track of start time/frame for later
     text_6.tStart = t;  // (not accounting for frame time here)
     text_6.frameNStart = frameN;  // exact frame index
     text_6.setAutoDraw(true);
   }
-  
-//   display rating scale
-  if (t >= 0.0 && slider5.status === PsychoJS.Status.NOT_STARTED) {
-    slider5.tStart = t;
-    slider5.frameNStart = frameN;
-    slider5.setAutoDraw(true);
-  }
 
-// let them press enter to record answer
-  if (t >= 0.0 && slideKeys5.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    slideKeys5.tStart = t;  // (not accounting for frame time here)
-    slideKeys5.frameNStart = frameN;  // exact frame index
-    slideKeys5.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { slideKeys.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-
-
-  if (slideKeys5.status === PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
-    
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      slideKeys5.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      slideKeys5.rt = slideKeys5.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-  
-    }
-  }
   // check for quit (typically the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
     return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
@@ -3165,11 +2555,10 @@ function Q5RoutineEachFrame() {
   }
   
   continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of Q5Components)
+  Q5Components.forEach( function(thisComponent) {
     if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
       continueRoutine = true;
-      break;
-    }
+    }});
   
   // refresh the screen if continuing
   if (continueRoutine) {
@@ -3183,29 +2572,16 @@ function Q5RoutineEachFrame() {
 
 function Q5RoutineEnd() {
   //------Ending Routine 'Q5'-------
-  for (const thisComponent of Q5Components) {
+  Q5Components.forEach( function(thisComponent) {
     if (typeof thisComponent.setAutoDraw === 'function') {
       thisComponent.setAutoDraw(false);
-    }
-  }
-  // get data
-  psychoJS.experiment.addData('slider5.response', slider5.getRating());
-  psychoJS.experiment.addData('slider5.rt', slider5.getRT());
-//   check for no response
-  if (slideKeys5.keys === undefined || slideKeys5.keys.length === 0) {   
-    slideKeys5.keys = undefined;
-  }
-  
-  if (typeof slideKeys5.keys !== 'undefined') {  
-    psychoJS.experiment.addData('slideKeys5.rt', slideKeys5.rt);
-    routineTimer.reset();
-  }
-
-  
+    }});
+  // the Routine "Q5" was not non-slip safe, so reset the non-slip timer
   routineTimer.reset();
   
   return Scheduler.Event.NEXT;
 }
+
 
 function endLoopIteration(thisScheduler, thisTrial) {
   // ------Prepare for next entry------
@@ -3230,123 +2606,6 @@ function importConditions(loop) {
     };
 }
 
-var endingCodeComponents;
-var endResponse;
-function endingCodeRoutineBegin() {
-  //------Prepare to start Routine 'endingCode'-------
-  t = 0;
-  trialClock.reset(); // clock
-  frameN = -1;
-  // update component parameters for each repeat
-  endResponse = new core.BuilderKeyResponse(psychoJS);
-  
-  // keep track of which components have finished
-  endingCodeComponents = [];
-  endingCodeComponents.push(endCode);
-  endingCodeComponents.push(endingCodeClock);
-  endingCodeComponents.push(endResponse);
-  
-  for (const thisComponent of trialComponents)
-    if ('status' in thisComponent)
-      thisComponent.status = PsychoJS.Status.NOT_STARTED;
-  
-  return Scheduler.Event.NEXT;
-}
-
-function endingCodeRoutineEachFrame() {
-  //------Loop for each frame of Routine 'endingCode'-------
-  let continueRoutine = true; // until we're told otherwise
-  // get current time
-  t = endingCodeClock.getTime();
-  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-  // update/draw components on each frame
-  
-  // *Instructions* updates
-  if (t >= 0.0 && endCode.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    endCode.tStart = t;  // (not accounting for frame time here)
-    endCode.frameNStart = frameN;  // exact frame index
-    endCode.setAutoDraw(true);
-  }
-
-  // *response* updates
-  if (t >= 0.0 && endResponse.status === PsychoJS.Status.NOT_STARTED) {
-    // keep track of start time/frame for later
-    endResponse.tStart = t;  // (not accounting for frame time here)
-    endResponse.frameNStart = frameN;  // exact frame index
-    endResponse.status = PsychoJS.Status.STARTED;
-    // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function() { endResponse.clock.reset(); }); // t = 0 on screen flip
-    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
-  }
-
-  if (endResponse.status == PsychoJS.Status.STARTED) {
-    let theseKeys = psychoJS.eventManager.getKeys({keyList:['space']});
-    
-    // check for quit:
-    if (theseKeys.indexOf('escape') > -1) {
-      psychoJS.experiment.experimentEnded = true;
-    }
-    
-    if (theseKeys.length > 0) {  // at least one key was pressed
-      endResponse.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
-      endResponse.rt = endResponse.clock.getTime();
-      // a response ends the routine
-      continueRoutine = false;
-    }
-  }
-  
-  // check for quit (typically the Esc key)
-  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
-  }
-  
-  // check if the Routine should terminate
-  if (!continueRoutine) {  // a component has requested a forced-end of Routine
-    return Scheduler.Event.NEXT;
-  }
-  
-  continueRoutine = false;  // reverts to True if at least one component still running
-  for (const thisComponent of trialComponents)
-    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-      continueRoutine = true;
-      break;
-    }
-  
-  // refresh the screen if continuing
-  if (continueRoutine) {
-    return Scheduler.Event.FLIP_REPEAT;
-  }
-  else {
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function endingCodeRoutineEnd() {
-  //------Ending Routine 'trial'-------
-  for (const thisComponent of endingCodeComponents) {
-    if (typeof thisComponent.setAutoDraw === 'function') {
-      thisComponent.setAutoDraw(false);
-    }
-  }
-  
-  // check responses
-  if (endResponse.keys === undefined || endResponse.keys.length === 0) {    // No response was made
-      endResponse.keys = undefined;
-  }
-  
-  psychoJS.experiment.addData('endResponse.keys', endResponse.keys);
-  if (typeof endResponse.keys !== 'undefined') {  // we had a response
-      psychoJS.experiment.addData('endResponse.rt', endResponse.rt);
-      routineTimer.reset();
-      }
-  
-  // the Routine "trial" was not non-slip safe, so reset the non-slip timer
-  routineTimer.reset();
-  
-  return Scheduler.Event.NEXT;
-}
 
 function quitPsychoJS(message, isCompleted) {
   psychoJS.window.close();

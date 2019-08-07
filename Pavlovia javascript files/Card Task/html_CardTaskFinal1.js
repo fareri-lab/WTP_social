@@ -24,19 +24,19 @@ psychoJS.openWindow({
 
 // store info about the experiment session:
 let expName = 'CardTaskFinal1';  // from the Builder filename that created this script
-let expInfo = {'MTurk ID': ''};
+let expInfo = {'Participant ID *': '', "Age": '', 'Sex ': ''};
 
 // schedule the experiment:
 psychoJS.schedule(psychoJS.gui.DlgFromDict({
   dictionary: expInfo,
   title: expName
 }));
-
+//set up the scheduler as a reference
 const flowScheduler = new Scheduler(psychoJS);
 const dialogCancelScheduler = new Scheduler(psychoJS);
 psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); }, flowScheduler, dialogCancelScheduler);
 
-// flowScheduler gets run if the participants presses OK
+// flowScheduler gets run if the participants presses OK, add the functions to the schedule
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
 flowScheduler.add(InstructionsRoutineBegin);
@@ -45,6 +45,17 @@ flowScheduler.add(InstructionsRoutineEnd);
 flowScheduler.add(Instructions2RoutineBegin);
 flowScheduler.add(Instructions2RoutineEachFrame);
 flowScheduler.add(Instructions2RoutineEnd);
+flowScheduler.add(exInstructionsRoutineBegin);
+flowScheduler.add(exInstructionsRoutineEachFrame);
+flowScheduler.add(exInstructionsRoutineEnd);
+const exTrialsLoopScheduler = new Scheduler(psychoJS);
+flowScheduler.add(exTrialsLoopBegin, exTrialsLoopScheduler);
+flowScheduler.add(exTrialsLoopScheduler);
+flowScheduler.add(exTrialsLoopEnd);
+flowScheduler.add(exEndTextRoutineBegin);
+flowScheduler.add(exEndTextRoutineEachFrame);
+flowScheduler.add(exEndTextRoutineEnd);
+
 flowScheduler.add(firstITIRoutineBegin);
 flowScheduler.add(firstITIRoutineEachFrame);
 flowScheduler.add(firstITIRoutineEnd);
@@ -115,18 +126,218 @@ var randomMin2;
 var randomMax2;
 var random2_2;
 
+var exTextClock;
+var exText;
+var exRewardClock;
+var exISI1;
+var exPolygon;
+var exText2;
+var exISI2;
+var exRewardOutcomeClock;
+var exPolygon2;
+var exFeedback1;
+var arrow1;
+var exPunClock;
+var exISI3;
+var exRect;
+var exText3;
+var exISI4;
+var exPunOutcomeClock;
+var exRect2;
+var exFeedback2;
+var arrow2;
+var exEndTextClock;
+var exEndText;
+
+var exrandom1_2;
+var exrandomMin2;
+var exrandomMax2;
+var exrandom2_2;
 
 
 function experimentInit() {
+    //Initialize example components
+  exTextClock = new util.Clock();
+  exText = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'example',
+    text: 'You will first be playing three practice rounds to get used to the task and the timing. \n\nAgain, when you see the question mark on the screen, you will have two seconds to respond.\n\n Press `1` or `2` on your keyboard to make a guess.\n\n When you are ready, press ENTER!',
+    font: 'Arial',
+    units : undefined, 
+    pos: [0, 0], height: 0.05,  wrapWidth: 1.6, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: 0.0  
+  })  
+  
+    // Initialize components for Routine "Reward_Trial"
+  exRewardClock = new util.Clock();
+  exISI1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'isi1',
+    text: '+',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  exPolygon = new visual.Rect ({
+    win: psychoJS.window, name: 'polygon',
+    units: psychoJS.window.units,
+    width: [0.6], height: [0.8],
+    ori: 0, pos: [0, 0],
+    lineWidth: 5, lineColor: new util.Color([1, 1, 1]),
+    fillColor: new util.Color([0, 0, 0]),
+    opacity: 1, depth: 0, interpolate: true,
+  });
+  
+  exText2 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text',
+    text: '?',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -2.0 
+  });
+  
+  exISI2 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'ISI',
+    text: '+',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -5.0 
+  });
+  
+  // Initialize components for Routine "RewardOutcome"
+  exRewardOutcomeClock = new util.Clock();
+  exPolygon2 = new visual.Rect ({
+    win: psychoJS.window, name: 'polygon2_2',
+    units: psychoJS.window.units,
+    width: [0.6], height: [0.8],
+    ori: 0, pos: [0, 0],
+    lineWidth: 5, lineColor: new util.Color([1, 1, 1]),
+    fillColor: new util.Color([0, 0, 0]),
+    opacity: 1, depth: 0, interpolate: true,
+  });
+  
+  exFeedback1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'feedback1_2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -1.0 
+  });
+  
+  arrow1 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'arrow1_2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -2.0 
+  });
+  
+  // Initialize components for Routine "Punishment_trial"
+  exPunClock = new util.Clock();
+  exISI3 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'isi2',
+    text: '+',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: 0.0 
+  });
+  
+  exRect = new visual.Rect ({
+    win: psychoJS.window, name: 'rectangle',
+    units: psychoJS.window.units,
+    width: [0.6], height: [0.8],
+    ori: 0, pos: [0, 0],
+    lineWidth: 5, lineColor: new util.Color([1, 1, 1]),
+    fillColor: new util.Color([0, 0, 0]),
+    opacity: 1, depth: 0, interpolate: true,
+  });
+  
+  exText3 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text1',
+    text: '?',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -2.0 
+  });
+  
+  exISI4 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'ISI2',
+    text: '+',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -5.0 
+  });
+  
+  // Initialize components for Routine "PunishmentOutcome"
+  exPunOutcomeClock = new util.Clock();
+  exRect2 = new visual.Rect ({
+    win: psychoJS.window, name: 'rectangle2_2',
+    units: psychoJS.window.units,
+    width: [0.6], height: [0.8],
+    ori: 0, pos: [0, 0],
+    lineWidth: 5, lineColor: new util.Color([1, 1, 1]),
+    fillColor: new util.Color([0, 0, 0]),
+    opacity: 1, depth: 0, interpolate: true,
+  });
+  
+  exFeedback2 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'feedback2_2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, 1.0, 1.0]),  opacity: 1,
+    depth: -1.0 
+  });
+  
+  arrow2 = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'arrow2_2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: -2.0 
+  });
+  
+  // Initialize components for Routine "endText"
+  exEndTextClock = new util.Clock();
+  exEndText = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'exEndText',
+    text: 'You will now be playing the full game.\n\nPress ENTER to begin!',
+    font: 'Arial',
+    pos: [0, 0], height: 0.07,  wrapWidth: undefined, ori: 0,
+    color: new util.Color('white'),  opacity: 1,
+    depth: 0.0 
+  });
+    
   // Initialize components for Routine "Instructions"
   InstructionsClock = new util.Clock();
   Welcome = new visual.TextStim({
     win: psychoJS.window,
     name: 'Welcome',
-    text: 'In this part of the study, you will be playing a guessing game in which you will have the chance to earn some money.\n\nOn the next page, you will be given the instructions. Please read them carefully! \n\nPress the spacebar to continue.',
+    text: 'In this part of the study, you will be playing a guessing game in which you will have the chance to earn some money.\n\nOn the next page, you will be given the instructions. Please read them carefully! \n\nPress SPACE to continue.',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0], height: 0.065,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.065,  wrapWidth: 1.3, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
@@ -135,14 +346,15 @@ function experimentInit() {
   Welcome2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'Inst2',
-    text: 'Your job is to guess if a number shown on screen will have a value less than 5 (1-4), or greater than 5 (6-9).\n\nWhen you see the rectangle with a question mark inside of it, make your guess!\nYou can press `1` if you think it will be less than 5, or `2` if you think it will be greater than 5.\n\nEach correct guess will earn you $0.50, and each incorrect guess will deduct $0.25. \nYou will only have two seconds to respond upon seeing the question mark, so please be ready to guess!\nYour total earnings will be shown at the end of the task. \nWhen you are ready, press space to begin!',
+    text: 'Your job is to guess if a number shown on screen will have a value less than 5 (1 - 4), or greater than 5 (6 - 9).\n\nWhen you see the rectangle with a question mark inside of it, make your guess!\nYou can press `1` if you think it will be less than 5, or `2` if you think it will be greater than 5.\n\nEach correct guess will earn you $0.50, and each incorrect guess will deduct $0.25. \nYou will only have two seconds to respond upon seeing the question mark, so please be ready to guess!\nYour total earnings will be shown at the end of the task. \nPress SPACE to continue.',
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0], height: 0.044,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.05,  wrapWidth: 1.6, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
   
+
   // Initialize components for Routine "firstITI"
   firstITIClock = new util.Clock();
   firstTrialITI = new visual.TextStim({
@@ -174,6 +386,7 @@ function experimentInit() {
     opacity: 1, depth: 0, interpolate: true,
   });
   
+
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
@@ -196,7 +409,6 @@ function experimentInit() {
     depth: -4.0 
   });
   
-
   // Initialize components for Routine "RewardOutcome"
   RewardOutcomeClock = new util.Clock();
   //rectangle
@@ -221,6 +433,7 @@ function experimentInit() {
     depth: -1.0 
   });
   
+
   ITI_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'ITI_2',
@@ -308,10 +521,10 @@ function experimentInit() {
   Finished = new visual.TextStim({
     win: psychoJS.window,
     name: 'Finished',
-    text: 'Thanks for playing! You earned $6.00.\n\nYour survey code is 238531\n\nPlease enter this into the response box in the survey, then press space to continue.',
+    text: `Thanks for playing! You earned $6.00.\n\nPlease press SPACE to continue to the next part of the study.`,
     font: 'Arial',
     units : undefined, 
-    pos: [0, 0], height: 0.06,  wrapWidth: undefined, ori: 0,
+    pos: [0, 0], height: 0.07,  wrapWidth: undefined, ori: 0,
     color: new util.Color('white'),  opacity: 1,
     depth: 0.0 
   });
@@ -566,6 +779,983 @@ function Instructions2RoutineEnd() {
 }
 
 
+var exResponse1;
+var exInstructionsComponents;
+function exInstructionsRoutineBegin() {
+  //------Prepare to start Routine 'example instructions'-------
+  t = 0;
+  exTextClock.reset(); // clock
+  frameN = -1;
+  // update component parameters for each repeat
+  exResponse1 = new core.BuilderKeyResponse(psychoJS);
+  
+  // keep track of which components have finished
+  exInstructionsComponents = [];
+  exInstructionsComponents.push(exText);
+  exInstructionsComponents.push(exResponse1);
+  
+  for (const thisComponent of exInstructionsComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+function exInstructionsRoutineEachFrame() {
+  //------Loop for each frame of Routine 'exInstructions'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exTextClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *exText* updates
+  if (t >= 0.0 && exText.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exText.tStart = t;  // (not accounting for frame time here)
+    exText.frameNStart = frameN;  // exact frame index
+    exText.setAutoDraw(true);
+  }
+
+  
+  // *exResponse1* updates
+  if (t >= 0.0 && exResponse1.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exResponse1.tStart = t;  // (not accounting for frame time here)
+    exResponse1.frameNStart = frameN;  // exact frame index
+    exResponse1.status = PsychoJS.Status.STARTED;
+    // keyboard checking is just starting
+    psychoJS.window.callOnFlip(function() { exResponse1.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
+  }
+
+  if (exResponse1.status === PsychoJS.Status.STARTED) {
+    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
+    
+    // check for quit:
+    if (theseKeys.indexOf('escape') > -1) {
+      psychoJS.experiment.experimentEnded = true;
+    }
+    
+    if (theseKeys.length > 0) {  // at least one key was pressed
+      exResponse1.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
+      exResponse1.rt = exResponse1.clock.getTime();
+      // a response ends the routine
+      continueRoutine = false;
+    }
+  }
+  
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exInstructionsComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exInstructionsRoutineEnd() {
+  //------Ending Routine 'exInstructions'-------
+  for (const thisComponent of exInstructionsComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  
+  // check responses
+  if (exResponse1.keys === undefined || exResponse1.keys.length === 0) {    // No response was made
+      exResponse1.keys = undefined;
+  }
+  
+  psychoJS.experiment.addData('exResponse1.keys', exResponse1.keys);
+  if (typeof exResponse1.keys !== 'undefined') {  // we had a response
+      psychoJS.experiment.addData('exResponse1.rt', exResponse1.rt);
+      routineTimer.reset();
+      }
+  
+  // the Routine "exInstructions" was not non-slip safe, so reset the non-slip timer
+  routineTimer.reset();
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+var exTrials;
+function exTrialsLoopBegin(thisScheduler) {
+  // set up handler to look after randomisation of conditions etc
+  exTrials = new TrialHandler({
+    psychoJS,
+    nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
+    extraInfo: expInfo, originPath: undefined,
+    trialList: undefined,
+    seed: undefined, name: 'exTrials'});
+  psychoJS.experiment.addLoop(exTrials); // add the loop to the experiment
+
+  // Schedule all the trials in the trialList:
+  for (const thisAlltrial of exTrials) {
+    thisScheduler.add(importConditions(exTrials));
+    const exRewardLoopScheduler = new Scheduler(psychoJS);
+    thisScheduler.add(exRewardLoopBegin, exRewardLoopScheduler);
+    thisScheduler.add(exRewardLoopScheduler);
+    thisScheduler.add(exRewardLoopEnd);
+    const exLossLoopScheduler = new Scheduler(psychoJS);
+    thisScheduler.add(exLossLoopBegin, exLossLoopScheduler);
+    thisScheduler.add(exLossLoopScheduler);
+    thisScheduler.add(exLossLoopEnd);
+    thisScheduler.add(exendLoopIteration(thisAlltrial));
+  }
+
+  return Scheduler.Event.NEXT;
+}
+
+var exReward;
+function exRewardLoopBegin(thisScheduler) {
+  // set up handler to look after randomisation of conditions etc
+  exReward = new TrialHandler({
+    psychoJS,
+    nReps: 2, method: TrialHandler.Method.SEQUENTIAL,
+    extraInfo: expInfo, originPath: undefined,
+    trialList: undefined,
+    seed: undefined, name: 'exReward'});
+  psychoJS.experiment.addLoop(exReward); // add the loop to the experiment
+
+  // Schedule all the trials in the trialList:
+  for (const thisReward of exReward) {
+    thisScheduler.add(importConditions(exReward));
+    thisScheduler.add(exReward_TrialRoutineBegin);
+    thisScheduler.add(exReward_TrialRoutineEachFrame);
+    thisScheduler.add(exReward_TrialRoutineEnd);
+    thisScheduler.add(exRewardOutcomeRoutineBegin);
+    thisScheduler.add(exRewardOutcomeRoutineEachFrame);
+    thisScheduler.add(exRewardOutcomeRoutineEnd);
+    thisScheduler.add(exendLoopIteration(thisReward));
+  }
+
+  return Scheduler.Event.NEXT;
+}
+
+
+function exRewardLoopEnd() {
+  psychoJS.experiment.removeLoop(exReward);
+
+  return Scheduler.Event.NEXT;
+}
+
+var exLoss;
+function exLossLoopBegin(thisScheduler) {
+  // set up handler to look after randomisation of conditions etc
+  exLoss = new TrialHandler({
+    psychoJS,
+    nReps: 1, method: TrialHandler.Method.RANDOM,
+    extraInfo: expInfo, originPath: undefined,
+    trialList: undefined,
+    seed: undefined, name: 'exLoss'});
+  psychoJS.experiment.addLoop(exLoss); // add the loop to the experiment
+
+  // Schedule all the trials in the trialList:
+  for (const thisLos of exLoss) {
+    thisScheduler.add(importConditions(exLoss));
+    thisScheduler.add(exPunishment_trialRoutineBegin);
+    thisScheduler.add(exPunishment_trialRoutineEachFrame);
+    thisScheduler.add(exPunishment_trialRoutineEnd);
+    thisScheduler.add(exPunishmentOutcomeRoutineBegin);
+    thisScheduler.add(exPunishmentOutcomeRoutineEachFrame);
+    thisScheduler.add(exPunishmentOutcomeRoutineEnd);
+    thisScheduler.add(exendLoopIteration(thisLos));
+  }
+
+  return Scheduler.Event.NEXT;
+}
+
+
+function exLossLoopEnd() {
+  psychoJS.experiment.removeLoop(exLoss);
+
+  return Scheduler.Event.NEXT;
+}
+
+
+function exTrialsLoopEnd() {
+  psychoJS.experiment.removeLoop(exTrials);
+
+  return Scheduler.Event.NEXT;
+}
+
+var exresponse2;
+var exReward_TrialComponents;
+function exReward_TrialRoutineBegin() {
+  //------Prepare to start Routine 'Reward_Trial'-------
+  t = 0;
+  exRewardClock.reset(); // clock
+  frameN = -1;
+  routineTimer.add(6.000000);
+  // update component parameters for each repeat
+  exresponse2 = new core.BuilderKeyResponse(psychoJS);
+
+  // keep track of which components have finished
+  exReward_TrialComponents = [];
+  exReward_TrialComponents.push(exISI1);
+  exReward_TrialComponents.push(arrow1);  
+  exReward_TrialComponents.push(exPolygon);
+  exReward_TrialComponents.push(exText2);
+  exReward_TrialComponents.push(exFeedback1);
+  exReward_TrialComponents.push(exresponse2);
+  exReward_TrialComponents.push(exISI2);
+  
+  for (const thisComponent of exReward_TrialComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+var frameRemains;
+function exReward_TrialRoutineEachFrame() {
+  //------Loop for each frame of Routine 'Reward_Trial'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exRewardClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *isi1* updates
+  if (t >= 0.0 && exISI1.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exISI1.tStart = t;  // (not accounting for frame time here)
+    exISI1.frameNStart = frameN;  // exact frame index
+    exISI1.setAutoDraw(true);
+  }
+
+  frameRemains = 0.0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exISI1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exISI1.setAutoDraw(false);
+  }
+  
+  // *polygon* updates
+  if (t >= 2 && exPolygon.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exPolygon.tStart = t;  // (not accounting for frame time here)
+    exPolygon.frameNStart = frameN;  // exact frame index
+    exPolygon.setAutoDraw(true);
+  }
+
+  frameRemains = 2 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exPolygon.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exPolygon.setAutoDraw(false);
+  }
+  
+  // *text* updates
+  if (t >= 2 && exText2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exText2.tStart = t;  // (not accounting for frame time here)
+    exText2.frameNStart = frameN;  // exact frame index
+    exText2.setAutoDraw(true);
+  }
+
+  frameRemains = 2 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exText2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exText2.setAutoDraw(false);
+  }
+  
+  // *response2* updates
+  if (t >= 2 && exresponse2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exresponse2.tStart = t;  // (not accounting for frame time here)
+    exresponse2.frameNStart = frameN;  // exact frame index
+    exresponse2.status = PsychoJS.Status.STARTED;
+    // keyboard checking is just starting
+    psychoJS.window.callOnFlip(function() { exresponse2.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
+  }
+
+  frameRemains = 2 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exresponse2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exresponse2.status = PsychoJS.Status.FINISHED;
+  }
+
+  if (exresponse2.status === PsychoJS.Status.STARTED) {
+    let theseKeys = psychoJS.eventManager.getKeys({keyList:['1', '2']});
+    
+    // check for quit:
+    if (theseKeys.indexOf('escape') > -1) {
+      psychoJS.experiment.experimentEnded = true;
+    }
+    
+    if (theseKeys.length > 0) {  // at least one key was pressed
+      exresponse2.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
+      exresponse2.rt = exresponse2.clock.getTime();
+    }
+  }
+  
+  
+  // *ISI* updates
+  if (t >= 4 && exISI2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exISI2.tStart = t;  // (not accounting for frame time here)
+    exISI2.frameNStart = frameN;  // exact frame index
+    exISI2.setAutoDraw(true);
+  }
+
+  frameRemains = 4 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exISI2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exISI2.setAutoDraw(false);
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exReward_TrialComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine && routineTimer.getTime() > 0) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exReward_TrialRoutineEnd() {
+  //------Ending Routine 'Reward_Trial'-------
+  for (const thisComponent of exReward_TrialComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  
+  //set variables for outcome numbers <5
+  var exrandom1;
+  var exmin1;
+  var exmax1;
+  exmin1 = 1;
+  exmax1 = 5;
+  exrandom1 = Math.floor(Math.random() * (exmax1 - exmin1) ) + exmin1;
+  
+  //set variables for outcome numbers >5
+  var exrandom2;
+  var exmin2;
+  var exmax2;
+  exmin2 = 6;
+  exmax2 = 10;
+  exrandom2 = Math.floor(Math.random() * (exmax2 - exmin2) ) + exmin2;
+
+  
+  // check responses
+  if (exresponse2.keys === undefined || exresponse2.keys.length === 0) {    // No response was made
+      exresponse2.keys = undefined;
+  }
+  
+  if (exresponse2.keys == '1') {
+    exrandom1_2 = exrandom1.toString()
+    exFeedback1.setText(exrandom1);
+    arrow1.setText('+$0.50');
+    arrow1.setColor(new util.Color('green'));
+  }
+  //   if they guessed more than 5 in the reward trial, give them a number >5 and say they won money, turn text green
+  else if (exresponse2.keys == '2') {
+    exrandom2_2 = exrandom2.toString()
+    exFeedback1.setText(exrandom2);
+    arrow1.setText('+$0.50');
+    arrow1.setColor(new util.Color('green'));
+  }
+//   if they did not respond, show other text
+  else if (exresponse2.keys == undefined) {
+    exFeedback1.setText("No Response");
+    arrow1.setText('#');
+    arrow1.setColor(new util.Color('white'));
+  }
+
+  
+  psychoJS.experiment.addData('exresponse2.keys', exresponse2.keys);
+  if (typeof exresponse2.keys !== 'undefined') {  // we had a response
+      psychoJS.experiment.addData('exresponse2.rt', exresponse2.rt);
+      }
+  
+  return Scheduler.Event.NEXT;
+}
+
+var exRewardOutcomeComponents;
+function exRewardOutcomeRoutineBegin() {
+  //------Prepare to start Routine 'RewardOutcome'-------
+  t = 0;
+  exRewardOutcomeClock.reset(); // clock
+  frameN = -1;
+  routineTimer.add(2.000000);
+  // update component parameters for each repeat
+
+  // keep track of which components have finished
+  exRewardOutcomeComponents = [];
+  exRewardOutcomeComponents.push(exPolygon2);
+  exRewardOutcomeComponents.push(exFeedback1);
+  exRewardOutcomeComponents.push(arrow1);
+  
+  for (const thisComponent of exRewardOutcomeComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+
+function exRewardOutcomeRoutineEachFrame() {
+  //------Loop for each frame of Routine 'RewardOutcome'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exRewardOutcomeClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *polygon2_2* updates
+  if (t >= 0 && exPolygon2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exPolygon2.tStart = t;  // (not accounting for frame time here)
+    exPolygon2.frameNStart = frameN;  // exact frame index
+    exPolygon2.setAutoDraw(true);
+  }
+
+  frameRemains = 0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exPolygon2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exPolygon2.setAutoDraw(false);
+  }
+  
+  // *feedback1_2* updates
+  if (t >= 0 && exFeedback1.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exFeedback1.tStart = t;  // (not accounting for frame time here)
+    exFeedback1.frameNStart = frameN;  // exact frame index
+    exFeedback1.setAutoDraw(true);
+  }
+
+  frameRemains = 0 + 1 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exFeedback1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exFeedback1.setAutoDraw(false);
+  }
+ 
+  
+  // *arrow1_2* updates
+  if (t >= 1 && arrow1.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    arrow1.tStart = t;  // (not accounting for frame time here)
+    arrow1.frameNStart = frameN;  // exact frame index
+    arrow1.setAutoDraw(true);
+  }
+
+  frameRemains = 1 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (arrow1.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    arrow1.setAutoDraw(false);
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exRewardOutcomeComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine && routineTimer.getTime() > 0) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exRewardOutcomeRoutineEnd() {
+  //------Ending Routine 'RewardOutcome'-------
+  for (const thisComponent of exRewardOutcomeComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  return Scheduler.Event.NEXT;
+}
+
+var exresponse3;
+var exPunishment_trialComponents;
+function exPunishment_trialRoutineBegin() {
+  //------Prepare to start Routine 'Punishment_trial'-------
+  t = 0;
+  exPunClock.reset(); // clock
+  frameN = -1;
+  routineTimer.add(6.000000);
+  // update component parameters for each repeat
+  exresponse3 = new core.BuilderKeyResponse(psychoJS);
+  
+  // keep track of which components have finished
+  exPunishment_trialComponents = [];
+  exPunishment_trialComponents.push(exISI3);
+  exPunishment_trialComponents.push(exRect);
+  exPunishment_trialComponents.push(exText3);
+  exPunishment_trialComponents.push(exFeedback2);
+  exPunishment_trialComponents.push(arrow2);
+  exPunishment_trialComponents.push(exresponse3);
+  exPunishment_trialComponents.push(exISI4);
+  
+  for (const thisComponent of exPunishment_trialComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+function exPunishment_trialRoutineEachFrame() {
+  //------Loop for each frame of Routine 'Punishment_trial'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exPunClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *isi2* updates
+  if (t >= 0.0 && exISI3.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exISI3.tStart = t;  // (not accounting for frame time here)
+    exISI3.frameNStart = frameN;  // exact frame index
+    exISI3.setAutoDraw(true);
+  }
+
+  frameRemains = 0.0 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exISI3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exISI3.setAutoDraw(false);
+  }
+  
+  // *rectangle* updates
+  if (t >= 2 && exRect.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exRect.tStart = t;  // (not accounting for frame time here)
+    exRect.frameNStart = frameN;  // exact frame index
+    exRect.setAutoDraw(true);
+  }
+
+  frameRemains = 2 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exRect.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exRect.setAutoDraw(false);
+  }
+  
+  // *text1* updates
+  if (t >= 2 && exText3.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exText3.tStart = t;  // (not accounting for frame time here)
+    exText3.frameNStart = frameN;  // exact frame index
+    exText3.setAutoDraw(true);
+  }
+
+  frameRemains = 2 + 2.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exText3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exText3.setAutoDraw(false);
+  }
+  
+  // *response3* updates
+  if (t >= 2 && exresponse3.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exresponse3.tStart = t;  // (not accounting for frame time here)
+    exresponse3.frameNStart = frameN;  // exact frame index
+    exresponse3.status = PsychoJS.Status.STARTED;
+    // keyboard checking is just starting
+    psychoJS.window.callOnFlip(function() { exresponse3.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
+  }
+
+  frameRemains = 2 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exresponse3.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exresponse3.status = PsychoJS.Status.FINISHED;
+  }
+
+  if (exresponse3.status === PsychoJS.Status.STARTED) {
+    let theseKeys = psychoJS.eventManager.getKeys({keyList:['1', '2']});
+    
+    // check for quit:
+    if (theseKeys.indexOf('escape') > -1) {
+      psychoJS.experiment.experimentEnded = true;
+    }
+    
+    if (theseKeys.length > 0) {  // at least one key was pressed
+      exresponse3.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
+      exresponse3.rt = exresponse3.clock.getTime();
+    }
+  }
+  
+  
+  // *ISI2* updates
+  if (t >= 4 && exISI4.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exISI4.tStart = t;  // (not accounting for frame time here)
+    exISI4.frameNStart = frameN;  // exact frame index
+    exISI4.setAutoDraw(true);
+  }
+
+  frameRemains = 4 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (ISI2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    ISI2.setAutoDraw(false);
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exPunishment_trialComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine && routineTimer.getTime() > 0) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exPunishment_trialRoutineEnd() {
+  //------Ending Routine 'Punishment_trial'-------
+  for (const thisComponent of exPunishment_trialComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  
+  // declare variables for randomization of numbers  <5
+ var exrandom1_2_2;
+ var exmin1_2;
+ var exmax1_2;
+ exmin1_2 = 1;
+ exmax1_2 = 5;
+ exrandom1_2_2 = Math.floor(Math.random() * (exmax1_2 - exmin1_2)) + exmin1_2;
+// declare variables for randomization of numbers  >5
+ var exrandom2_2_2;
+ var exmin2_2;
+ exmin2_2 = 6;
+ var exmax2_2;
+ exmax2_2 = 10;
+ exrandom2_2_2 = Math.floor(Math.random() * (exmax2_2 - exmin2_2)) + exmin2_2;
+
+  
+  // check responses
+  if (exresponse3.keys === undefined || exresponse3.keys.length === 0) {    // No response was made
+      exresponse3.keys = undefined;
+  }
+  
+  if (exresponse3.keys == '2') {
+    exrandomMin2 = exrandom1_2_2.toString()
+    exFeedback2.setText(exrandomMin2);
+    arrow2.setText('-$0.25');
+    arrow2.setColor(new util.Color('red'));
+  }
+  //   if they guessed <5 in punishment trial, show a number greater than 5, say they lost money, set text to red
+  else if (exresponse3.keys == '1') {
+    exrandomMax2 = exrandom2_2_2.toString()
+    exFeedback2.setText(exrandomMax2);
+    arrow2.setText('-$0.25');
+    arrow2.setColor(new util.Color('red'));
+  }
+//   if they did not respond, show other text
+  else if (exresponse3.keys == undefined){
+    exFeedback2.setText("No Response");
+    arrow2.setText('#');
+    arrow2.setColor(new util.Color('white'));
+  }
+
+  
+  psychoJS.experiment.addData('exresponse3.keys', exresponse3.keys);
+  if (typeof exresponse3.keys !== 'undefined') {  // we had a response
+      psychoJS.experiment.addData('exresponse3.rt', exresponse3.rt);
+      }
+  
+  return Scheduler.Event.NEXT;
+}
+
+var exPunishmentOutcomeComponents;
+function exPunishmentOutcomeRoutineBegin() {
+  //------Prepare to start Routine 'PunishmentOutcome'-------
+  t = 0;
+  exPunOutcomeClock.reset(); // clock
+  frameN = -1;
+  routineTimer.add(2.000000);
+  // update component parameters for each repeat
+//   exFeedback2.setText(outcome);
+//   arrow2.setColor(new util.Color(color));
+//  arrow2.setText(money);
+  // keep track of which components have finished
+  exPunishmentOutcomeComponents = [];
+  exPunishmentOutcomeComponents.push(exRect2);
+  exPunishmentOutcomeComponents.push(exFeedback2);
+  exPunishmentOutcomeComponents.push(arrow2);
+  
+  for (const thisComponent of exPunishmentOutcomeComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+function exPunishmentOutcomeRoutineEachFrame() {
+  //------Loop for each frame of Routine 'PunishmentOutcome'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exPunOutcomeClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *rectangle2_2* updates
+  if (t >= 0 && exRect2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exRect2.tStart = t;  // (not accounting for frame time here)
+    exRect2.frameNStart = frameN;  // exact frame index
+    exRect2.setAutoDraw(true);
+  }
+
+  frameRemains = 0 + 2 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exRect2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exRect2.setAutoDraw(false);
+  }
+  
+  // *feedback2_2* updates
+  if (t >= 0 && exFeedback2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exFeedback2.tStart = t;  // (not accounting for frame time here)
+    exFeedback2.frameNStart = frameN;  // exact frame index
+    exFeedback2.setAutoDraw(true);
+  }
+
+  frameRemains = 0 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (exFeedback2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    exFeedback2.setAutoDraw(false);
+  }
+  
+  // *arrow2_2* updates
+  if (t >= 1 && arrow2.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    arrow2.tStart = t;  // (not accounting for frame time here)
+    arrow2.frameNStart = frameN;  // exact frame index
+    arrow2.setAutoDraw(true);
+  }
+
+  frameRemains = 1 + 1.0 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  if (arrow2.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+    arrow2.setAutoDraw(false);
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exPunishmentOutcomeComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine && routineTimer.getTime() > 0) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exPunishmentOutcomeRoutineEnd() {
+  //------Ending Routine 'PunishmentOutcome'-------
+  for (const thisComponent of exPunishmentOutcomeComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  return Scheduler.Event.NEXT;
+}
+
+
+var exkey_resp_4;
+var exEndTextComponents;
+function exEndTextRoutineBegin() {
+  //------Prepare to start Routine 'endText'-------
+  t = 0;
+  exEndTextClock.reset(); // clock
+  frameN = -1;
+  // update component parameters for each repeat
+  exkey_resp_4 = new core.BuilderKeyResponse(psychoJS);
+  
+  // keep track of which components have finished
+  exEndTextComponents = [];
+  exEndTextComponents.push(exEndText);
+  exEndTextComponents.push(exkey_resp_4);
+  
+  for (const thisComponent of exEndTextComponents)
+    if ('status' in thisComponent)
+      thisComponent.status = PsychoJS.Status.NOT_STARTED;
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+function exEndTextRoutineEachFrame() {
+  //------Loop for each frame of Routine 'endText'-------
+  let continueRoutine = true; // until we're told otherwise
+  // get current time
+  t = exEndTextClock.getTime();
+  frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+  // update/draw components on each frame
+  
+  // *exEndText* updates
+  if (t >= 0.0 && exEndText.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exEndText.tStart = t;  // (not accounting for frame time here)
+    exEndText.frameNStart = frameN;  // exact frame index
+    exEndText.setAutoDraw(true);
+  }
+
+  
+  // *key_resp_4* updates
+  if (t >= 0.0 && exkey_resp_4.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    exkey_resp_4.tStart = t;  // (not accounting for frame time here)
+    exkey_resp_4.frameNStart = frameN;  // exact frame index
+    exkey_resp_4.status = PsychoJS.Status.STARTED;
+    // keyboard checking is just starting
+    psychoJS.window.callOnFlip(function() { exkey_resp_4.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.eventManager.clearEvents({eventType:'keyboard'});
+  }
+
+  if (exkey_resp_4.status === PsychoJS.Status.STARTED) {
+    let theseKeys = psychoJS.eventManager.getKeys({keyList:['return']});
+    
+    // check for quit:
+    if (theseKeys.indexOf('escape') > -1) {
+      psychoJS.experiment.experimentEnded = true;
+    }
+    
+    if (theseKeys.length > 0) {  // at least one key was pressed
+      exkey_resp_4.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
+      exkey_resp_4.rt = exkey_resp_4.clock.getTime();
+      // a response ends the routine
+      continueRoutine = false;
+    }
+  }
+  
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
+  
+  // check if the Routine should terminate
+  if (!continueRoutine) {  // a component has requested a forced-end of Routine
+    return Scheduler.Event.NEXT;
+  }
+  
+  continueRoutine = false;// reverts to True if at least one component still running
+  for (const thisComponent of exEndTextComponents)
+    if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+      continueRoutine = true;
+      break;
+    }
+  
+  // refresh the screen if continuing
+  if (continueRoutine) {
+    return Scheduler.Event.FLIP_REPEAT;
+  }
+  else {
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function exEndTextRoutineEnd() {
+  //------Ending Routine 'endText'-------
+  for (const thisComponent of exEndTextComponents) {
+    if (typeof thisComponent.setAutoDraw === 'function') {
+      thisComponent.setAutoDraw(false);
+    }
+  }
+  
+  // check responses
+  if (exkey_resp_4.keys === undefined || exkey_resp_4.keys.length === 0) {    // No response was made
+      exkey_resp_4.keys = undefined;
+  }
+  
+  psychoJS.experiment.addData('exkey_resp_4.keys', exkey_resp_4.keys);
+  if (typeof exkey_resp_4.keys !== 'undefined') {  // we had a response
+      psychoJS.experiment.addData('exkey_resp_4.rt', exkey_resp_4.rt);
+      routineTimer.reset();
+      }
+  
+  // the Routine "endText" was not non-slip safe, so reset the non-slip timer
+  routineTimer.reset();
+  
+  return Scheduler.Event.NEXT;
+}
+
+
+function exendLoopIteration(thisTrial) {
+  // ------Prepare for next entry------
+  return function () {
+    if (typeof thisTrial === 'undefined' || !('isTrials' in thisTrial) || thisTrial.isTrials) {
+      psychoJS.experiment.nextEntry();
+    }
+  return Scheduler.Event.NEXT;
+  };
+}
 
 
 var firstITIComponents;
@@ -1631,6 +2821,7 @@ function importConditions(loop) {
 function quitPsychoJS(message, isCompleted) {
   psychoJS.window.close();
   psychoJS.quit({message: message, isCompleted: isCompleted});
-
+//   when they press space, redirect to choice task
+  window.location.replace("https://pavlovia.org/run/JoanneStasiak/social-willingness-to-pay/html/");
   return Scheduler.Event.QUIT;
 }
