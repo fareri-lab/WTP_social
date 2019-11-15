@@ -1,0 +1,99 @@
+﻿choices,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,Instructions.started,Instructions.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,text.started,text.stopped,rating.response,rating.rt,rating.started,rating.stopped,key_resp_2.keys,key_resp_2.started,key_resp_2.stopped,text_2.started,text_2.stopped,key_resp_4.keys,key_resp_4.rt,key_resp_4.started,key_resp_4.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,7.558738273000927,None,space,0.6524141260015313,7.558738273000927,None,,,,,,,,,,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting likes on a 
+Facebook status",0,0,0,45,,,,,,,8.339481290997355,None,$0.60,22.078,0.05771313600416761,None,None,8.339481290997355,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Talking to a friend 
+over Skype",0,1,1,12,,,,,,,30.45883748000051,None,$0.60,1.768,0.04293783799948869,None,None,30.45883748000051,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Working on a group
+project with classmates",0,2,2,42,,,,,,,32.306151576995035,None,$0.40,1.85,0.043343518998881336,None,None,32.306151576995035,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Buying flowers for 
+a significant other",0,3,3,5,,,,,,,34.20667705099913,None,$1.00,2.019,0.04033297699788818,None,None,34.20667705099913,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a coffee 
+shop with friends",0,4,4,9,,,,,,,36.287898028997006,None,$0.80,0.623,0.03987232800136553,None,None,36.287898028997006,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Eating dinner at a
+restaurant with friends ",0,5,5,14,,,,,,,36.97127703799924,None,$0.60,0.49,0.041087393001362216,None,None,36.97127703799924,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Learning to drive 
+with a family member",0,6,6,46,,,,,,,37.529755021998426,None,$0.40,0.45,0.04385421500046505,None,None,37.529755021998426,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Planning a surprise 
+party for a family member",0,7,7,4,,,,,,,38.04438404100074,None,$0,1.017,0.04611738200037507,None,None,38.04438404100074,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a street fair
+with friends",0,8,8,40,,,,,,,39.1232643359981,None,$0.20,0.623,0.03731570100353565,None,None,39.1232643359981,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+Taking classes with a friend,0,9,9,25,,,,,,,39.80596017199423,None,$0.40,0.544,0.04015702600008808,None,None,39.80596017199423,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting likes on an
+Instagram picture",0,10,10,17,,,,,,,40.42337079299614,None,$0.60,0.525,0.04079646200261777,None,None,40.42337079299614,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Talking over the phone
+with a significant other",0,11,11,7,,,,,,,41.01250814599916,None,$0.80,0.552,0.04222086000663694,None,None,41.01250814599916,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+Posting Instagram stories,0,12,12,33,,,,,,,41.62365901500016,None,$1.00,0.606,0.03791244499734603,None,None,41.62365901500016,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Baking a cake for a 
+family memberís birthday",0,13,13,2,,,,,,,42.30464953199407,None,$0.60,2.354,0.049929628999962006,None,None,42.30464953199407,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to an amusement 
+park with a friend",0,14,14,27,,,,,,,44.72488529999828,None,$0.40,0.59,0.04228353500366211,None,None,44.72488529999828,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a karaoke
+bar with friends",0,15,15,43,,,,,,,45.38022336299764,None,$0.40,0.601,0.04081594700255664,None,None,45.38022336299764,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Making a friendís 
+favorite dinner",0,16,16,3,,,,,,,46.038779671995144,None,$0.40,0.412,0.04219779599952744,None,None,46.038779671995144,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting drinks 
+with co-workers",0,17,17,44,,,,,,,46.52130570299778,None,$0.40,0.56,0.03995932700490812,None,None,46.52130570299778,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Watching friends'
+Snapchat stories",0,18,18,23,,,,,,,47.14491550099774,None,$0.40,0.41,0.040678277997358236,None,None,47.14491550099774,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting verified on 
+Instagram",0,19,19,47,,,,,,,47.62123538799642,None,$0.40,0.491,0.03945454399945447,None,None,47.62123538799642,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Taking a family member
+ on a shopping trip",0,20,20,0,,,,,,,48.181504547996155,None,$0.40,0.647,0.04387671299627982,None,None,48.181504547996155,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Playing ping-pong
+with friends",0,21,21,22,,,,,,,48.88828844099771,None,$0.40,0.787,0.04163890299969353,None,None,48.88828844099771,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a flea market
+with family",0,22,22,41,,,,,,,49.738731602999906,None,$0.40,0.478,0.04174917500495212,None,None,49.738731602999906,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a parade 
+with family",0,23,23,28,,,,,,,50.281256730995665,None,$0.40,0.466,0.03916675799700897,None,None,50.281256730995665,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Celebrating holidays 
+with family",0,24,24,37,,,,,,,50.80526773299789,None,$0.40,0.459,0.04267015300138155,None,None,50.80526773299789,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting a slice of 
+pizza with a friend",0,25,25,10,,,,,,,51.32917232299951,None,$0.40,0.442,0.041017203002411406,None,None,51.32917232299951,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting tagged in 
+Instagram pictures",0,26,26,11,,,,,,,51.83786937499826,None,$0.40,0.44,0.041856256997562014,None,None,51.83786937499826,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going on a first date 
+to the movies",0,27,27,20,,,,,,,52.34678879699641,None,$0.40,0.512,0.04102935700211674,None,None,52.34678879699641,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Talking over the phone
+with a friend",0,28,28,32,,,,,,,52.92416459599917,None,$0.40,0.416,0.0388309499976458,None,None,52.92416459599917,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Taking an art class 
+with friends",0,29,29,38,,,,,,,53.396123592996446,None,$0.40,0.417,0.03911066499858862,None,None,53.396123592996446,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a comedy show 
+with a significant other",0,30,30,48,,,,,,,53.87244140099938,None,$0.40,0.686,0.04171335499995621,None,None,53.87244140099938,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going on a weekend
+getaway with family",0,31,31,18,,,,,,,54.6214939509955,None,$0.40,0.602,0.042307130999688525,None,None,54.6214939509955,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going dancing with
+a significant other",0,32,32,21,,,,,,,55.28837516299973,None,$0.40,0.913,0.039536150005005766,None,None,55.28837516299973,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Sleeping over at 
+a friend's house",0,33,33,26,,,,,,,56.26344179899752,None,$0.40,0.888,0.04106560000218451,None,None,56.26344179899752,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Eating dinner at a 
+restaurant with family",0,34,34,39,,,,,,,57.213674692000495,None,$0.40,0.42,0.04151939800067339,None,None,57.213674692000495,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Making cookies to 
+give to a friend",0,35,35,8,,,,,,,57.701313893994666,None,$0.40,0.713,0.04066993100423133,None,None,57.701313893994666,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting ice cream
+with friends",0,36,36,49,,,,,,,58.465129040996544,None,$0.40,1.26,0.037657847002265044,None,None,58.465129040996544,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Playing volleyball
+with friends",0,37,37,16,,,,,,,59.78261760699388,None,$0.40,0.603,0.038597029000811744,None,None,59.78261760699388,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Baking cookies for
+a neighbor",0,38,38,36,,,,,,,60.44785860499542,None,$0.40,0.504,0.04019930399954319,None,None,60.44785860499542,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Walking around Central 
+Park with family",0,39,39,13,,,,,,,61.015664257000026,None,$0.40,0.576,0.0425614490013686,None,None,61.015664257000026,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Taking your friend 
+to the spa",0,40,40,1,,,,,,,61.64929019799456,None,$0.40,0.629,0.039217245001054835,None,None,61.64929019799456,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a music
+festival with friends",0,41,41,30,,,,,,,62.34837588299706,None,$0.40,0.503,0.04158651999750873,None,None,62.34837588299706,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Taking your friend 
+on a cruise",0,42,42,6,,,,,,,62.91611845099396,None,$0.40,0.742,0.0387504149985034,None,None,62.91611845099396,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Getting retweeted by 
+a celebrity",0,43,43,29,,,,,,,63.71615896499861,None,$0.40,0.608,0.04015698099829024,None,None,63.71615896499861,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going to a bar 
+with friends",0,44,44,35,,,,,,,64.38187535699399,None,$0.40,0.499,0.039067445999535266,None,None,64.38187535699399,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Playing icebreakers
+with classmates",0,45,45,19,,,,,,,64.93792860100075,None,$0.40,0.547,0.040542668000853155,None,None,64.93792860100075,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Playing videogames 
+with friends",0,46,46,31,,,,,,,65.54932015899976,None,$0.40,0.62,0.04276119299902348,None,None,65.54932015899976,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+"Going sight-seeing
+with family",0,47,47,24,,,,,,,66.23199061399646,None,$0.40,0.693,0.0399398109948379,None,None,66.23199061399646,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+Going on a blind date,0,48,48,34,,,,,,,66.98144554800092,None,$0.40,0.574,0.037309556995751336,None,None,66.98144554800092,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+Having a Tweet go viral,0,49,49,15,,,,,,,67.6165852769991,None,$0.40,0.548,0.03880541400576476,None,None,67.6165852769991,None,,,,,,,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
+,,,,,,,,,,,,,,,,,,,,68.20030225799565,69.16942355399806,space,4.185111812003015,68.20030225799565,None,999,001,2019_Sep_24_1237,choiceText,3.1.5,60.7189721340936,
