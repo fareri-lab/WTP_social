@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v3.1.2),
-    on November 20, 2019, at 09:32
+This experiment was created using PsychoPy3 Experiment Builder (v3.1.5),
+    on Tue Nov 26 09:57:52 2019
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -28,7 +28,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-psychopyVersion = '3.1.2'
+psychopyVersion = '3.1.5'
 expName = 'choiceText'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
@@ -44,7 +44,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\farerilab\\Documents\\GitHub\\WTP_social\\WTP_BDM\\WTP_v2_lastrun.py',
+    originPath='/Users/dfareri/Dropbox/Dominic/Github/fareri-lab/WTP_social/WTP_BDM/WTP_v2_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -72,8 +72,18 @@ else:
 # create a default keyboard (e.g. to check for escape)
 defaultKeyboard = keyboard.Keyboard()
 
-# Initialize components for Routine "trial"
-trialClock = core.Clock()
+# Initialize components for Routine "instructions1"
+instructions1Clock = core.Clock()
+text_3 = visual.TextStim(win=win, name='text_3',
+    text='For this next part of the experiment, you are going to get to usethe money you earned in the card game to make some choices.\n\nYou will be presented with a variety of everyday experiences.\n\n',
+    font='Arial',
+    pos=(0, 0), height=0.07, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
+
+# Initialize components for Routine "instructions2"
+instructions2Clock = core.Clock()
 Instructions = visual.TextStim(win=win, name='Instructions',
     text="Please use the slider to indicate how much money you would spend on the following experiences. \n\n\nPress 'space' to begin!",
     font='Arial',
@@ -91,7 +101,7 @@ text = visual.TextStim(win=win, name='text',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
-rating = visual.RatingScale(win=win, name='rating', marker='triangle', size=1.7, pos=[0.0, -0.3], choices=['$0', '$0.20', '$0.40', '$0.60', '$0.80', '$1.00'], tickHeight=-1)
+rating = visual.RatingScale(win=win, name='rating', marker='triangle', size=1.7, pos=[0.0, -0.3], choices=['$0', '$.01', '$.02', '$.03', '$.04', '$.05'], tickHeight=-1)
 
 # Initialize components for Routine "end"
 endClock = core.Clock()
@@ -107,16 +117,16 @@ text_2 = visual.TextStim(win=win, name='text_2',
 globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
 
-# ------Prepare to start Routine "trial"-------
+# ------Prepare to start Routine "instructions1"-------
 t = 0
-trialClock.reset()  # clock
+instructions1Clock.reset()  # clock
 frameN = -1
 continueRoutine = True
 # update component parameters for each repeat
-key_resp_3 = keyboard.Keyboard()
+key_resp = keyboard.Keyboard()
 # keep track of which components have finished
-trialComponents = [Instructions, key_resp_3]
-for thisComponent in trialComponents:
+instructions1Components = [text_3, key_resp]
+for thisComponent in instructions1Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
     thisComponent.tStartRefresh = None
@@ -124,10 +134,100 @@ for thisComponent in trialComponents:
     if hasattr(thisComponent, 'status'):
         thisComponent.status = NOT_STARTED
 
-# -------Start Routine "trial"-------
+# -------Start Routine "instructions1"-------
 while continueRoutine:
     # get current time
-    t = trialClock.getTime()
+    t = instructions1Clock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text_3* updates
+    if t >= 0.0 and text_3.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        text_3.tStart = t  # not accounting for scr refresh
+        text_3.frameNStart = frameN  # exact frame index
+        win.timeOnFlip(text_3, 'tStartRefresh')  # time at next scr refresh
+        text_3.setAutoDraw(True)
+    
+    # *key_resp* updates
+    if t >= 0.0 and key_resp.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        key_resp.tStart = t  # not accounting for scr refresh
+        key_resp.frameNStart = frameN  # exact frame index
+        win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+        key_resp.status = STARTED
+        # keyboard checking is just starting
+        win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
+        key_resp.clearEvents(eventType='keyboard')
+    if key_resp.status == STARTED:
+        theseKeys = key_resp.getKeys(keyList=['space'], waitRelease=False)
+        if len(theseKeys):
+            theseKeys = theseKeys[0]  # at least one key was pressed
+            
+            # check for quit:
+            if "escape" == theseKeys:
+                endExpNow = True
+            key_resp.keys = theseKeys.name  # just the last key pressed
+            key_resp.rt = theseKeys.rt
+            # a response ends the routine
+            continueRoutine = False
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in instructions1Components:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "instructions1"-------
+for thisComponent in instructions1Components:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+thisExp.addData('text_3.started', text_3.tStartRefresh)
+thisExp.addData('text_3.stopped', text_3.tStopRefresh)
+# check responses
+if key_resp.keys in ['', [], None]:  # No response was made
+    key_resp.keys = None
+thisExp.addData('key_resp.keys',key_resp.keys)
+if key_resp.keys != None:  # we had a response
+    thisExp.addData('key_resp.rt', key_resp.rt)
+thisExp.addData('key_resp.started', key_resp.tStartRefresh)
+thisExp.addData('key_resp.stopped', key_resp.tStopRefresh)
+thisExp.nextEntry()
+# the Routine "instructions1" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
+
+# ------Prepare to start Routine "instructions2"-------
+t = 0
+instructions2Clock.reset()  # clock
+frameN = -1
+continueRoutine = True
+# update component parameters for each repeat
+key_resp_3 = keyboard.Keyboard()
+# keep track of which components have finished
+instructions2Components = [Instructions, key_resp_3]
+for thisComponent in instructions2Components:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+# -------Start Routine "instructions2"-------
+while continueRoutine:
+    # get current time
+    t = instructions2Clock.getTime()
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
@@ -170,7 +270,7 @@ while continueRoutine:
     if not continueRoutine:  # a component has requested a forced-end of Routine
         break
     continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in trialComponents:
+    for thisComponent in instructions2Components:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
@@ -179,8 +279,8 @@ while continueRoutine:
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
 
-# -------Ending Routine "trial"-------
-for thisComponent in trialComponents:
+# -------Ending Routine "instructions2"-------
+for thisComponent in instructions2Components:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
 thisExp.addData('Instructions.started', Instructions.tStartRefresh)
@@ -194,13 +294,13 @@ if key_resp_3.keys != None:  # we had a response
 thisExp.addData('key_resp_3.started', key_resp_3.tStartRefresh)
 thisExp.addData('key_resp_3.stopped', key_resp_3.tStopRefresh)
 thisExp.nextEntry()
-# the Routine "trial" was not non-slip safe, so reset the non-slip timer
+# the Routine "instructions2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('ChoiceText.xlsx'),
+    trialList=data.importConditions('ChoiceText_final.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values

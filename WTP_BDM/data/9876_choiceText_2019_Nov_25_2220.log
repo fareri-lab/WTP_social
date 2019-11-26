@@ -1,0 +1,30 @@
+8.7602 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+9.4348 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x135c4d898>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x136791ba8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4348 	EXP 	window1: recordFrameIntervals = False
+9.6038 	EXP 	window1: recordFrameIntervals = True
+9.7841 	EXP 	window1: recordFrameIntervals = False
+10.0746 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.1368 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.1789 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=1, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.3], precision=100, respKeys=['0', '1'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=False, singleClick=False, size=1.02, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.20400000000000001, tickHeight=1.0, tickMarks=1.0, win=Window(...))
+10.2080 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2348 	EXP 	rating: flipVert = False
+10.2348 	EXP 	rating: autoLog = True
+10.2348 	EXP 	Instructions: autoDraw = True
+10.7837 	EXP 	Imported ChoiceText_final.xlsx as conditions, 110 conditions, 1 params
+10.7855 	EXP 	Created sequence: random, trialTypes=110, nReps=1, seed=None
+10.7859 	EXP 	New trial (rep=0, index=0): OrderedDict([('choices', 'Trying out a new \nrecipe at home')])
+10.8198 	EXP 	RatingScale rating: reset()
+10.8549 	DATA 	Keypress: space
+10.8666 	EXP 	Instructions: autoDraw = False
+10.8666 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+10.8666 	EXP 	text: pos = array([0.  , 0.07])
+10.8666 	EXP 	text: text = 'Trying out a new \nrecipe at home'
+10.8666 	EXP 	text: font = 'Arial'
+10.8666 	EXP 	text: height = 0.08
+10.8666 	EXP 	text: autoDraw = True
+10.8666 	EXP 	rating: autoDraw = True
+10.8666 	EXP 	text: text = 'Trying out a new \nrecipe at home'
+13.5581 	DATA 	Mouse: Left button down, pos=(355,318)
+14.6208 	DATA 	Mouse:  Left button up, pos=(1021,225)
+15.7069 	DATA 	Keypress: escape
+16.1759 	EXP 	window1: mouseVisible = True
