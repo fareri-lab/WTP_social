@@ -1,0 +1,2040 @@
+6.2521 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+7.0764 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000001AAEF630>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000001BB224A8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0765 	EXP 	window1: recordFrameIntervals = False
+7.2430 	EXP 	window1: recordFrameIntervals = True
+7.4264 	EXP 	window1: recordFrameIntervals = False
+7.6655 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.6952 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8494 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.8830 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.5577 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=1.0, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.6172 	EXP 	Created rating = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=['$0', '$.01', '$.02', '$.03', '$.04', '$.05'], depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=0, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=None, maxTime=0.0, minTime=0.4, mouseOnly=False, name='rating', noMouse=False, pos=[0.0, -0.3], precision=1, respKeys=['0', '1', '2', '3', '4', '5'], rightKeys=['right'], scale='<default>', self=UNKNOWN, showAccept=True, showValue=True, singleClick=False, size=1.02, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.20400000000000001, tickHeight=-1, tickMarks=5.0, win=Window(...))
+9.6432 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.6775 	EXP 	rating: flipVert = False
+9.6775 	EXP 	rating: autoLog = True
+9.6775 	EXP 	text_3: autoDraw = True
+37.9557 	DATA 	Keypress: space
+37.9683 	EXP 	text_3: autoDraw = False
+37.9683 	EXP 	Instructions: autoDraw = True
+39.6724 	DATA 	Keypress: space
+39.6855 	EXP 	Instructions: autoDraw = False
+39.6855 	EXP 	text_4: autoDraw = True
+39.6855 	EXP 	text_4: autoDraw = False
+66.1632 	DATA 	Keypress: space
+66.1766 	EXP 	text_4: autoDraw = False
+66.1766 	EXP 	text_5: autoDraw = True
+66.1766 	EXP 	text_5: autoDraw = False
+67.6623 	DATA 	Mouse: Left button down, pos=(0,15)
+67.7453 	DATA 	Mouse:  Left button up, pos=(0,12)
+96.0703 	DATA 	Mouse: Left button down, pos=(481,299)
+96.2203 	DATA 	Mouse:  Left button up, pos=(481,299)
+98.7543 	DATA 	Keypress: return
+123.3914 	EXP 	Imported ChoiceText_final.xlsx as conditions, 110 conditions, 3 params
+123.3918 	EXP 	Created sequence: random, trialTypes=110, nReps=1, seed=None
+123.3921 	EXP 	New trial (rep=0, index=0): OrderedDict([('choices', 'Going for a bicycle\nride alone'), ('Type', 'nonsocial'), ('typeCode', 0)])
+124.1016 	EXP 	RatingScale rating: reset()
+124.1329 	DATA 	Keypress: space
+124.1602 	EXP 	text_5: autoDraw = False
+124.1602 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+124.1602 	EXP 	text: pos = array([0.  , 0.07])
+124.1602 	EXP 	text: text = 'Going for a bicycle\nride alone'
+124.1602 	EXP 	text: font = 'Arial'
+124.1602 	EXP 	text: height = 0.08
+124.1602 	EXP 	text: autoDraw = True
+124.1602 	EXP 	rating: autoDraw = True
+124.1602 	EXP 	text: text = 'Going for a bicycle\nride alone'
+133.9993 	DATA 	Mouse: Left button down, pos=(861,377)
+134.1183 	DATA 	Mouse:  Left button up, pos=(861,377)
+135.6510 	DATA 	Mouse: Left button down, pos=(932,378)
+135.7509 	DATA 	Mouse:  Left button up, pos=(932,378)
+138.5679 	DATA 	Keypress: return
+138.5680 	DATA 	RatingScale rating: (key response) rating=$.02
+138.5681 	DATA 	RatingScale rating: rating RT=14.442
+138.5681 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 9.873), ('$.02', 14.442)]
+138.5840 	EXP 	New trial (rep=0, index=1): OrderedDict([('choices', 'Going on a hike \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+138.6008 	EXP 	RatingScale rating: reset()
+138.6311 	EXP 	text: autoDraw = False
+138.6311 	EXP 	rating: autoDraw = False
+138.6311 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+138.6311 	EXP 	text: pos = array([0.  , 0.07])
+138.6311 	EXP 	text: text = 'Going on a hike \nby yourself'
+138.6311 	EXP 	text: font = 'Arial'
+138.6311 	EXP 	text: height = 0.08
+138.6311 	EXP 	text: autoDraw = True
+138.6311 	EXP 	rating: autoDraw = True
+138.6311 	EXP 	text: text = 'Going on a hike \nby yourself'
+141.7186 	DATA 	Mouse: Left button down, pos=(674,377)
+141.8190 	DATA 	Mouse:  Left button up, pos=(674,377)
+142.8716 	DATA 	Keypress: return
+142.8718 	DATA 	RatingScale rating: (key response) rating=$.01
+142.8719 	DATA 	RatingScale rating: rating RT=4.260
+142.8719 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 3.107), ('$.01', 4.26)]
+142.8856 	EXP 	New trial (rep=0, index=2): OrderedDict([('choices', 'Taking classes with a friend'), ('Type', 'social'), ('typeCode', 1)])
+142.9063 	EXP 	RatingScale rating: reset()
+142.9322 	EXP 	text: autoDraw = False
+142.9322 	EXP 	rating: autoDraw = False
+142.9322 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+142.9322 	EXP 	text: pos = array([0.  , 0.07])
+142.9322 	EXP 	text: text = 'Taking classes with a friend'
+142.9322 	EXP 	text: font = 'Arial'
+142.9322 	EXP 	text: height = 0.08
+142.9322 	EXP 	text: autoDraw = True
+142.9322 	EXP 	rating: autoDraw = True
+142.9322 	EXP 	text: text = 'Taking classes with a friend'
+146.0368 	DATA 	Mouse: Left button down, pos=(1449,376)
+146.2202 	DATA 	Mouse:  Left button up, pos=(1449,376)
+148.3043 	DATA 	Keypress: return
+148.3044 	DATA 	RatingScale rating: (key response) rating=$.05
+148.3044 	DATA 	RatingScale rating: rating RT=5.387
+148.3044 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 3.119), ('$.05', 5.387)]
+148.3199 	EXP 	New trial (rep=0, index=3): OrderedDict([('choices', "Looking at your friend's Snapchat stories"), ('Type', 'social Media'), ('typeCode', 2)])
+148.3416 	EXP 	RatingScale rating: reset()
+148.3672 	EXP 	text: autoDraw = False
+148.3672 	EXP 	rating: autoDraw = False
+148.3672 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+148.3672 	EXP 	text: pos = array([0.  , 0.07])
+148.3672 	EXP 	text: text = "Looking at your friend's Snapchat stories"
+148.3672 	EXP 	text: font = 'Arial'
+148.3672 	EXP 	text: height = 0.08
+148.3672 	EXP 	text: autoDraw = True
+148.3672 	EXP 	rating: autoDraw = True
+148.3672 	EXP 	text: text = "Looking at your friend's Snapchat stories"
+152.5891 	DATA 	Mouse: Left button down, pos=(1058,378)
+152.7225 	DATA 	Mouse:  Left button up, pos=(1058,378)
+152.9226 	DATA 	Keypress: return
+152.9227 	DATA 	RatingScale rating: (key response) rating=$.03
+152.9227 	DATA 	RatingScale rating: rating RT=4.564
+152.9227 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 4.231), ('$.03', 4.564)]
+152.9380 	EXP 	New trial (rep=0, index=4): OrderedDict([('choices', 'Getting ice cream\nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+152.9549 	EXP 	RatingScale rating: reset()
+152.9852 	EXP 	text: autoDraw = False
+152.9852 	EXP 	rating: autoDraw = False
+152.9852 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+152.9852 	EXP 	text: pos = array([0.  , 0.07])
+152.9852 	EXP 	text: text = 'Getting ice cream\nwith friends'
+152.9852 	EXP 	text: font = 'Arial'
+152.9852 	EXP 	text: height = 0.08
+152.9852 	EXP 	text: autoDraw = True
+152.9852 	EXP 	rating: autoDraw = True
+152.9852 	EXP 	text: text = 'Getting ice cream\nwith friends'
+154.5720 	DATA 	Mouse: Left button down, pos=(1455,383)
+154.6591 	DATA 	Mouse:  Left button up, pos=(1455,383)
+155.0565 	DATA 	Keypress: return
+155.0566 	DATA 	RatingScale rating: (key response) rating=$.05
+155.0567 	DATA 	RatingScale rating: rating RT=2.088
+155.0567 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.603), ('$.05', 2.088)]
+155.0721 	EXP 	New trial (rep=0, index=5): OrderedDict([('choices', 'Going dancing with\na significant other'), ('Type', 'social'), ('typeCode', 1)])
+155.0878 	EXP 	RatingScale rating: reset()
+155.1193 	EXP 	text: autoDraw = False
+155.1193 	EXP 	rating: autoDraw = False
+155.1193 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+155.1193 	EXP 	text: pos = array([0.  , 0.07])
+155.1193 	EXP 	text: text = 'Going dancing with\na significant other'
+155.1193 	EXP 	text: font = 'Arial'
+155.1193 	EXP 	text: height = 0.08
+155.1193 	EXP 	text: autoDraw = True
+155.1193 	EXP 	rating: autoDraw = True
+155.1193 	EXP 	text: text = 'Going dancing with\na significant other'
+156.6061 	DATA 	Mouse: Left button down, pos=(1446,384)
+156.7405 	DATA 	Mouse:  Left button up, pos=(1445,384)
+156.9237 	DATA 	Keypress: return
+156.9238 	DATA 	RatingScale rating: (key response) rating=$.05
+156.9238 	DATA 	RatingScale rating: rating RT=1.823
+156.9238 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.506), ('$.05', 1.823)]
+156.9391 	EXP 	New trial (rep=0, index=6): OrderedDict([('choices', 'Going to a music\nfestival with friends'), ('Type', 'social'), ('typeCode', 1)])
+156.9584 	EXP 	RatingScale rating: reset()
+156.9863 	EXP 	text: autoDraw = False
+156.9863 	EXP 	rating: autoDraw = False
+156.9863 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+156.9863 	EXP 	text: pos = array([0.  , 0.07])
+156.9863 	EXP 	text: text = 'Going to a music\nfestival with friends'
+156.9863 	EXP 	text: font = 'Arial'
+156.9863 	EXP 	text: height = 0.08
+156.9863 	EXP 	text: autoDraw = True
+156.9863 	EXP 	rating: autoDraw = True
+156.9863 	EXP 	text: text = 'Going to a music\nfestival with friends'
+158.3072 	DATA 	Mouse: Left button down, pos=(1445,383)
+158.4077 	DATA 	Mouse:  Left button up, pos=(1445,383)
+158.6247 	DATA 	Keypress: return
+158.6248 	DATA 	RatingScale rating: (key response) rating=$.05
+158.6249 	DATA 	RatingScale rating: rating RT=1.651
+158.6249 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.334), ('$.05', 1.651)]
+158.6392 	EXP 	New trial (rep=0, index=7): OrderedDict([('choices', 'Painting your bedroom\na new color'), ('Type', 'nonsocial'), ('typeCode', 0)])
+158.6733 	EXP 	RatingScale rating: reset()
+158.7034 	EXP 	text: autoDraw = False
+158.7034 	EXP 	rating: autoDraw = False
+158.7034 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+158.7034 	EXP 	text: pos = array([0.  , 0.07])
+158.7034 	EXP 	text: text = 'Painting your bedroom\na new color'
+158.7034 	EXP 	text: font = 'Arial'
+158.7034 	EXP 	text: height = 0.08
+158.7034 	EXP 	text: autoDraw = True
+158.7034 	EXP 	rating: autoDraw = True
+158.7034 	EXP 	text: text = 'Painting your bedroom\na new color'
+160.1464 	DATA 	Mouse: Left button down, pos=(1451,373)
+160.2247 	DATA 	Mouse:  Left button up, pos=(1451,373)
+160.4756 	DATA 	Keypress: return
+160.4757 	DATA 	RatingScale rating: (key response) rating=$.05
+160.4758 	DATA 	RatingScale rating: rating RT=1.789
+160.4758 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.46), ('$.05', 1.789)]
+160.4905 	EXP 	New trial (rep=0, index=8): OrderedDict([('choices', 'Taking a road trip \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+160.5089 	EXP 	RatingScale rating: reset()
+160.5375 	EXP 	text: autoDraw = False
+160.5375 	EXP 	rating: autoDraw = False
+160.5375 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+160.5375 	EXP 	text: pos = array([0.  , 0.07])
+160.5375 	EXP 	text: text = 'Taking a road trip \nby yourself'
+160.5375 	EXP 	text: font = 'Arial'
+160.5375 	EXP 	text: height = 0.08
+160.5375 	EXP 	text: autoDraw = True
+160.5375 	EXP 	rating: autoDraw = True
+160.5375 	EXP 	text: text = 'Taking a road trip \nby yourself'
+163.0083 	DATA 	Mouse: Left button down, pos=(675,376)
+163.0758 	DATA 	Mouse:  Left button up, pos=(675,376)
+165.7600 	DATA 	Mouse: Left button down, pos=(476,377)
+165.8428 	DATA 	Mouse:  Left button up, pos=(476,377)
+166.3599 	DATA 	Keypress: return
+166.3600 	DATA 	RatingScale rating: (key response) rating=$0
+166.3601 	DATA 	RatingScale rating: rating RT=5.838
+166.3601 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 2.486), ('$0', 5.238), ('$0', 5.838)]
+166.3744 	EXP 	New trial (rep=0, index=9): OrderedDict([('choices', 'Sharing Youtube videos with your partner'), ('Type', 'social Media'), ('typeCode', 2)])
+166.3971 	EXP 	RatingScale rating: reset()
+166.4223 	EXP 	text: autoDraw = False
+166.4223 	EXP 	rating: autoDraw = False
+166.4223 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+166.4223 	EXP 	text: pos = array([0.  , 0.07])
+166.4223 	EXP 	text: text = 'Sharing Youtube videos with your partner'
+166.4223 	EXP 	text: font = 'Arial'
+166.4223 	EXP 	text: height = 0.08
+166.4223 	EXP 	text: autoDraw = True
+166.4223 	EXP 	rating: autoDraw = True
+166.4223 	EXP 	text: text = 'Sharing Youtube videos with your partner'
+168.3461 	DATA 	Mouse: Left button down, pos=(1458,380)
+168.4296 	DATA 	Mouse:  Left button up, pos=(1458,380)
+168.8271 	DATA 	Keypress: return
+168.8272 	DATA 	RatingScale rating: (key response) rating=$.05
+168.8272 	DATA 	RatingScale rating: rating RT=2.413
+168.8272 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.932), ('$.05', 2.413)]
+168.8424 	EXP 	New trial (rep=0, index=10): OrderedDict([('choices', 'Going on a first date \nto the movies'), ('Type', 'social'), ('typeCode', 1)])
+168.8580 	EXP 	RatingScale rating: reset()
+168.8898 	EXP 	text: autoDraw = False
+168.8898 	EXP 	rating: autoDraw = False
+168.8898 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+168.8898 	EXP 	text: pos = array([0.  , 0.07])
+168.8898 	EXP 	text: text = 'Going on a first date \nto the movies'
+168.8898 	EXP 	text: font = 'Arial'
+168.8898 	EXP 	text: height = 0.08
+168.8898 	EXP 	text: autoDraw = True
+168.8898 	EXP 	rating: autoDraw = True
+168.8898 	EXP 	text: text = 'Going on a first date \nto the movies'
+173.7776 	DATA 	Mouse: Left button down, pos=(849,368)
+173.8782 	DATA 	Mouse:  Left button up, pos=(849,368)
+174.2622 	DATA 	Keypress: return
+174.2623 	DATA 	RatingScale rating: (key response) rating=$.02
+174.2623 	DATA 	RatingScale rating: rating RT=5.391
+174.2623 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 4.906), ('$.02', 5.391)]
+174.2766 	EXP 	New trial (rep=0, index=11): OrderedDict([('choices', 'Direct messaging your crush on Snapchat'), ('Type', 'social Media'), ('typeCode', 2)])
+174.2955 	EXP 	RatingScale rating: reset()
+174.3247 	EXP 	text: autoDraw = False
+174.3247 	EXP 	rating: autoDraw = False
+174.3247 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+174.3247 	EXP 	text: pos = array([0.  , 0.07])
+174.3247 	EXP 	text: text = 'Direct messaging your crush on Snapchat'
+174.3247 	EXP 	text: font = 'Arial'
+174.3247 	EXP 	text: height = 0.08
+174.3247 	EXP 	text: autoDraw = True
+174.3247 	EXP 	rating: autoDraw = True
+174.3247 	EXP 	text: text = 'Direct messaging your crush on Snapchat'
+176.8314 	DATA 	Mouse: Left button down, pos=(1253,365)
+176.9462 	DATA 	Mouse:  Left button up, pos=(1253,365)
+177.5964 	DATA 	Keypress: return
+177.5965 	DATA 	RatingScale rating: (key response) rating=$.04
+177.5965 	DATA 	RatingScale rating: rating RT=3.286
+177.5965 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 2.521), ('$.04', 3.286)]
+177.6119 	EXP 	New trial (rep=0, index=12): OrderedDict([('choices', 'Celebrating holidays \nwith family'), ('Type', 'social'), ('typeCode', 1)])
+177.6318 	EXP 	RatingScale rating: reset()
+177.6590 	EXP 	text: autoDraw = False
+177.6590 	EXP 	rating: autoDraw = False
+177.6590 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+177.6590 	EXP 	text: pos = array([0.  , 0.07])
+177.6590 	EXP 	text: text = 'Celebrating holidays \nwith family'
+177.6590 	EXP 	text: font = 'Arial'
+177.6590 	EXP 	text: height = 0.08
+177.6590 	EXP 	text: autoDraw = True
+177.6590 	EXP 	rating: autoDraw = True
+177.6590 	EXP 	text: text = 'Celebrating holidays \nwith family'
+179.2459 	DATA 	Mouse: Left button down, pos=(1440,362)
+179.3164 	DATA 	Mouse:  Left button up, pos=(1440,362)
+179.5805 	DATA 	Keypress: return
+179.5806 	DATA 	RatingScale rating: (key response) rating=$.05
+179.5806 	DATA 	RatingScale rating: rating RT=1.934
+179.5806 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.599), ('$.05', 1.934)]
+179.5960 	EXP 	New trial (rep=0, index=13): OrderedDict([('choices', 'Going to the movies \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+179.6125 	EXP 	RatingScale rating: reset()
+179.6431 	EXP 	text: autoDraw = False
+179.6431 	EXP 	rating: autoDraw = False
+179.6431 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+179.6431 	EXP 	text: pos = array([0.  , 0.07])
+179.6431 	EXP 	text: text = 'Going to the movies \nby yourself'
+179.6431 	EXP 	text: font = 'Arial'
+179.6431 	EXP 	text: height = 0.08
+179.6431 	EXP 	text: autoDraw = True
+179.6431 	EXP 	rating: autoDraw = True
+179.6431 	EXP 	text: text = 'Going to the movies \nby yourself'
+181.0969 	DATA 	Mouse: Left button down, pos=(467,361)
+181.1973 	DATA 	Mouse:  Left button up, pos=(467,361)
+181.4304 	DATA 	Keypress: return
+181.4305 	DATA 	RatingScale rating: (key response) rating=$0
+181.4306 	DATA 	RatingScale rating: rating RT=1.805
+181.4306 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.471), ('$0', 1.805)]
+181.4459 	EXP 	New trial (rep=0, index=14): OrderedDict([('choices', 'Practicing an\n instrument'), ('Type', 'nonsocial'), ('typeCode', 0)])
+181.4599 	EXP 	RatingScale rating: reset()
+181.4786 	EXP 	text: autoDraw = False
+181.4786 	EXP 	rating: autoDraw = False
+181.4786 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+181.4786 	EXP 	text: pos = array([0.  , 0.07])
+181.4786 	EXP 	text: text = 'Practicing an\n instrument'
+181.4786 	EXP 	text: font = 'Arial'
+181.4786 	EXP 	text: height = 0.08
+181.4786 	EXP 	text: autoDraw = True
+181.4786 	EXP 	rating: autoDraw = True
+181.4786 	EXP 	text: text = 'Practicing an\n instrument'
+183.1643 	DATA 	Mouse: Left button down, pos=(666,379)
+183.2645 	DATA 	Mouse:  Left button up, pos=(666,379)
+183.3974 	DATA 	Keypress: return
+183.3975 	DATA 	RatingScale rating: (key response) rating=$.01
+183.3976 	DATA 	RatingScale rating: rating RT=1.926
+183.3976 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 1.693), ('$.01', 1.926)]
+183.4129 	EXP 	New trial (rep=0, index=15): OrderedDict([('choices', 'Make a post on Twitter'), ('Type', 'social Media'), ('typeCode', 2)])
+183.4290 	EXP 	RatingScale rating: reset()
+183.4606 	EXP 	text: autoDraw = False
+183.4606 	EXP 	rating: autoDraw = False
+183.4606 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+183.4606 	EXP 	text: pos = array([0.  , 0.07])
+183.4606 	EXP 	text: text = 'Make a post on Twitter'
+183.4606 	EXP 	text: font = 'Arial'
+183.4606 	EXP 	text: height = 0.08
+183.4606 	EXP 	text: autoDraw = True
+183.4606 	EXP 	rating: autoDraw = True
+183.4606 	EXP 	text: text = 'Make a post on Twitter'
+185.0980 	DATA 	Mouse: Left button down, pos=(1259,365)
+185.1816 	DATA 	Mouse:  Left button up, pos=(1259,365)
+185.3987 	DATA 	Keypress: return
+185.3988 	DATA 	RatingScale rating: (key response) rating=$.04
+185.3988 	DATA 	RatingScale rating: rating RT=1.958
+185.3988 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.658), ('$.04', 1.958)]
+185.4160 	EXP 	New trial (rep=0, index=16): OrderedDict([('choices', 'Snapchat your friends to keep your "Snapstreaks"'), ('Type', 'social Media'), ('typeCode', 2)])
+185.4538 	EXP 	RatingScale rating: reset()
+185.4945 	EXP 	text: autoDraw = False
+185.4945 	EXP 	rating: autoDraw = False
+185.4945 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+185.4945 	EXP 	text: pos = array([0.  , 0.07])
+185.4945 	EXP 	text: text = 'Snapchat your friends to keep your "Snapstreaks"'
+185.4945 	EXP 	text: font = 'Arial'
+185.4945 	EXP 	text: height = 0.08
+185.4945 	EXP 	text: autoDraw = True
+185.4945 	EXP 	rating: autoDraw = True
+185.4945 	EXP 	text: text = 'Snapchat your friends to keep your "Snapstreaks"'
+187.8654 	DATA 	Mouse: Left button down, pos=(469,348)
+187.9658 	DATA 	Mouse:  Left button up, pos=(469,348)
+188.2997 	DATA 	Keypress: return
+188.2998 	DATA 	RatingScale rating: (key response) rating=$0
+188.2998 	DATA 	RatingScale rating: rating RT=2.826
+188.2998 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.391), ('$0', 2.825)]
+188.3141 	EXP 	New trial (rep=0, index=17): OrderedDict([('choices', 'Playing videogames \nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+188.3308 	EXP 	RatingScale rating: reset()
+188.3620 	EXP 	text: autoDraw = False
+188.3620 	EXP 	rating: autoDraw = False
+188.3620 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+188.3620 	EXP 	text: pos = array([0.  , 0.07])
+188.3620 	EXP 	text: text = 'Playing videogames \nwith friends'
+188.3620 	EXP 	text: font = 'Arial'
+188.3620 	EXP 	text: height = 0.08
+188.3620 	EXP 	text: autoDraw = True
+188.3620 	EXP 	rating: autoDraw = True
+188.3620 	EXP 	text: text = 'Playing videogames \nwith friends'
+191.4164 	DATA 	Mouse: Left button down, pos=(667,366)
+191.5009 	DATA 	Mouse:  Left button up, pos=(667,366)
+191.7008 	DATA 	Keypress: return
+191.7009 	DATA 	RatingScale rating: (key response) rating=$.01
+191.7009 	DATA 	RatingScale rating: rating RT=3.356
+191.7009 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 3.072), ('$.01', 3.356)]
+191.7152 	EXP 	New trial (rep=0, index=18): OrderedDict([('choices', 'Going grocery shopping \nalone'), ('Type', 'nonsocial'), ('typeCode', 0)])
+191.7295 	EXP 	RatingScale rating: reset()
+191.7480 	EXP 	text: autoDraw = False
+191.7480 	EXP 	rating: autoDraw = False
+191.7480 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+191.7480 	EXP 	text: pos = array([0.  , 0.07])
+191.7480 	EXP 	text: text = 'Going grocery shopping \nalone'
+191.7480 	EXP 	text: font = 'Arial'
+191.7480 	EXP 	text: height = 0.08
+191.7480 	EXP 	text: autoDraw = True
+191.7480 	EXP 	rating: autoDraw = True
+191.7480 	EXP 	text: text = 'Going grocery shopping \nalone'
+193.5003 	DATA 	Mouse: Left button down, pos=(469,379)
+193.6009 	DATA 	Mouse:  Left button up, pos=(469,379)
+193.8010 	DATA 	Keypress: return
+193.8011 	DATA 	RatingScale rating: (key response) rating=$0
+193.8011 	DATA 	RatingScale rating: rating RT=2.060
+193.8011 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.759), ('$0', 2.06)]
+193.8164 	EXP 	New trial (rep=0, index=19): OrderedDict([('choices', 'Driving to school\nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+193.8325 	EXP 	RatingScale rating: reset()
+193.8636 	EXP 	text: autoDraw = False
+193.8636 	EXP 	rating: autoDraw = False
+193.8636 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+193.8636 	EXP 	text: pos = array([0.  , 0.07])
+193.8636 	EXP 	text: text = 'Driving to school\nby yourself'
+193.8636 	EXP 	text: font = 'Arial'
+193.8636 	EXP 	text: height = 0.08
+193.8636 	EXP 	text: autoDraw = True
+193.8636 	EXP 	rating: autoDraw = True
+193.8636 	EXP 	text: text = 'Driving to school\nby yourself'
+195.0674 	DATA 	Mouse: Left button down, pos=(469,379)
+195.1520 	DATA 	Mouse:  Left button up, pos=(469,379)
+195.4020 	DATA 	Keypress: return
+195.4021 	DATA 	RatingScale rating: (key response) rating=$0
+195.4021 	DATA 	RatingScale rating: rating RT=1.556
+195.4021 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.221), ('$0', 1.556)]
+195.4164 	EXP 	New trial (rep=0, index=20): OrderedDict([('choices', 'Playing ping-pong\nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+195.4339 	EXP 	RatingScale rating: reset()
+195.4641 	EXP 	text: autoDraw = False
+195.4641 	EXP 	rating: autoDraw = False
+195.4641 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+195.4641 	EXP 	text: pos = array([0.  , 0.07])
+195.4641 	EXP 	text: text = 'Playing ping-pong\nwith friends'
+195.4641 	EXP 	text: font = 'Arial'
+195.4641 	EXP 	text: height = 0.08
+195.4641 	EXP 	text: autoDraw = True
+195.4641 	EXP 	rating: autoDraw = True
+195.4641 	EXP 	text: text = 'Playing ping-pong\nwith friends'
+197.4190 	DATA 	Mouse: Left button down, pos=(1443,383)
+197.5351 	DATA 	Mouse:  Left button up, pos=(1443,383)
+197.7189 	DATA 	Keypress: return
+197.7190 	DATA 	RatingScale rating: (key response) rating=$.05
+197.7191 	DATA 	RatingScale rating: rating RT=2.272
+197.7191 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.972), ('$.05', 2.272)]
+197.7336 	EXP 	New trial (rep=0, index=21): OrderedDict([('choices', 'Taking your friend \non a cruise'), ('Type', 'social'), ('typeCode', 1)])
+197.7486 	EXP 	RatingScale rating: reset()
+197.7815 	EXP 	text: autoDraw = False
+197.7815 	EXP 	rating: autoDraw = False
+197.7815 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+197.7815 	EXP 	text: pos = array([0.  , 0.07])
+197.7815 	EXP 	text: text = 'Taking your friend \non a cruise'
+197.7815 	EXP 	text: font = 'Arial'
+197.7815 	EXP 	text: height = 0.08
+197.7815 	EXP 	text: autoDraw = True
+197.7815 	EXP 	rating: autoDraw = True
+197.7815 	EXP 	text: text = 'Taking your friend \non a cruise'
+200.1185 	DATA 	Mouse: Left button down, pos=(1444,379)
+200.2393 	DATA 	Mouse:  Left button up, pos=(1444,379)
+200.4360 	DATA 	Keypress: return
+200.4361 	DATA 	RatingScale rating: (key response) rating=$.05
+200.4362 	DATA 	RatingScale rating: rating RT=2.675
+200.4362 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 2.357), ('$.05', 2.675)]
+200.4518 	EXP 	New trial (rep=0, index=22): OrderedDict([('choices', 'Playing with a pet'), ('Type', 'nonsocial'), ('typeCode', 0)])
+200.4651 	EXP 	RatingScale rating: reset()
+200.4822 	EXP 	text: autoDraw = False
+200.4822 	EXP 	rating: autoDraw = False
+200.4822 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+200.4822 	EXP 	text: pos = array([0.  , 0.07])
+200.4822 	EXP 	text: text = 'Playing with a pet'
+200.4822 	EXP 	text: font = 'Arial'
+200.4822 	EXP 	text: height = 0.08
+200.4822 	EXP 	text: autoDraw = True
+200.4822 	EXP 	rating: autoDraw = True
+200.4822 	EXP 	text: text = 'Playing with a pet'
+201.3856 	DATA 	Mouse: Left button down, pos=(1444,379)
+201.4862 	DATA 	Mouse:  Left button up, pos=(1444,379)
+201.8872 	DATA 	Keypress: return
+201.8873 	DATA 	RatingScale rating: (key response) rating=$.05
+201.8874 	DATA 	RatingScale rating: rating RT=1.412
+201.8874 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.911), ('$.05', 1.412)]
+201.9016 	EXP 	New trial (rep=0, index=23): OrderedDict([('choices', 'Taking an art class \nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+201.9202 	EXP 	RatingScale rating: reset()
+201.9495 	EXP 	text: autoDraw = False
+201.9495 	EXP 	rating: autoDraw = False
+201.9495 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+201.9495 	EXP 	text: pos = array([0.  , 0.07])
+201.9495 	EXP 	text: text = 'Taking an art class \nwith friends'
+201.9495 	EXP 	text: font = 'Arial'
+201.9495 	EXP 	text: height = 0.08
+201.9495 	EXP 	text: autoDraw = True
+201.9495 	EXP 	rating: autoDraw = True
+201.9495 	EXP 	text: text = 'Taking an art class \nwith friends'
+203.0527 	DATA 	Mouse: Left button down, pos=(1444,379)
+203.1872 	DATA 	Mouse:  Left button up, pos=(1444,379)
+203.4543 	DATA 	Keypress: return
+203.4544 	DATA 	RatingScale rating: (key response) rating=$.05
+203.4544 	DATA 	RatingScale rating: rating RT=1.521
+203.4544 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.119), ('$.05', 1.521)]
+203.4687 	EXP 	New trial (rep=0, index=24): OrderedDict([('choices', 'Having hundreds of friends on Facebook'), ('Type', 'social Media'), ('typeCode', 2)])
+203.4884 	EXP 	RatingScale rating: reset()
+203.5166 	EXP 	text: autoDraw = False
+203.5166 	EXP 	rating: autoDraw = False
+203.5166 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+203.5166 	EXP 	text: pos = array([0.  , 0.07])
+203.5166 	EXP 	text: text = 'Having hundreds of friends on Facebook'
+203.5166 	EXP 	text: font = 'Arial'
+203.5166 	EXP 	text: height = 0.08
+203.5166 	EXP 	text: autoDraw = True
+203.5166 	EXP 	rating: autoDraw = True
+203.5166 	EXP 	text: text = 'Having hundreds of friends on Facebook'
+206.3038 	DATA 	Mouse: Left button down, pos=(468,371)
+206.4234 	DATA 	Mouse:  Left button up, pos=(468,371)
+206.6384 	DATA 	Keypress: return
+206.6385 	DATA 	RatingScale rating: (key response) rating=$0
+206.6385 	DATA 	RatingScale rating: rating RT=3.136
+206.6386 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.801), ('$0', 3.136)]
+206.6528 	EXP 	New trial (rep=0, index=25): OrderedDict([('choices', 'Reading a book'), ('Type', 'nonsocial'), ('typeCode', 0)])
+206.6659 	EXP 	RatingScale rating: reset()
+206.6840 	EXP 	text: autoDraw = False
+206.6840 	EXP 	rating: autoDraw = False
+206.6840 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+206.6840 	EXP 	text: pos = array([0.  , 0.07])
+206.6840 	EXP 	text: text = 'Reading a book'
+206.6840 	EXP 	text: font = 'Arial'
+206.6840 	EXP 	text: height = 0.08
+206.6840 	EXP 	text: autoDraw = True
+206.6840 	EXP 	rating: autoDraw = True
+206.6840 	EXP 	text: text = 'Reading a book'
+207.5378 	DATA 	Mouse: Left button down, pos=(481,388)
+207.6554 	DATA 	Mouse:  Left button up, pos=(481,388)
+207.8778 	DATA 	Keypress: return
+207.8782 	DATA 	RatingScale rating: (key response) rating=$0
+207.8784 	DATA 	RatingScale rating: rating RT=1.205
+207.8784 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 0.864), ('$0', 1.205)]
+207.8914 	EXP 	New trial (rep=0, index=26): OrderedDict([('choices', 'Going to the beach \nalone'), ('Type', 'nonsocial'), ('typeCode', 0)])
+207.9103 	EXP 	RatingScale rating: reset()
+207.9345 	EXP 	text: autoDraw = False
+207.9345 	EXP 	rating: autoDraw = False
+207.9345 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+207.9345 	EXP 	text: pos = array([0.  , 0.07])
+207.9345 	EXP 	text: text = 'Going to the beach \nalone'
+207.9345 	EXP 	text: font = 'Arial'
+207.9345 	EXP 	text: height = 0.08
+207.9345 	EXP 	text: autoDraw = True
+207.9345 	EXP 	rating: autoDraw = True
+207.9345 	EXP 	text: text = 'Going to the beach \nalone'
+209.1745 	DATA 	Mouse: Left button down, pos=(481,388)
+209.2725 	DATA 	Mouse:  Left button up, pos=(481,388)
+209.4894 	DATA 	Keypress: return
+209.4895 	DATA 	RatingScale rating: (key response) rating=$0
+209.4896 	DATA 	RatingScale rating: rating RT=1.569
+209.4896 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.254), ('$0', 1.568)]
+209.5040 	EXP 	New trial (rep=0, index=27): OrderedDict([('choices', "Going to a farmer's\nmarket by yourself"), ('Type', 'nonsocial'), ('typeCode', 0)])
+209.5218 	EXP 	RatingScale rating: reset()
+209.5515 	EXP 	text: autoDraw = False
+209.5515 	EXP 	rating: autoDraw = False
+209.5515 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+209.5515 	EXP 	text: pos = array([0.  , 0.07])
+209.5515 	EXP 	text: text = "Going to a farmer's\nmarket by yourself"
+209.5515 	EXP 	text: font = 'Arial'
+209.5515 	EXP 	text: height = 0.08
+209.5515 	EXP 	text: autoDraw = True
+209.5515 	EXP 	rating: autoDraw = True
+209.5515 	EXP 	text: text = "Going to a farmer's\nmarket by yourself"
+213.4453 	DATA 	Mouse: Left button down, pos=(1252,373)
+213.5735 	DATA 	Mouse:  Left button up, pos=(1252,373)
+213.7566 	DATA 	Keypress: return
+213.7567 	DATA 	RatingScale rating: (key response) rating=$.04
+213.7567 	DATA 	RatingScale rating: rating RT=4.220
+213.7567 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 3.908), ('$.04', 4.22)]
+213.7720 	EXP 	New trial (rep=0, index=28): OrderedDict([('choices', "Sleeping over at \na friend's house"), ('Type', 'social'), ('typeCode', 1)])
+213.7895 	EXP 	RatingScale rating: reset()
+213.8197 	EXP 	text: autoDraw = False
+213.8197 	EXP 	rating: autoDraw = False
+213.8197 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+213.8197 	EXP 	text: pos = array([0.  , 0.07])
+213.8197 	EXP 	text: text = "Sleeping over at \na friend's house"
+213.8197 	EXP 	text: font = 'Arial'
+213.8197 	EXP 	text: height = 0.08
+213.8197 	EXP 	text: autoDraw = True
+213.8197 	EXP 	rating: autoDraw = True
+213.8197 	EXP 	text: text = "Sleeping over at \na friend's house"
+215.0232 	DATA 	Mouse: Left button down, pos=(1456,366)
+215.1407 	DATA 	Mouse:  Left button up, pos=(1456,366)
+215.3576 	DATA 	Keypress: return
+215.3577 	DATA 	RatingScale rating: (key response) rating=$.05
+215.3578 	DATA 	RatingScale rating: rating RT=1.554
+215.3578 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.22), ('$.05', 1.554)]
+215.3721 	EXP 	New trial (rep=0, index=29): OrderedDict([('choices', 'Posting Instagram stories'), ('Type', 'social Media'), ('typeCode', 2)])
+215.3883 	EXP 	RatingScale rating: reset()
+215.4200 	EXP 	text: autoDraw = False
+215.4200 	EXP 	rating: autoDraw = False
+215.4200 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+215.4200 	EXP 	text: pos = array([0.  , 0.07])
+215.4200 	EXP 	text: text = 'Posting Instagram stories'
+215.4200 	EXP 	text: font = 'Arial'
+215.4200 	EXP 	text: height = 0.08
+215.4200 	EXP 	text: autoDraw = True
+215.4200 	EXP 	rating: autoDraw = True
+215.4200 	EXP 	text: text = 'Posting Instagram stories'
+218.3768 	DATA 	Mouse: Left button down, pos=(875,377)
+218.4418 	DATA 	Mouse:  Left button up, pos=(875,377)
+218.6418 	DATA 	Keypress: return
+218.6419 	DATA 	RatingScale rating: (key response) rating=$.02
+218.6419 	DATA 	RatingScale rating: rating RT=3.242
+218.6420 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 2.977), ('$.02', 3.242)]
+218.6572 	EXP 	New trial (rep=0, index=30): OrderedDict([('choices', 'Putting together \na puzzle'), ('Type', 'nonsocial'), ('typeCode', 0)])
+218.6734 	EXP 	RatingScale rating: reset()
+218.7042 	EXP 	text: autoDraw = False
+218.7042 	EXP 	rating: autoDraw = False
+218.7042 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+218.7042 	EXP 	text: pos = array([0.  , 0.07])
+218.7042 	EXP 	text: text = 'Putting together \na puzzle'
+218.7042 	EXP 	text: font = 'Arial'
+218.7042 	EXP 	text: height = 0.08
+218.7042 	EXP 	text: autoDraw = True
+218.7042 	EXP 	rating: autoDraw = True
+218.7042 	EXP 	text: text = 'Putting together \na puzzle'
+220.5916 	DATA 	Mouse: Left button down, pos=(1253,367)
+220.7093 	DATA 	Mouse:  Left button up, pos=(1253,367)
+220.8918 	DATA 	Keypress: return
+220.8919 	DATA 	RatingScale rating: (key response) rating=$.04
+220.8919 	DATA 	RatingScale rating: rating RT=2.206
+220.8920 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.906), ('$.04', 2.206)]
+220.9073 	EXP 	New trial (rep=0, index=31): OrderedDict([('choices', 'Shopping online'), ('Type', 'nonsocial'), ('typeCode', 0)])
+220.9186 	EXP 	RatingScale rating: reset()
+220.9382 	EXP 	text: autoDraw = False
+220.9382 	EXP 	rating: autoDraw = False
+220.9382 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+220.9382 	EXP 	text: pos = array([0.  , 0.07])
+220.9382 	EXP 	text: text = 'Shopping online'
+220.9382 	EXP 	text: font = 'Arial'
+220.9382 	EXP 	text: height = 0.08
+220.9382 	EXP 	text: autoDraw = True
+220.9382 	EXP 	rating: autoDraw = True
+220.9382 	EXP 	text: text = 'Shopping online'
+222.1620 	DATA 	Mouse: Left button down, pos=(1396,367)
+222.2599 	DATA 	Mouse:  Left button up, pos=(1404,365)
+222.5429 	DATA 	Keypress: return
+222.5430 	DATA 	RatingScale rating: (key response) rating=$.05
+222.5431 	DATA 	RatingScale rating: rating RT=1.616
+222.5431 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.235), ('$.05', 1.616)]
+222.5586 	EXP 	New trial (rep=0, index=32): OrderedDict([('choices', 'Making cookies with your partner'), ('Type', 'social'), ('typeCode', 1)])
+222.5760 	EXP 	RatingScale rating: reset()
+222.6054 	EXP 	text: autoDraw = False
+222.6054 	EXP 	rating: autoDraw = False
+222.6054 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+222.6054 	EXP 	text: pos = array([0.  , 0.07])
+222.6054 	EXP 	text: text = 'Making cookies with your partner'
+222.6054 	EXP 	text: font = 'Arial'
+222.6054 	EXP 	text: height = 0.08
+222.6054 	EXP 	text: autoDraw = True
+222.6054 	EXP 	rating: autoDraw = True
+222.6054 	EXP 	text: text = 'Making cookies with your partner'
+223.6788 	DATA 	Mouse: Left button down, pos=(1443,361)
+223.7930 	DATA 	Mouse:  Left button up, pos=(1443,361)
+224.0099 	DATA 	Keypress: return
+224.0100 	DATA 	RatingScale rating: (key response) rating=$.05
+224.0101 	DATA 	RatingScale rating: rating RT=1.420
+224.0101 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.088), ('$.05', 1.419)]
+224.0255 	EXP 	New trial (rep=0, index=33): OrderedDict([('choices', 'Going out to dinner with friends'), ('Type', 'social'), ('typeCode', 1)])
+224.0413 	EXP 	RatingScale rating: reset()
+224.0726 	EXP 	text: autoDraw = False
+224.0726 	EXP 	rating: autoDraw = False
+224.0726 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+224.0726 	EXP 	text: pos = array([0.  , 0.07])
+224.0726 	EXP 	text: text = 'Going out to dinner with friends'
+224.0726 	EXP 	text: font = 'Arial'
+224.0726 	EXP 	text: height = 0.08
+224.0726 	EXP 	text: autoDraw = True
+224.0726 	EXP 	rating: autoDraw = True
+224.0726 	EXP 	text: text = 'Going out to dinner with friends'
+225.1095 	DATA 	Mouse: Left button down, pos=(1443,361)
+225.2271 	DATA 	Mouse:  Left button up, pos=(1443,360)
+225.4100 	DATA 	Keypress: return
+225.4101 	DATA 	RatingScale rating: (key response) rating=$.05
+225.4102 	DATA 	RatingScale rating: rating RT=1.357
+225.4102 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.056), ('$.05', 1.356)]
+225.4255 	EXP 	New trial (rep=0, index=34): OrderedDict([('choices', 'Going on a blind date'), ('Type', 'social'), ('typeCode', 1)])
+225.4369 	EXP 	RatingScale rating: reset()
+225.4562 	EXP 	text: autoDraw = False
+225.4562 	EXP 	rating: autoDraw = False
+225.4562 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+225.4562 	EXP 	text: pos = array([0.  , 0.07])
+225.4562 	EXP 	text: text = 'Going on a blind date'
+225.4562 	EXP 	text: font = 'Arial'
+225.4562 	EXP 	text: height = 0.08
+225.4562 	EXP 	text: autoDraw = True
+225.4562 	EXP 	rating: autoDraw = True
+225.4562 	EXP 	text: text = 'Going on a blind date'
+226.4764 	DATA 	Mouse: Left button down, pos=(1443,360)
+226.6111 	DATA 	Mouse:  Left button up, pos=(1443,360)
+227.5781 	DATA 	Mouse: Left button down, pos=(476,384)
+227.6609 	DATA 	Mouse:  Left button up, pos=(476,384)
+227.8793 	DATA 	Keypress: return
+227.8794 	DATA 	RatingScale rating: (key response) rating=$0
+227.8794 	DATA 	RatingScale rating: rating RT=2.434
+227.8794 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.031), ('$0', 2.132), ('$0', 2.434)]
+227.8925 	EXP 	New trial (rep=0, index=35): OrderedDict([('choices', 'Teaching yourself a \ndifferent language'), ('Type', 'nonsocial'), ('typeCode', 0)])
+227.9102 	EXP 	RatingScale rating: reset()
+227.9403 	EXP 	text: autoDraw = False
+227.9403 	EXP 	rating: autoDraw = False
+227.9403 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+227.9403 	EXP 	text: pos = array([0.  , 0.07])
+227.9403 	EXP 	text: text = 'Teaching yourself a \ndifferent language'
+227.9403 	EXP 	text: font = 'Arial'
+227.9403 	EXP 	text: height = 0.08
+227.9403 	EXP 	text: autoDraw = True
+227.9403 	EXP 	rating: autoDraw = True
+227.9403 	EXP 	text: text = 'Teaching yourself a \ndifferent language'
+230.0277 	DATA 	Mouse: Left button down, pos=(1056,376)
+230.1112 	DATA 	Mouse:  Left button up, pos=(1056,376)
+230.3122 	DATA 	Keypress: return
+230.3123 	DATA 	RatingScale rating: (key response) rating=$.03
+230.3124 	DATA 	RatingScale rating: rating RT=2.387
+230.3124 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 2.103), ('$.03', 2.387)]
+230.3267 	EXP 	New trial (rep=0, index=36): OrderedDict([('choices', 'Getting tagged in \nInstagram pictures'), ('Type', 'social Media'), ('typeCode', 2)])
+230.3438 	EXP 	RatingScale rating: reset()
+230.3743 	EXP 	text: autoDraw = False
+230.3743 	EXP 	rating: autoDraw = False
+230.3743 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+230.3743 	EXP 	text: pos = array([0.  , 0.07])
+230.3743 	EXP 	text: text = 'Getting tagged in \nInstagram pictures'
+230.3743 	EXP 	text: font = 'Arial'
+230.3743 	EXP 	text: height = 0.08
+230.3743 	EXP 	text: autoDraw = True
+230.3743 	EXP 	rating: autoDraw = True
+230.3743 	EXP 	text: text = 'Getting tagged in \nInstagram pictures'
+232.3288 	DATA 	Mouse: Left button down, pos=(1248,352)
+232.3952 	DATA 	Mouse:  Left button up, pos=(1248,352)
+232.6453 	DATA 	Keypress: return
+232.6454 	DATA 	RatingScale rating: (key response) rating=$.04
+232.6455 	DATA 	RatingScale rating: rating RT=2.287
+232.6455 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.97), ('$.04', 2.287)]
+232.6607 	EXP 	New trial (rep=0, index=37): OrderedDict([('choices', 'Looking at your Twitter feed'), ('Type', 'social Media'), ('typeCode', 2)])
+232.6760 	EXP 	RatingScale rating: reset()
+232.7085 	EXP 	text: autoDraw = False
+232.7085 	EXP 	rating: autoDraw = False
+232.7085 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+232.7085 	EXP 	text: pos = array([0.  , 0.07])
+232.7085 	EXP 	text: text = 'Looking at your Twitter feed'
+232.7085 	EXP 	text: font = 'Arial'
+232.7085 	EXP 	text: height = 0.08
+232.7085 	EXP 	text: autoDraw = True
+232.7085 	EXP 	rating: autoDraw = True
+232.7085 	EXP 	text: text = 'Looking at your Twitter feed'
+234.1958 	DATA 	Mouse: Left button down, pos=(1423,351)
+234.3315 	DATA 	Mouse:  Left button up, pos=(1424,351)
+234.4793 	DATA 	Keypress: return
+234.4794 	DATA 	RatingScale rating: (key response) rating=$.05
+234.4794 	DATA 	RatingScale rating: rating RT=1.791
+234.4795 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.507), ('$.05', 1.791)]
+234.4947 	EXP 	New trial (rep=0, index=38): OrderedDict([('choices', 'Studying for a test alone'), ('Type', 'nonsocial'), ('typeCode', 0)])
+234.5068 	EXP 	RatingScale rating: reset()
+234.5255 	EXP 	text: autoDraw = False
+234.5255 	EXP 	rating: autoDraw = False
+234.5255 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+234.5255 	EXP 	text: pos = array([0.  , 0.07])
+234.5255 	EXP 	text: text = 'Studying for a test alone'
+234.5255 	EXP 	text: font = 'Arial'
+234.5255 	EXP 	text: height = 0.08
+234.5255 	EXP 	text: autoDraw = True
+234.5255 	EXP 	rating: autoDraw = True
+234.5255 	EXP 	text: text = 'Studying for a test alone'
+236.8469 	DATA 	Mouse: Left button down, pos=(1410,345)
+236.9474 	DATA 	Mouse:  Left button up, pos=(1410,345)
+237.1974 	DATA 	Keypress: return
+237.1975 	DATA 	RatingScale rating: (key response) rating=$.05
+237.1976 	DATA 	RatingScale rating: rating RT=2.681
+237.1976 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 2.33), ('$.05', 2.681)]
+237.2119 	EXP 	New trial (rep=0, index=39): OrderedDict([('choices', 'Snapchatting your friends'), ('Type', 'social Media'), ('typeCode', 2)])
+237.2256 	EXP 	RatingScale rating: reset()
+237.2436 	EXP 	text: autoDraw = False
+237.2436 	EXP 	rating: autoDraw = False
+237.2436 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+237.2436 	EXP 	text: pos = array([0.  , 0.07])
+237.2436 	EXP 	text: text = 'Snapchatting your friends'
+237.2436 	EXP 	text: font = 'Arial'
+237.2436 	EXP 	text: height = 0.08
+237.2436 	EXP 	text: autoDraw = True
+237.2436 	EXP 	rating: autoDraw = True
+237.2436 	EXP 	text: text = 'Snapchatting your friends'
+238.9639 	DATA 	Mouse: Left button down, pos=(844,354)
+239.0975 	DATA 	Mouse:  Left button up, pos=(845,354)
+239.3145 	DATA 	Keypress: return
+239.3146 	DATA 	RatingScale rating: (key response) rating=$.02
+239.3146 	DATA 	RatingScale rating: rating RT=2.078
+239.3146 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 1.727), ('$.02', 2.078)]
+239.3289 	EXP 	New trial (rep=0, index=40): OrderedDict([('choices', 'Taking a nap'), ('Type', 'nonsocial'), ('typeCode', 0)])
+239.3387 	EXP 	RatingScale rating: reset()
+239.3602 	EXP 	text: autoDraw = False
+239.3602 	EXP 	rating: autoDraw = False
+239.3602 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+239.3602 	EXP 	text: pos = array([0.  , 0.07])
+239.3602 	EXP 	text: text = 'Taking a nap'
+239.3602 	EXP 	text: font = 'Arial'
+239.3602 	EXP 	text: height = 0.08
+239.3602 	EXP 	text: autoDraw = True
+239.3602 	EXP 	rating: autoDraw = True
+239.3602 	EXP 	text: text = 'Taking a nap'
+240.9309 	DATA 	Mouse: Left button down, pos=(876,361)
+241.0145 	DATA 	Mouse:  Left button up, pos=(876,361)
+241.2315 	DATA 	Keypress: return
+241.2316 	DATA 	RatingScale rating: (key response) rating=$.02
+241.2317 	DATA 	RatingScale rating: rating RT=1.886
+241.2317 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 1.585), ('$.02', 1.886)]
+241.2470 	EXP 	New trial (rep=0, index=41): OrderedDict([('choices', 'Practicing photography'), ('Type', 'nonsocial'), ('typeCode', 0)])
+241.2595 	EXP 	RatingScale rating: reset()
+241.2773 	EXP 	text: autoDraw = False
+241.2773 	EXP 	rating: autoDraw = False
+241.2773 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+241.2773 	EXP 	text: pos = array([0.  , 0.07])
+241.2773 	EXP 	text: text = 'Practicing photography'
+241.2773 	EXP 	text: font = 'Arial'
+241.2773 	EXP 	text: height = 0.08
+241.2773 	EXP 	text: autoDraw = True
+241.2773 	EXP 	rating: autoDraw = True
+241.2773 	EXP 	text: text = 'Practicing photography'
+242.5980 	DATA 	Mouse: Left button down, pos=(1263,359)
+242.6985 	DATA 	Mouse:  Left button up, pos=(1263,359)
+242.8987 	DATA 	Keypress: return
+242.8988 	DATA 	RatingScale rating: (key response) rating=$.04
+242.8988 	DATA 	RatingScale rating: rating RT=1.630
+242.8988 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.329), ('$.04', 1.629)]
+242.9141 	EXP 	New trial (rep=0, index=42): OrderedDict([('choices', 'Having a celebrity comment on your Facebook post'), ('Type', 'social Media'), ('typeCode', 2)])
+242.9351 	EXP 	RatingScale rating: reset()
+242.9613 	EXP 	text: autoDraw = False
+242.9613 	EXP 	rating: autoDraw = False
+242.9613 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+242.9613 	EXP 	text: pos = array([0.  , 0.07])
+242.9613 	EXP 	text: text = 'Having a celebrity comment on your Facebook post'
+242.9613 	EXP 	text: font = 'Arial'
+242.9613 	EXP 	text: height = 0.08
+242.9613 	EXP 	text: autoDraw = True
+242.9613 	EXP 	rating: autoDraw = True
+242.9613 	EXP 	text: text = 'Having a celebrity comment on your Facebook post'
+245.2653 	DATA 	Mouse: Left button down, pos=(1416,366)
+245.3657 	DATA 	Mouse:  Left button up, pos=(1416,366)
+245.5998 	DATA 	Keypress: return
+245.5999 	DATA 	RatingScale rating: (key response) rating=$.05
+245.5999 	DATA 	RatingScale rating: rating RT=2.646
+245.5999 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 2.312), ('$.05', 2.646)]
+245.6142 	EXP 	New trial (rep=0, index=43): OrderedDict([('choices', 'Taking an online\nclass'), ('Type', 'nonsocial'), ('typeCode', 0)])
+245.6271 	EXP 	RatingScale rating: reset()
+245.6454 	EXP 	text: autoDraw = False
+245.6454 	EXP 	rating: autoDraw = False
+245.6454 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+245.6454 	EXP 	text: pos = array([0.  , 0.07])
+245.6454 	EXP 	text: text = 'Taking an online\nclass'
+245.6454 	EXP 	text: font = 'Arial'
+245.6454 	EXP 	text: height = 0.08
+245.6454 	EXP 	text: autoDraw = True
+245.6454 	EXP 	rating: autoDraw = True
+245.6454 	EXP 	text: text = 'Taking an online\nclass'
+247.3663 	DATA 	Mouse: Left button down, pos=(473,371)
+247.4327 	DATA 	Mouse:  Left button up, pos=(473,371)
+247.6498 	DATA 	Keypress: return
+247.6499 	DATA 	RatingScale rating: (key response) rating=$0
+247.6500 	DATA 	RatingScale rating: rating RT=2.012
+247.6500 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.729), ('$0', 2.012)]
+247.6652 	EXP 	New trial (rep=0, index=44): OrderedDict([('choices', 'Buying clothes \nfor yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+247.6825 	EXP 	RatingScale rating: reset()
+247.7127 	EXP 	text: autoDraw = False
+247.7127 	EXP 	rating: autoDraw = False
+247.7127 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+247.7127 	EXP 	text: pos = array([0.  , 0.07])
+247.7127 	EXP 	text: text = 'Buying clothes \nfor yourself'
+247.7127 	EXP 	text: font = 'Arial'
+247.7127 	EXP 	text: height = 0.08
+247.7127 	EXP 	text: autoDraw = True
+247.7127 	EXP 	rating: autoDraw = True
+247.7127 	EXP 	text: text = 'Buying clothes \nfor yourself'
+249.2510 	DATA 	Mouse: Left button down, pos=(1467,356)
+249.4169 	DATA 	Mouse:  Left button up, pos=(1467,356)
+250.5839 	DATA 	Keypress: return
+250.5840 	DATA 	RatingScale rating: (key response) rating=$.05
+250.5841 	DATA 	RatingScale rating: rating RT=2.889
+250.5841 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.556), ('$.05', 2.889)]
+250.5994 	EXP 	New trial (rep=0, index=45): OrderedDict([('choices', 'Taking your friend \nto the spa'), ('Type', 'social'), ('typeCode', 1)])
+250.6156 	EXP 	RatingScale rating: reset()
+250.6469 	EXP 	text: autoDraw = False
+250.6469 	EXP 	rating: autoDraw = False
+250.6469 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+250.6469 	EXP 	text: pos = array([0.  , 0.07])
+250.6469 	EXP 	text: text = 'Taking your friend \nto the spa'
+250.6469 	EXP 	text: font = 'Arial'
+250.6469 	EXP 	text: height = 0.08
+250.6469 	EXP 	text: autoDraw = True
+250.6469 	EXP 	rating: autoDraw = True
+250.6469 	EXP 	text: text = 'Taking your friend \nto the spa'
+251.6844 	DATA 	Mouse: Left button down, pos=(1465,370)
+251.8009 	DATA 	Mouse:  Left button up, pos=(1465,370)
+252.0679 	DATA 	Keypress: return
+252.0680 	DATA 	RatingScale rating: (key response) rating=$.05
+252.0680 	DATA 	RatingScale rating: rating RT=1.439
+252.0680 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.055), ('$.05', 1.438)]
+252.0835 	EXP 	New trial (rep=0, index=46): OrderedDict([('choices', 'Getting retweeted by \na celebrity'), ('Type', 'social Media'), ('typeCode', 2)])
+252.0991 	EXP 	RatingScale rating: reset()
+252.1306 	EXP 	text: autoDraw = False
+252.1306 	EXP 	rating: autoDraw = False
+252.1306 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+252.1306 	EXP 	text: pos = array([0.  , 0.07])
+252.1306 	EXP 	text: text = 'Getting retweeted by \na celebrity'
+252.1306 	EXP 	text: font = 'Arial'
+252.1306 	EXP 	text: height = 0.08
+252.1306 	EXP 	text: autoDraw = True
+252.1306 	EXP 	rating: autoDraw = True
+252.1306 	EXP 	text: text = 'Getting retweeted by \na celebrity'
+253.0845 	DATA 	Mouse: Left button down, pos=(1465,370)
+253.1680 	DATA 	Mouse:  Left button up, pos=(1465,370)
+253.3350 	DATA 	Keypress: return
+253.3351 	DATA 	RatingScale rating: (key response) rating=$.05
+253.3351 	DATA 	RatingScale rating: rating RT=1.222
+253.3351 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.971), ('$.05', 1.222)]
+253.3504 	EXP 	New trial (rep=0, index=47): OrderedDict([('choices', 'Talking to a friend \nover Skype'), ('Type', 'social Media'), ('typeCode', 2)])
+253.3662 	EXP 	RatingScale rating: reset()
+253.3976 	EXP 	text: autoDraw = False
+253.3976 	EXP 	rating: autoDraw = False
+253.3976 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+253.3976 	EXP 	text: pos = array([0.  , 0.07])
+253.3976 	EXP 	text: text = 'Talking to a friend \nover Skype'
+253.3976 	EXP 	text: font = 'Arial'
+253.3976 	EXP 	text: height = 0.08
+253.3976 	EXP 	text: autoDraw = True
+253.3976 	EXP 	rating: autoDraw = True
+253.3976 	EXP 	text: text = 'Talking to a friend \nover Skype'
+255.5515 	DATA 	Mouse: Left button down, pos=(745,367)
+255.6691 	DATA 	Mouse:  Left button up, pos=(745,367)
+255.9361 	DATA 	Keypress: return
+255.9362 	DATA 	RatingScale rating: (key response) rating=$.01
+255.9363 	DATA 	RatingScale rating: rating RT=2.557
+255.9363 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 2.173), ('$.01', 2.557)]
+255.9505 	EXP 	New trial (rep=0, index=48): OrderedDict([('choices', "Viewing videos and photos on Instagram's Explore page"), ('Type', 'social Media'), ('typeCode', 2)])
+255.9780 	EXP 	RatingScale rating: reset()
+256.0151 	EXP 	text: autoDraw = False
+256.0151 	EXP 	rating: autoDraw = False
+256.0151 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+256.0151 	EXP 	text: pos = array([0.  , 0.07])
+256.0151 	EXP 	text: text = "Viewing videos and photos on Instagram's Explore page"
+256.0151 	EXP 	text: font = 'Arial'
+256.0151 	EXP 	text: height = 0.08
+256.0151 	EXP 	text: autoDraw = True
+256.0151 	EXP 	rating: autoDraw = True
+256.0151 	EXP 	text: text = "Viewing videos and photos on Instagram's Explore page"
+258.8197 	DATA 	Mouse: Left button down, pos=(1256,346)
+258.9202 	DATA 	Mouse:  Left button up, pos=(1256,346)
+259.1032 	DATA 	Keypress: return
+259.1033 	DATA 	RatingScale rating: (key response) rating=$.04
+259.1033 	DATA 	RatingScale rating: rating RT=3.104
+259.1033 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 2.821), ('$.04', 3.104)]
+259.1186 	EXP 	New trial (rep=0, index=49): OrderedDict([('choices', 'Trying out a new \nrecipe at home'), ('Type', 'nonsocial'), ('typeCode', 0)])
+259.1365 	EXP 	RatingScale rating: reset()
+259.1660 	EXP 	text: autoDraw = False
+259.1660 	EXP 	rating: autoDraw = False
+259.1660 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+259.1660 	EXP 	text: pos = array([0.  , 0.07])
+259.1660 	EXP 	text: text = 'Trying out a new \nrecipe at home'
+259.1660 	EXP 	text: font = 'Arial'
+259.1660 	EXP 	text: height = 0.08
+259.1660 	EXP 	text: autoDraw = True
+259.1660 	EXP 	rating: autoDraw = True
+259.1660 	EXP 	text: text = 'Trying out a new \nrecipe at home'
+260.6698 	DATA 	Mouse: Left button down, pos=(1049,341)
+260.7702 	DATA 	Mouse:  Left button up, pos=(1049,341)
+260.9542 	DATA 	Keypress: return
+260.9543 	DATA 	RatingScale rating: (key response) rating=$.03
+260.9544 	DATA 	RatingScale rating: rating RT=1.803
+260.9544 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 1.518), ('$.03', 1.803)]
+260.9688 	EXP 	New trial (rep=0, index=50): OrderedDict([('choices', 'Watching Netflix at home \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+260.9914 	EXP 	RatingScale rating: reset()
+261.0167 	EXP 	text: autoDraw = False
+261.0167 	EXP 	rating: autoDraw = False
+261.0167 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+261.0167 	EXP 	text: pos = array([0.  , 0.07])
+261.0167 	EXP 	text: text = 'Watching Netflix at home \nby yourself'
+261.0167 	EXP 	text: font = 'Arial'
+261.0167 	EXP 	text: height = 0.08
+261.0167 	EXP 	text: autoDraw = True
+261.0167 	EXP 	rating: autoDraw = True
+261.0167 	EXP 	text: text = 'Watching Netflix at home \nby yourself'
+262.6064 	DATA 	Mouse: Left button down, pos=(1049,341)
+262.7043 	DATA 	Mouse:  Left button up, pos=(1049,341)
+263.5383 	DATA 	Mouse: Left button down, pos=(858,363)
+263.6383 	DATA 	Mouse:  Left button up, pos=(858,363)
+263.9044 	DATA 	Keypress: return
+263.9045 	DATA 	RatingScale rating: (key response) rating=$.02
+263.9046 	DATA 	RatingScale rating: rating RT=2.896
+263.9046 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 1.598), ('$.02', 2.53), ('$.02', 2.896)]
+263.9199 	EXP 	New trial (rep=0, index=51): OrderedDict([('choices', 'Looking at your Facebook feed'), ('Type', 'social Media'), ('typeCode', 2)])
+263.9354 	EXP 	RatingScale rating: reset()
+263.9675 	EXP 	text: autoDraw = False
+263.9675 	EXP 	rating: autoDraw = False
+263.9675 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+263.9675 	EXP 	text: pos = array([0.  , 0.07])
+263.9675 	EXP 	text: text = 'Looking at your Facebook feed'
+263.9675 	EXP 	text: font = 'Arial'
+263.9675 	EXP 	text: height = 0.08
+263.9675 	EXP 	text: autoDraw = True
+263.9675 	EXP 	rating: autoDraw = True
+263.9675 	EXP 	text: text = 'Looking at your Facebook feed'
+265.6218 	DATA 	Mouse: Left button down, pos=(443,355)
+265.7224 	DATA 	Mouse:  Left button up, pos=(443,355)
+265.9055 	DATA 	Keypress: return
+265.9056 	DATA 	RatingScale rating: (key response) rating=$0
+265.9057 	DATA 	RatingScale rating: rating RT=1.957
+265.9057 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.674), ('$0', 1.957)]
+265.9208 	EXP 	New trial (rep=0, index=52): OrderedDict([('choices', 'Going on a weekend\ngetaway with family'), ('Type', 'social'), ('typeCode', 1)])
+265.9380 	EXP 	RatingScale rating: reset()
+265.9680 	EXP 	text: autoDraw = False
+265.9680 	EXP 	rating: autoDraw = False
+265.9680 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+265.9680 	EXP 	text: pos = array([0.  , 0.07])
+265.9680 	EXP 	text: text = 'Going on a weekend\ngetaway with family'
+265.9680 	EXP 	text: font = 'Arial'
+265.9680 	EXP 	text: height = 0.08
+265.9680 	EXP 	text: autoDraw = True
+265.9680 	EXP 	rating: autoDraw = True
+265.9680 	EXP 	text: text = 'Going on a weekend\ngetaway with family'
+271.0401 	DATA 	Mouse: Left button down, pos=(1435,375)
+271.1566 	DATA 	Mouse:  Left button up, pos=(1435,375)
+272.2906 	DATA 	Mouse: Left button down, pos=(1266,355)
+272.4076 	DATA 	Mouse:  Left button up, pos=(1266,355)
+272.6095 	DATA 	Keypress: return
+272.6096 	DATA 	RatingScale rating: (key response) rating=$.04
+272.6097 	DATA 	RatingScale rating: rating RT=6.657
+272.6097 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 5.088), ('$.04', 6.338), ('$.04', 6.657)]
+272.6224 	EXP 	New trial (rep=0, index=53): OrderedDict([('choices', 'Watching a new \nepisode of a television \nshow'), ('Type', 'nonsocial'), ('typeCode', 0)])
+272.6456 	EXP 	RatingScale rating: reset()
+272.6699 	EXP 	text: autoDraw = False
+272.6699 	EXP 	rating: autoDraw = False
+272.6699 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+272.6699 	EXP 	text: pos = array([0.  , 0.07])
+272.6699 	EXP 	text: text = 'Watching a new \nepisode of a television \nshow'
+272.6699 	EXP 	text: font = 'Arial'
+272.6699 	EXP 	text: height = 0.08
+272.6699 	EXP 	text: autoDraw = True
+272.6699 	EXP 	rating: autoDraw = True
+272.6699 	EXP 	text: text = 'Watching a new \nepisode of a television \nshow'
+274.3243 	DATA 	Mouse: Left button down, pos=(1260,356)
+274.4247 	DATA 	Mouse:  Left button up, pos=(1260,356)
+274.6247 	DATA 	Keypress: return
+274.6248 	DATA 	RatingScale rating: (key response) rating=$.04
+274.6249 	DATA 	RatingScale rating: rating RT=1.963
+274.6249 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.662), ('$.04', 1.963)]
+274.6401 	EXP 	New trial (rep=0, index=54): OrderedDict([('choices', 'Going for a walk \nin the park'), ('Type', 'nonsocial'), ('typeCode', 0)])
+274.6536 	EXP 	RatingScale rating: reset()
+274.6713 	EXP 	text: autoDraw = False
+274.6713 	EXP 	rating: autoDraw = False
+274.6713 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+274.6713 	EXP 	text: pos = array([0.  , 0.07])
+274.6713 	EXP 	text: text = 'Going for a walk \nin the park'
+274.6713 	EXP 	text: font = 'Arial'
+274.6713 	EXP 	text: height = 0.08
+274.6713 	EXP 	text: autoDraw = True
+274.6713 	EXP 	rating: autoDraw = True
+274.6713 	EXP 	text: text = 'Going for a walk \nin the park'
+275.9413 	DATA 	Mouse: Left button down, pos=(1260,356)
+276.0246 	DATA 	Mouse:  Left button up, pos=(1260,356)
+276.2247 	DATA 	Keypress: return
+276.2248 	DATA 	RatingScale rating: (key response) rating=$.04
+276.2248 	DATA 	RatingScale rating: rating RT=1.561
+276.2248 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.277), ('$.04', 1.561)]
+276.2403 	EXP 	New trial (rep=0, index=55): OrderedDict([('choices', 'Direct messaging friends on Instagrams'), ('Type', 'social Media'), ('typeCode', 2)])
+276.2578 	EXP 	RatingScale rating: reset()
+276.2877 	EXP 	text: autoDraw = False
+276.2877 	EXP 	rating: autoDraw = False
+276.2877 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+276.2877 	EXP 	text: pos = array([0.  , 0.07])
+276.2877 	EXP 	text: text = 'Direct messaging friends on Instagrams'
+276.2877 	EXP 	text: font = 'Arial'
+276.2877 	EXP 	text: height = 0.08
+276.2877 	EXP 	text: autoDraw = True
+276.2877 	EXP 	rating: autoDraw = True
+276.2877 	EXP 	text: text = 'Direct messaging friends on Instagrams'
+278.8424 	DATA 	Mouse: Left button down, pos=(1076,368)
+278.9429 	DATA 	Mouse:  Left button up, pos=(1076,368)
+279.2430 	DATA 	Keypress: return
+279.2431 	DATA 	RatingScale rating: (key response) rating=$.03
+279.2432 	DATA 	RatingScale rating: rating RT=2.971
+279.2432 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 2.57), ('$.03', 2.971)]
+279.2574 	EXP 	New trial (rep=0, index=56): OrderedDict([('choices', "Make comments on your friend's Instagram post"), ('Type', 'social media'), ('typeCode', 2)])
+279.2788 	EXP 	RatingScale rating: reset()
+279.3067 	EXP 	text: autoDraw = False
+279.3067 	EXP 	rating: autoDraw = False
+279.3067 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+279.3067 	EXP 	text: pos = array([0.  , 0.07])
+279.3067 	EXP 	text: text = "Make comments on your friend's Instagram post"
+279.3067 	EXP 	text: font = 'Arial'
+279.3067 	EXP 	text: height = 0.08
+279.3067 	EXP 	text: autoDraw = True
+279.3067 	EXP 	rating: autoDraw = True
+279.3067 	EXP 	text: text = "Make comments on your friend's Instagram post"
+281.7096 	DATA 	Mouse: Left button down, pos=(891,372)
+281.8430 	DATA 	Mouse:  Left button up, pos=(891,372)
+282.0946 	DATA 	Keypress: return
+282.0947 	DATA 	RatingScale rating: (key response) rating=$.02
+282.0948 	DATA 	RatingScale rating: rating RT=2.795
+282.0949 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 2.41), ('$.02', 2.795)]
+282.1091 	EXP 	New trial (rep=0, index=57): OrderedDict([('choices', 'Working on a group\nproject with classmates'), ('Type', 'social'), ('typeCode', 1)])
+282.1337 	EXP 	RatingScale rating: reset()
+282.1573 	EXP 	text: autoDraw = False
+282.1573 	EXP 	rating: autoDraw = False
+282.1573 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+282.1573 	EXP 	text: pos = array([0.  , 0.07])
+282.1573 	EXP 	text: text = 'Working on a group\nproject with classmates'
+282.1573 	EXP 	text: font = 'Arial'
+282.1573 	EXP 	text: height = 0.08
+282.1573 	EXP 	text: autoDraw = True
+282.1573 	EXP 	rating: autoDraw = True
+282.1573 	EXP 	text: text = 'Working on a group\nproject with classmates'
+284.2765 	DATA 	Mouse: Left button down, pos=(1059,364)
+284.3771 	DATA 	Mouse:  Left button up, pos=(1059,364)
+284.5941 	DATA 	Keypress: return
+284.5942 	DATA 	RatingScale rating: (key response) rating=$.03
+284.5942 	DATA 	RatingScale rating: rating RT=2.444
+284.5942 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 2.127), ('$.03', 2.444)]
+284.6095 	EXP 	New trial (rep=0, index=58): OrderedDict([('choices', 'Getting 1 million subscribers on Youtube'), ('Type', 'social Media'), ('typeCode', 2)])
+284.6290 	EXP 	RatingScale rating: reset()
+284.6569 	EXP 	text: autoDraw = False
+284.6569 	EXP 	rating: autoDraw = False
+284.6569 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+284.6569 	EXP 	text: pos = array([0.  , 0.07])
+284.6569 	EXP 	text: text = 'Getting 1 million subscribers on Youtube'
+284.6569 	EXP 	text: font = 'Arial'
+284.6569 	EXP 	text: height = 0.08
+284.6569 	EXP 	text: autoDraw = True
+284.6569 	EXP 	rating: autoDraw = True
+284.6569 	EXP 	text: text = 'Getting 1 million subscribers on Youtube'
+289.4619 	DATA 	Mouse: Left button down, pos=(486,359)
+289.6122 	DATA 	Mouse:  Left button up, pos=(486,359)
+291.2295 	DATA 	Mouse: Left button down, pos=(1447,359)
+291.3463 	DATA 	Mouse:  Left button up, pos=(1447,359)
+291.5970 	DATA 	Keypress: return
+291.5971 	DATA 	RatingScale rating: (key response) rating=$.05
+291.5971 	DATA 	RatingScale rating: rating RT=6.952
+291.5971 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 4.817), ('$.05', 6.585), ('$.05', 6.952)]
+291.6108 	EXP 	New trial (rep=0, index=59): OrderedDict([('choices', 'Putting gas in a car'), ('Type', 'nonsocial'), ('typeCode', 0)])
+291.6217 	EXP 	RatingScale rating: reset()
+291.6421 	EXP 	text: autoDraw = False
+291.6421 	EXP 	rating: autoDraw = False
+291.6421 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+291.6421 	EXP 	text: pos = array([0.  , 0.07])
+291.6421 	EXP 	text: text = 'Putting gas in a car'
+291.6421 	EXP 	text: font = 'Arial'
+291.6421 	EXP 	text: height = 0.08
+291.6421 	EXP 	text: autoDraw = True
+291.6421 	EXP 	rating: autoDraw = True
+291.6421 	EXP 	text: text = 'Putting gas in a car'
+293.4798 	DATA 	Mouse: Left button down, pos=(659,367)
+293.6134 	DATA 	Mouse:  Left button up, pos=(659,367)
+293.9970 	DATA 	Keypress: return
+293.9971 	DATA 	RatingScale rating: (key response) rating=$.01
+293.9971 	DATA 	RatingScale rating: rating RT=2.366
+293.9971 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 1.849), ('$.01', 2.366)]
+294.0119 	EXP 	New trial (rep=0, index=60): OrderedDict([('choices', 'Getting breakfast\nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+294.0271 	EXP 	RatingScale rating: reset()
+294.0595 	EXP 	text: autoDraw = False
+294.0595 	EXP 	rating: autoDraw = False
+294.0595 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+294.0595 	EXP 	text: pos = array([0.  , 0.07])
+294.0595 	EXP 	text: text = 'Getting breakfast\nby yourself'
+294.0595 	EXP 	text: font = 'Arial'
+294.0595 	EXP 	text: height = 0.08
+294.0595 	EXP 	text: autoDraw = True
+294.0595 	EXP 	rating: autoDraw = True
+294.0595 	EXP 	text: text = 'Getting breakfast\nby yourself'
+297.0810 	DATA 	Mouse: Left button down, pos=(491,357)
+297.1848 	DATA 	Mouse:  Left button up, pos=(491,357)
+297.3815 	DATA 	Keypress: return
+297.3816 	DATA 	RatingScale rating: (key response) rating=$0
+297.3816 	DATA 	RatingScale rating: rating RT=3.341
+297.3816 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 3.041), ('$0', 3.341)]
+297.3959 	EXP 	New trial (rep=0, index=61): OrderedDict([('choices', 'Having a Tweet go viral'), ('Type', 'social Media'), ('typeCode', 2)])
+297.4083 	EXP 	RatingScale rating: reset()
+297.4271 	EXP 	text: autoDraw = False
+297.4271 	EXP 	rating: autoDraw = False
+297.4271 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+297.4271 	EXP 	text: pos = array([0.  , 0.07])
+297.4271 	EXP 	text: text = 'Having a Tweet go viral'
+297.4271 	EXP 	text: font = 'Arial'
+297.4271 	EXP 	text: height = 0.08
+297.4271 	EXP 	text: autoDraw = True
+297.4271 	EXP 	rating: autoDraw = True
+297.4271 	EXP 	text: text = 'Having a Tweet go viral'
+298.8151 	DATA 	Mouse: Left button down, pos=(1480,372)
+298.9315 	DATA 	Mouse:  Left button up, pos=(1480,372)
+299.1316 	DATA 	Keypress: return
+299.1317 	DATA 	RatingScale rating: (key response) rating=$.05
+299.1318 	DATA 	RatingScale rating: rating RT=1.713
+299.1318 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.396), ('$.05', 1.713)]
+299.1471 	EXP 	New trial (rep=0, index=62): OrderedDict([('choices', 'Listening to music\nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+299.1628 	EXP 	RatingScale rating: reset()
+299.1944 	EXP 	text: autoDraw = False
+299.1944 	EXP 	rating: autoDraw = False
+299.1944 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+299.1944 	EXP 	text: pos = array([0.  , 0.07])
+299.1944 	EXP 	text: text = 'Listening to music\nby yourself'
+299.1944 	EXP 	text: font = 'Arial'
+299.1944 	EXP 	text: height = 0.08
+299.1944 	EXP 	text: autoDraw = True
+299.1944 	EXP 	rating: autoDraw = True
+299.1944 	EXP 	text: text = 'Listening to music\nby yourself'
+300.9153 	DATA 	Mouse: Left button down, pos=(1473,370)
+301.0486 	DATA 	Mouse:  Left button up, pos=(1472,367)
+301.3157 	DATA 	Keypress: return
+301.3158 	DATA 	RatingScale rating: (key response) rating=$.05
+301.3159 	DATA 	RatingScale rating: rating RT=2.140
+301.3159 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.74), ('$.05', 2.14)]
+301.3311 	EXP 	New trial (rep=0, index=63): OrderedDict([('choices', 'Reading at the library'), ('Type', 'nonsocial'), ('typeCode', 0)])
+301.3448 	EXP 	RatingScale rating: reset()
+301.3627 	EXP 	text: autoDraw = False
+301.3627 	EXP 	rating: autoDraw = False
+301.3627 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+301.3627 	EXP 	text: pos = array([0.  , 0.07])
+301.3627 	EXP 	text: text = 'Reading at the library'
+301.3627 	EXP 	text: font = 'Arial'
+301.3627 	EXP 	text: height = 0.08
+301.3627 	EXP 	text: autoDraw = True
+301.3627 	EXP 	rating: autoDraw = True
+301.3627 	EXP 	text: text = 'Reading at the library'
+303.2663 	DATA 	Mouse: Left button down, pos=(452,385)
+303.3327 	DATA 	Mouse:  Left button up, pos=(452,385)
+303.5327 	DATA 	Keypress: return
+303.5328 	DATA 	RatingScale rating: (key response) rating=$0
+303.5328 	DATA 	RatingScale rating: rating RT=2.177
+303.5329 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.911), ('$0', 2.177)]
+303.5482 	EXP 	New trial (rep=0, index=64): OrderedDict([('choices', 'Going to a street fair\nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+303.5641 	EXP 	RatingScale rating: reset()
+303.5955 	EXP 	text: autoDraw = False
+303.5955 	EXP 	rating: autoDraw = False
+303.5955 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+303.5955 	EXP 	text: pos = array([0.  , 0.07])
+303.5955 	EXP 	text: text = 'Going to a street fair\nwith friends'
+303.5955 	EXP 	text: font = 'Arial'
+303.5955 	EXP 	text: height = 0.08
+303.5955 	EXP 	text: autoDraw = True
+303.5955 	EXP 	rating: autoDraw = True
+303.5955 	EXP 	text: text = 'Going to a street fair\nwith friends'
+305.1664 	DATA 	Mouse: Left button down, pos=(1462,371)
+305.2669 	DATA 	Mouse:  Left button up, pos=(1462,371)
+305.4363 	DATA 	Keypress: return
+305.4365 	DATA 	RatingScale rating: (key response) rating=$.05
+305.4366 	DATA 	RatingScale rating: rating RT=1.858
+305.4366 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.588), ('$.05', 1.858)]
+305.4493 	EXP 	New trial (rep=0, index=65): OrderedDict([('choices', 'Rearranging furniture \nin your house'), ('Type', 'nonsocial'), ('typeCode', 0)])
+305.4697 	EXP 	RatingScale rating: reset()
+305.4961 	EXP 	text: autoDraw = False
+305.4961 	EXP 	rating: autoDraw = False
+305.4961 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+305.4961 	EXP 	text: pos = array([0.  , 0.07])
+305.4961 	EXP 	text: text = 'Rearranging furniture \nin your house'
+305.4961 	EXP 	text: font = 'Arial'
+305.4961 	EXP 	text: height = 0.08
+305.4961 	EXP 	text: autoDraw = True
+305.4961 	EXP 	rating: autoDraw = True
+305.4961 	EXP 	text: text = 'Rearranging furniture \nin your house'
+306.9163 	DATA 	Mouse: Left button down, pos=(1462,373)
+307.0169 	DATA 	Mouse:  Left button up, pos=(1462,373)
+307.2534 	DATA 	Keypress: return
+307.2536 	DATA 	RatingScale rating: (key response) rating=$.05
+307.2537 	DATA 	RatingScale rating: rating RT=1.770
+307.2537 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.432), ('$.05', 1.769)]
+307.2653 	EXP 	New trial (rep=0, index=66): OrderedDict([('choices', 'Going sight-seeing\nwith family'), ('Type', 'social '), ('typeCode', 1)])
+307.2806 	EXP 	RatingScale rating: reset()
+307.3136 	EXP 	text: autoDraw = False
+307.3136 	EXP 	rating: autoDraw = False
+307.3136 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+307.3136 	EXP 	text: pos = array([0.  , 0.07])
+307.3136 	EXP 	text: text = 'Going sight-seeing\nwith family'
+307.3136 	EXP 	text: font = 'Arial'
+307.3136 	EXP 	text: height = 0.08
+307.3136 	EXP 	text: autoDraw = True
+307.3136 	EXP 	rating: autoDraw = True
+307.3136 	EXP 	text: text = 'Going sight-seeing\nwith family'
+310.7174 	DATA 	Mouse: Left button down, pos=(1056,361)
+310.8180 	DATA 	Mouse:  Left button up, pos=(1056,361)
+311.0690 	DATA 	Keypress: return
+311.0691 	DATA 	RatingScale rating: (key response) rating=$.03
+311.0691 	DATA 	RatingScale rating: rating RT=3.776
+311.0691 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 3.424), ('$.03', 3.776)]
+311.0835 	EXP 	New trial (rep=0, index=67): OrderedDict([('choices', 'Drawing a picture'), ('Type', 'nonsocial'), ('typeCode', 0)])
+311.0976 	EXP 	RatingScale rating: reset()
+311.1144 	EXP 	text: autoDraw = False
+311.1144 	EXP 	rating: autoDraw = False
+311.1144 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+311.1144 	EXP 	text: pos = array([0.  , 0.07])
+311.1144 	EXP 	text: text = 'Drawing a picture'
+311.1144 	EXP 	text: font = 'Arial'
+311.1144 	EXP 	text: height = 0.08
+311.1144 	EXP 	text: autoDraw = True
+311.1144 	EXP 	rating: autoDraw = True
+311.1144 	EXP 	text: text = 'Drawing a picture'
+312.1514 	DATA 	Mouse: Left button down, pos=(1435,364)
+312.2520 	DATA 	Mouse:  Left button up, pos=(1435,364)
+312.4255 	DATA 	Keypress: return
+312.4258 	DATA 	RatingScale rating: (key response) rating=$.05
+312.4260 	DATA 	RatingScale rating: rating RT=1.319
+312.4261 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.045), ('$.05', 1.319)]
+312.4391 	EXP 	New trial (rep=0, index=68): OrderedDict([('choices', 'Becoming "InstaFamous"'), ('Type', 'social Media'), ('typeCode', 2)])
+312.4587 	EXP 	RatingScale rating: reset()
+312.4815 	EXP 	text: autoDraw = False
+312.4815 	EXP 	rating: autoDraw = False
+312.4815 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+312.4815 	EXP 	text: pos = array([0.  , 0.07])
+312.4815 	EXP 	text: text = 'Becoming "InstaFamous"'
+312.4815 	EXP 	text: font = 'Arial'
+312.4815 	EXP 	text: height = 0.08
+312.4815 	EXP 	text: autoDraw = True
+312.4815 	EXP 	rating: autoDraw = True
+312.4815 	EXP 	text: text = 'Becoming "InstaFamous"'
+313.5856 	DATA 	Mouse: Left button down, pos=(1436,365)
+313.7191 	DATA 	Mouse:  Left button up, pos=(1436,365)
+313.9241 	DATA 	Keypress: return
+313.9244 	DATA 	RatingScale rating: (key response) rating=$.05
+313.9245 	DATA 	RatingScale rating: rating RT=1.454
+313.9246 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.115), ('$.05', 1.453)]
+313.9365 	EXP 	New trial (rep=0, index=69): OrderedDict([('choices', 'Learning how to \nperform card tricks'), ('Type', 'nonsocial'), ('typeCode', 0)])
+313.9595 	EXP 	RatingScale rating: reset()
+313.9819 	EXP 	text: autoDraw = False
+313.9819 	EXP 	rating: autoDraw = False
+313.9819 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+313.9819 	EXP 	text: pos = array([0.  , 0.07])
+313.9819 	EXP 	text: text = 'Learning how to \nperform card tricks'
+313.9819 	EXP 	text: font = 'Arial'
+313.9819 	EXP 	text: height = 0.08
+313.9819 	EXP 	text: autoDraw = True
+313.9819 	EXP 	rating: autoDraw = True
+313.9819 	EXP 	text: text = 'Learning how to \nperform card tricks'
+315.7394 	DATA 	Mouse: Left button down, pos=(474,363)
+315.8701 	DATA 	Mouse:  Left button up, pos=(474,363)
+315.9531 	DATA 	Keypress: return
+315.9532 	DATA 	RatingScale rating: (key response) rating=$0
+315.9533 	DATA 	RatingScale rating: rating RT=1.980
+315.9533 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.766), ('$0', 1.98)]
+315.9686 	EXP 	New trial (rep=0, index=70): OrderedDict([('choices', 'Playing volleyball\nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+315.9843 	EXP 	RatingScale rating: reset()
+316.0158 	EXP 	text: autoDraw = False
+316.0158 	EXP 	rating: autoDraw = False
+316.0158 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+316.0158 	EXP 	text: pos = array([0.  , 0.07])
+316.0158 	EXP 	text: text = 'Playing volleyball\nwith friends'
+316.0158 	EXP 	text: font = 'Arial'
+316.0158 	EXP 	text: height = 0.08
+316.0158 	EXP 	text: autoDraw = True
+316.0158 	EXP 	rating: autoDraw = True
+316.0158 	EXP 	text: text = 'Playing volleyball\nwith friends'
+318.2374 	DATA 	Mouse: Left button down, pos=(463,369)
+318.3373 	DATA 	Mouse:  Left button up, pos=(463,369)
+318.4707 	DATA 	Keypress: return
+318.4708 	DATA 	RatingScale rating: (key response) rating=$0
+318.4708 	DATA 	RatingScale rating: rating RT=2.474
+318.4709 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.241), ('$0', 2.474)]
+318.4857 	EXP 	New trial (rep=0, index=71): OrderedDict([('choices', 'Watching videos on Youtube'), ('Type', 'nonsocial'), ('typeCode', 0)])
+318.5012 	EXP 	RatingScale rating: reset()
+318.5331 	EXP 	text: autoDraw = False
+318.5331 	EXP 	rating: autoDraw = False
+318.5331 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+318.5331 	EXP 	text: pos = array([0.  , 0.07])
+318.5331 	EXP 	text: text = 'Watching videos on Youtube'
+318.5331 	EXP 	text: font = 'Arial'
+318.5331 	EXP 	text: height = 0.08
+318.5331 	EXP 	text: autoDraw = True
+318.5331 	EXP 	rating: autoDraw = True
+318.5331 	EXP 	text: text = 'Watching videos on Youtube'
+320.5537 	DATA 	Mouse: Left button down, pos=(1471,370)
+320.6384 	DATA 	Mouse:  Left button up, pos=(1471,370)
+320.9044 	DATA 	Keypress: return
+320.9045 	DATA 	RatingScale rating: (key response) rating=$.05
+320.9045 	DATA 	RatingScale rating: rating RT=2.390
+320.9046 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 2.04), ('$.05', 2.39)]
+320.9198 	EXP 	New trial (rep=0, index=72): OrderedDict([('choices', 'Looking through old \nphoto albums'), ('Type', 'nonsocial'), ('typeCode', 0)])
+320.9381 	EXP 	RatingScale rating: reset()
+320.9673 	EXP 	text: autoDraw = False
+320.9673 	EXP 	rating: autoDraw = False
+320.9673 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+320.9673 	EXP 	text: pos = array([0.  , 0.07])
+320.9673 	EXP 	text: text = 'Looking through old \nphoto albums'
+320.9673 	EXP 	text: font = 'Arial'
+320.9673 	EXP 	text: height = 0.08
+320.9673 	EXP 	text: autoDraw = True
+320.9673 	EXP 	rating: autoDraw = True
+320.9673 	EXP 	text: text = 'Looking through old \nphoto albums'
+322.9050 	DATA 	Mouse: Left button down, pos=(1020,368)
+323.0054 	DATA 	Mouse:  Left button up, pos=(1020,368)
+323.2054 	DATA 	Keypress: return
+323.2055 	DATA 	RatingScale rating: (key response) rating=$.03
+323.2055 	DATA 	RatingScale rating: rating RT=2.252
+323.2056 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 1.952), ('$.03', 2.252)]
+323.2208 	EXP 	New trial (rep=0, index=73): OrderedDict([('choices', 'Learning to drive \nwith a family member'), ('Type', 'social'), ('typeCode', 1)])
+323.2397 	EXP 	RatingScale rating: reset()
+323.2681 	EXP 	text: autoDraw = False
+323.2681 	EXP 	rating: autoDraw = False
+323.2681 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+323.2681 	EXP 	text: pos = array([0.  , 0.07])
+323.2681 	EXP 	text: text = 'Learning to drive \nwith a family member'
+323.2681 	EXP 	text: font = 'Arial'
+323.2681 	EXP 	text: height = 0.08
+323.2681 	EXP 	text: autoDraw = True
+323.2681 	EXP 	rating: autoDraw = True
+323.2681 	EXP 	text: text = 'Learning to drive \nwith a family member'
+325.6060 	DATA 	Mouse: Left button down, pos=(469,358)
+325.6895 	DATA 	Mouse:  Left button up, pos=(470,358)
+325.8224 	DATA 	Keypress: return
+325.8225 	DATA 	RatingScale rating: (key response) rating=$0
+325.8226 	DATA 	RatingScale rating: rating RT=2.567
+325.8226 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.351), ('$0', 2.567)]
+325.8380 	EXP 	New trial (rep=0, index=74): OrderedDict([('choices', 'Uploading photos on social media'), ('Type', 'social Media'), ('typeCode', 2)])
+325.8562 	EXP 	RatingScale rating: reset()
+325.8854 	EXP 	text: autoDraw = False
+325.8854 	EXP 	rating: autoDraw = False
+325.8854 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+325.8854 	EXP 	text: pos = array([0.  , 0.07])
+325.8854 	EXP 	text: text = 'Uploading photos on social media'
+325.8854 	EXP 	text: font = 'Arial'
+325.8854 	EXP 	text: height = 0.08
+325.8854 	EXP 	text: autoDraw = True
+325.8854 	EXP 	rating: autoDraw = True
+325.8854 	EXP 	text: text = 'Uploading photos on social media'
+328.2732 	DATA 	Mouse: Left button down, pos=(864,367)
+328.3565 	DATA 	Mouse:  Left button up, pos=(864,367)
+328.5955 	DATA 	Keypress: return
+328.5958 	DATA 	RatingScale rating: (key response) rating=$.02
+328.5960 	DATA 	RatingScale rating: rating RT=2.726
+328.5960 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 2.403), ('$.02', 2.726)]
+328.6080 	EXP 	New trial (rep=0, index=75): OrderedDict([('choices', 'Listening to a podcast'), ('Type', 'nonsocial'), ('typeCode', 0)])
+328.6299 	EXP 	RatingScale rating: reset()
+328.6528 	EXP 	text: autoDraw = False
+328.6528 	EXP 	rating: autoDraw = False
+328.6528 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+328.6528 	EXP 	text: pos = array([0.  , 0.07])
+328.6528 	EXP 	text: text = 'Listening to a podcast'
+328.6528 	EXP 	text: font = 'Arial'
+328.6528 	EXP 	text: height = 0.08
+328.6528 	EXP 	text: autoDraw = True
+328.6528 	EXP 	rating: autoDraw = True
+328.6528 	EXP 	text: text = 'Listening to a podcast'
+330.7902 	DATA 	Mouse: Left button down, pos=(671,373)
+330.8576 	DATA 	Mouse:  Left button up, pos=(671,373)
+331.0576 	DATA 	Keypress: return
+331.0577 	DATA 	RatingScale rating: (key response) rating=$.01
+331.0578 	DATA 	RatingScale rating: rating RT=2.414
+331.0578 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 2.147), ('$.01', 2.414)]
+331.0732 	EXP 	New trial (rep=0, index=76): OrderedDict([('choices', 'Listening to music\nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+331.0888 	EXP 	RatingScale rating: reset()
+331.1202 	EXP 	text: autoDraw = False
+331.1202 	EXP 	rating: autoDraw = False
+331.1202 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+331.1202 	EXP 	text: pos = array([0.  , 0.07])
+331.1202 	EXP 	text: text = 'Listening to music\nby yourself'
+331.1202 	EXP 	text: font = 'Arial'
+331.1202 	EXP 	text: height = 0.08
+331.1202 	EXP 	text: autoDraw = True
+331.1202 	EXP 	rating: autoDraw = True
+331.1202 	EXP 	text: text = 'Listening to music\nby yourself'
+332.8572 	DATA 	Mouse: Left button down, pos=(1294,372)
+333.0417 	DATA 	Mouse:  Left button up, pos=(1294,372)
+333.2748 	DATA 	Keypress: return
+333.2749 	DATA 	RatingScale rating: (key response) rating=$.04
+333.2750 	DATA 	RatingScale rating: rating RT=2.173
+333.2750 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.756), ('$.04', 2.173)]
+333.2902 	EXP 	New trial (rep=0, index=77): OrderedDict([('choices', 'Cleaning up around \nthe house'), ('Type', 'nonsocial'), ('typeCode', 0)])
+333.3059 	EXP 	RatingScale rating: reset()
+333.3375 	EXP 	text: autoDraw = False
+333.3375 	EXP 	rating: autoDraw = False
+333.3375 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+333.3375 	EXP 	text: pos = array([0.  , 0.07])
+333.3375 	EXP 	text: text = 'Cleaning up around \nthe house'
+333.3375 	EXP 	text: font = 'Arial'
+333.3375 	EXP 	text: height = 0.08
+333.3375 	EXP 	text: autoDraw = True
+333.3375 	EXP 	rating: autoDraw = True
+333.3375 	EXP 	text: text = 'Cleaning up around \nthe house'
+334.7413 	DATA 	Mouse: Left button down, pos=(1269,361)
+334.8589 	DATA 	Mouse:  Left button up, pos=(1268,360)
+335.0258 	DATA 	Keypress: return
+335.0259 	DATA 	RatingScale rating: (key response) rating=$.04
+335.0260 	DATA 	RatingScale rating: rating RT=1.707
+335.0260 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.423), ('$.04', 1.707)]
+335.0402 	EXP 	New trial (rep=0, index=78): OrderedDict([('choices', 'Getting a haircut'), ('Type', 'nonsocial'), ('typeCode', 0)])
+335.0514 	EXP 	RatingScale rating: reset()
+335.0713 	EXP 	text: autoDraw = False
+335.0713 	EXP 	rating: autoDraw = False
+335.0713 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+335.0713 	EXP 	text: pos = array([0.  , 0.07])
+335.0713 	EXP 	text: text = 'Getting a haircut'
+335.0713 	EXP 	text: font = 'Arial'
+335.0713 	EXP 	text: height = 0.08
+335.0713 	EXP 	text: autoDraw = True
+335.0713 	EXP 	rating: autoDraw = True
+335.0713 	EXP 	text: text = 'Getting a haircut'
+336.5428 	DATA 	Mouse: Left button down, pos=(1452,345)
+336.6760 	DATA 	Mouse:  Left button up, pos=(1452,345)
+336.8589 	DATA 	Keypress: return
+336.8590 	DATA 	RatingScale rating: (key response) rating=$.05
+336.8591 	DATA 	RatingScale rating: rating RT=1.796
+336.8591 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.48), ('$.05', 1.796)]
+336.8744 	EXP 	New trial (rep=0, index=79): OrderedDict([('choices', 'Playing a videogame \nat home'), ('Type', 'nonsocial'), ('typeCode', 0)])
+336.8899 	EXP 	RatingScale rating: reset()
+336.9219 	EXP 	text: autoDraw = False
+336.9219 	EXP 	rating: autoDraw = False
+336.9219 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+336.9219 	EXP 	text: pos = array([0.  , 0.07])
+336.9219 	EXP 	text: text = 'Playing a videogame \nat home'
+336.9219 	EXP 	text: font = 'Arial'
+336.9219 	EXP 	text: height = 0.08
+336.9219 	EXP 	text: autoDraw = True
+336.9219 	EXP 	rating: autoDraw = True
+336.9219 	EXP 	text: text = 'Playing a videogame \nat home'
+338.9764 	DATA 	Mouse: Left button down, pos=(631,354)
+339.0770 	DATA 	Mouse:  Left button up, pos=(631,354)
+339.2600 	DATA 	Keypress: return
+339.2601 	DATA 	RatingScale rating: (key response) rating=$.01
+339.2601 	DATA 	RatingScale rating: rating RT=2.358
+339.2602 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 2.074), ('$.01', 2.358)]
+339.2755 	EXP 	New trial (rep=0, index=80): OrderedDict([('choices', 'Going to a bar \nwith friends'), ('Type', 'social'), ('typeCode', 1)])
+339.2887 	EXP 	RatingScale rating: reset()
+339.3072 	EXP 	text: autoDraw = False
+339.3072 	EXP 	rating: autoDraw = False
+339.3072 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+339.3072 	EXP 	text: pos = array([0.  , 0.07])
+339.3072 	EXP 	text: text = 'Going to a bar \nwith friends'
+339.3072 	EXP 	text: font = 'Arial'
+339.3072 	EXP 	text: height = 0.08
+339.3072 	EXP 	text: autoDraw = True
+339.3072 	EXP 	rating: autoDraw = True
+339.3072 	EXP 	text: text = 'Going to a bar \nwith friends'
+341.5436 	DATA 	Mouse: Left button down, pos=(1265,364)
+341.6610 	DATA 	Mouse:  Left button up, pos=(1265,364)
+341.8441 	DATA 	Keypress: return
+341.8442 	DATA 	RatingScale rating: (key response) rating=$.04
+341.8443 	DATA 	RatingScale rating: rating RT=2.544
+341.8443 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 2.244), ('$.04', 2.544)]
+341.8595 	EXP 	New trial (rep=0, index=81): OrderedDict([('choices', 'Going to the zoo with friends'), ('Type', 'social'), ('typeCode', 1)])
+341.8745 	EXP 	RatingScale rating: reset()
+341.9067 	EXP 	text: autoDraw = False
+341.9067 	EXP 	rating: autoDraw = False
+341.9067 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+341.9067 	EXP 	text: pos = array([0.  , 0.07])
+341.9067 	EXP 	text: text = 'Going to the zoo with friends'
+341.9067 	EXP 	text: font = 'Arial'
+341.9067 	EXP 	text: height = 0.08
+341.9067 	EXP 	text: autoDraw = True
+341.9067 	EXP 	rating: autoDraw = True
+341.9067 	EXP 	text: text = 'Going to the zoo with friends'
+343.2436 	DATA 	Mouse: Left button down, pos=(1449,364)
+343.3848 	DATA 	Mouse:  Left button up, pos=(1449,364)
+343.5452 	DATA 	Keypress: return
+343.5453 	DATA 	RatingScale rating: (key response) rating=$.05
+343.5454 	DATA 	RatingScale rating: rating RT=1.657
+343.5454 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.355), ('$.05', 1.657)]
+343.5596 	EXP 	New trial (rep=0, index=82): OrderedDict([('choices', 'Getting likes on an\nInstagram picture'), ('Type', 'social Media'), ('typeCode', 2)])
+343.5769 	EXP 	RatingScale rating: reset()
+343.6073 	EXP 	text: autoDraw = False
+343.6073 	EXP 	rating: autoDraw = False
+343.6073 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+343.6073 	EXP 	text: pos = array([0.  , 0.07])
+343.6073 	EXP 	text: text = 'Getting likes on an\nInstagram picture'
+343.6073 	EXP 	text: font = 'Arial'
+343.6073 	EXP 	text: height = 0.08
+343.6073 	EXP 	text: autoDraw = True
+343.6073 	EXP 	rating: autoDraw = True
+343.6073 	EXP 	text: text = 'Getting likes on an\nInstagram picture'
+344.8447 	DATA 	Mouse: Left button down, pos=(1449,364)
+344.9453 	DATA 	Mouse:  Left button up, pos=(1449,364)
+345.1282 	DATA 	Keypress: return
+345.1283 	DATA 	RatingScale rating: (key response) rating=$.05
+345.1283 	DATA 	RatingScale rating: rating RT=1.536
+345.1283 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.253), ('$.05', 1.536)]
+345.1437 	EXP 	New trial (rep=0, index=83): OrderedDict([('choices', 'Taking a family member\n on a shopping trip'), ('Type', 'social'), ('typeCode', 1)])
+345.1615 	EXP 	RatingScale rating: reset()
+345.1910 	EXP 	text: autoDraw = False
+345.1910 	EXP 	rating: autoDraw = False
+345.1910 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+345.1910 	EXP 	text: pos = array([0.  , 0.07])
+345.1910 	EXP 	text: text = 'Taking a family member\n on a shopping trip'
+345.1910 	EXP 	text: font = 'Arial'
+345.1910 	EXP 	text: height = 0.08
+345.1910 	EXP 	text: autoDraw = True
+345.1910 	EXP 	rating: autoDraw = True
+345.1910 	EXP 	text: text = 'Taking a family member\n on a shopping trip'
+346.7616 	DATA 	Mouse: Left button down, pos=(1449,364)
+346.8671 	DATA 	Mouse:  Left button up, pos=(1449,364)
+347.0984 	DATA 	Keypress: return
+347.0985 	DATA 	RatingScale rating: (key response) rating=$.05
+347.0986 	DATA 	RatingScale rating: rating RT=1.922
+347.0986 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.585), ('$.05', 1.922)]
+347.1110 	EXP 	New trial (rep=0, index=84): OrderedDict([('choices', 'Going to a comedy show \nwith a significant other'), ('Type', 'social'), ('typeCode', 1)])
+347.1342 	EXP 	RatingScale rating: reset()
+347.1583 	EXP 	text: autoDraw = False
+347.1583 	EXP 	rating: autoDraw = False
+347.1583 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+347.1583 	EXP 	text: pos = array([0.  , 0.07])
+347.1583 	EXP 	text: text = 'Going to a comedy show \nwith a significant other'
+347.1583 	EXP 	text: font = 'Arial'
+347.1583 	EXP 	text: height = 0.08
+347.1583 	EXP 	text: autoDraw = True
+347.1583 	EXP 	rating: autoDraw = True
+347.1583 	EXP 	text: text = 'Going to a comedy show \nwith a significant other'
+348.9819 	DATA 	Mouse: Left button down, pos=(1449,364)
+349.0793 	DATA 	Mouse:  Left button up, pos=(1449,364)
+349.2658 	DATA 	Keypress: return
+349.2660 	DATA 	RatingScale rating: (key response) rating=$.05
+349.2661 	DATA 	RatingScale rating: rating RT=2.116
+349.2662 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.832), ('$.05', 2.116)]
+349.2788 	EXP 	New trial (rep=0, index=85): OrderedDict([('choices', 'Getting a slice of pizza \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+349.3036 	EXP 	RatingScale rating: reset()
+349.3422 	EXP 	text: autoDraw = False
+349.3422 	EXP 	rating: autoDraw = False
+349.3422 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+349.3422 	EXP 	text: pos = array([0.  , 0.07])
+349.3422 	EXP 	text: text = 'Getting a slice of pizza \nby yourself'
+349.3422 	EXP 	text: font = 'Arial'
+349.3422 	EXP 	text: height = 0.08
+349.3422 	EXP 	text: autoDraw = True
+349.3422 	EXP 	rating: autoDraw = True
+349.3422 	EXP 	text: text = 'Getting a slice of pizza \nby yourself'
+350.4656 	DATA 	Mouse: Left button down, pos=(1449,364)
+350.5804 	DATA 	Mouse:  Left button up, pos=(1449,364)
+351.4501 	DATA 	Mouse: Left button down, pos=(840,349)
+351.5974 	DATA 	Mouse:  Left button up, pos=(840,349)
+351.8135 	DATA 	Keypress: return
+351.8136 	DATA 	RatingScale rating: (key response) rating=$.02
+351.8136 	DATA 	RatingScale rating: rating RT=2.493
+351.8136 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.145), ('$.02', 2.129), ('$.02', 2.492)]
+351.8290 	EXP 	New trial (rep=0, index=86): OrderedDict([('choices', 'Running a marathon'), ('Type', 'nonsocial'), ('typeCode', 0)])
+351.8402 	EXP 	RatingScale rating: reset()
+351.8596 	EXP 	text: autoDraw = False
+351.8596 	EXP 	rating: autoDraw = False
+351.8596 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+351.8596 	EXP 	text: pos = array([0.  , 0.07])
+351.8596 	EXP 	text: text = 'Running a marathon'
+351.8596 	EXP 	text: font = 'Arial'
+351.8596 	EXP 	text: height = 0.08
+351.8596 	EXP 	text: autoDraw = True
+351.8596 	EXP 	rating: autoDraw = True
+351.8596 	EXP 	text: text = 'Running a marathon'
+353.7811 	DATA 	Mouse: Left button down, pos=(433,391)
+353.8841 	DATA 	Mouse:  Left button up, pos=(433,391)
+354.1507 	DATA 	Keypress: return
+354.1509 	DATA 	RatingScale rating: (key response) rating=$0
+354.1510 	DATA 	RatingScale rating: rating RT=2.302
+354.1511 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.932), ('$0', 2.302)]
+354.1643 	EXP 	New trial (rep=0, index=87): OrderedDict([('choices', 'Getting drinks \nwith co-workers'), ('Type', 'social'), ('typeCode', 1)])
+354.1869 	EXP 	RatingScale rating: reset()
+354.2102 	EXP 	text: autoDraw = False
+354.2102 	EXP 	rating: autoDraw = False
+354.2102 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+354.2102 	EXP 	text: pos = array([0.  , 0.07])
+354.2102 	EXP 	text: text = 'Getting drinks \nwith co-workers'
+354.2102 	EXP 	text: font = 'Arial'
+354.2102 	EXP 	text: height = 0.08
+354.2102 	EXP 	text: autoDraw = True
+354.2102 	EXP 	rating: autoDraw = True
+354.2102 	EXP 	text: text = 'Getting drinks \nwith co-workers'
+355.8667 	DATA 	Mouse: Left button down, pos=(471,374)
+355.9723 	DATA 	Mouse:  Left button up, pos=(471,374)
+356.1486 	DATA 	Keypress: return
+356.1487 	DATA 	RatingScale rating: (key response) rating=$0
+356.1487 	DATA 	RatingScale rating: rating RT=1.947
+356.1487 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.666), ('$0', 1.947)]
+356.1630 	EXP 	New trial (rep=0, index=88): OrderedDict([('choices', 'Getting verified on \nInstagram'), ('Type', 'social Media'), ('typeCode', 2)])
+356.1783 	EXP 	RatingScale rating: reset()
+356.2110 	EXP 	text: autoDraw = False
+356.2110 	EXP 	rating: autoDraw = False
+356.2110 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+356.2110 	EXP 	text: pos = array([0.  , 0.07])
+356.2110 	EXP 	text: text = 'Getting verified on \nInstagram'
+356.2110 	EXP 	text: font = 'Arial'
+356.2110 	EXP 	text: height = 0.08
+356.2110 	EXP 	text: autoDraw = True
+356.2110 	EXP 	rating: autoDraw = True
+356.2110 	EXP 	text: text = 'Getting verified on \nInstagram'
+358.4652 	DATA 	Mouse: Left button down, pos=(1256,358)
+358.6157 	DATA 	Mouse:  Left button up, pos=(1256,358)
+358.7986 	DATA 	Keypress: return
+358.7987 	DATA 	RatingScale rating: (key response) rating=$.04
+358.7987 	DATA 	RatingScale rating: rating RT=2.608
+358.7988 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 2.275), ('$.04', 2.608)]
+358.8142 	EXP 	New trial (rep=0, index=89): OrderedDict([('choices', 'Playing icebreakers\nwith classmates'), ('Type', 'social'), ('typeCode', 1)])
+358.8325 	EXP 	RatingScale rating: reset()
+358.8617 	EXP 	text: autoDraw = False
+358.8617 	EXP 	rating: autoDraw = False
+358.8617 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+358.8617 	EXP 	text: pos = array([0.  , 0.07])
+358.8617 	EXP 	text: text = 'Playing icebreakers\nwith classmates'
+358.8617 	EXP 	text: font = 'Arial'
+358.8617 	EXP 	text: height = 0.08
+358.8617 	EXP 	text: autoDraw = True
+358.8617 	EXP 	rating: autoDraw = True
+358.8617 	EXP 	text: text = 'Playing icebreakers\nwith classmates'
+361.5992 	DATA 	Mouse: Left button down, pos=(457,356)
+361.7167 	DATA 	Mouse:  Left button up, pos=(458,356)
+361.9339 	DATA 	Keypress: return
+361.9339 	DATA 	RatingScale rating: (key response) rating=$0
+361.9340 	DATA 	RatingScale rating: rating RT=3.086
+361.9340 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.752), ('$0', 3.086)]
+361.9493 	EXP 	New trial (rep=0, index=90): OrderedDict([('choices', 'Walking around Central \nPark with family'), ('Type', 'social'), ('typeCode', 1)])
+361.9856 	EXP 	RatingScale rating: reset()
+362.0126 	EXP 	text: autoDraw = False
+362.0126 	EXP 	rating: autoDraw = False
+362.0126 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+362.0126 	EXP 	text: pos = array([0.  , 0.07])
+362.0126 	EXP 	text: text = 'Walking around Central \nPark with family'
+362.0126 	EXP 	text: font = 'Arial'
+362.0126 	EXP 	text: height = 0.08
+362.0126 	EXP 	text: autoDraw = True
+362.0126 	EXP 	rating: autoDraw = True
+362.0126 	EXP 	text: text = 'Walking around Central \nPark with family'
+364.9333 	DATA 	Mouse: Left button down, pos=(863,362)
+365.0680 	DATA 	Mouse:  Left button up, pos=(863,362)
+365.2180 	DATA 	Keypress: return
+365.2181 	DATA 	RatingScale rating: (key response) rating=$.02
+365.2182 	DATA 	RatingScale rating: rating RT=3.215
+365.2182 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.02', 2.93), ('$.02', 3.215)]
+365.2324 	EXP 	New trial (rep=0, index=91): OrderedDict([('choices', 'Watching a football \ngame from home'), ('Type', 'nonsocial'), ('typeCode', 0)])
+365.2495 	EXP 	RatingScale rating: reset()
+365.2802 	EXP 	text: autoDraw = False
+365.2802 	EXP 	rating: autoDraw = False
+365.2802 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+365.2802 	EXP 	text: pos = array([0.  , 0.07])
+365.2802 	EXP 	text: text = 'Watching a football \ngame from home'
+365.2802 	EXP 	text: font = 'Arial'
+365.2802 	EXP 	text: height = 0.08
+365.2802 	EXP 	text: autoDraw = True
+365.2802 	EXP 	rating: autoDraw = True
+365.2802 	EXP 	text: text = 'Watching a football \ngame from home'
+367.3175 	DATA 	Mouse: Left button down, pos=(1249,350)
+367.4181 	DATA 	Mouse:  Left button up, pos=(1249,350)
+367.6020 	DATA 	Keypress: return
+367.6021 	DATA 	RatingScale rating: (key response) rating=$.04
+367.6022 	DATA 	RatingScale rating: rating RT=2.337
+367.6022 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 2.053), ('$.04', 2.337)]
+367.6165 	EXP 	New trial (rep=0, index=92): OrderedDict([('choices', 'Trying to solve a \nRubik’s cube'), ('Type', 'nonsocial'), ('typeCode', 0)])
+367.6349 	EXP 	RatingScale rating: reset()
+367.6642 	EXP 	text: autoDraw = False
+367.6642 	EXP 	rating: autoDraw = False
+367.6642 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+367.6642 	EXP 	text: pos = array([0.  , 0.07])
+367.6642 	EXP 	text: text = 'Trying to solve a \nRubik’s cube'
+367.6642 	EXP 	text: font = 'Arial'
+367.6642 	EXP 	text: height = 0.08
+367.6642 	EXP 	text: autoDraw = True
+367.6642 	EXP 	rating: autoDraw = True
+367.6642 	EXP 	text: text = 'Trying to solve a \nRubik’s cube'
+369.4516 	DATA 	Mouse: Left button down, pos=(465,376)
+369.5547 	DATA 	Mouse:  Left button up, pos=(465,376)
+369.7522 	DATA 	Keypress: return
+369.7523 	DATA 	RatingScale rating: (key response) rating=$0
+369.7523 	DATA 	RatingScale rating: rating RT=2.102
+369.7524 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.802), ('$0', 2.102)]
+369.7676 	EXP 	New trial (rep=0, index=93): OrderedDict([('choices', 'Exercising from home'), ('Type', 'nonsocial'), ('typeCode', 0)])
+369.7804 	EXP 	RatingScale rating: reset()
+369.7981 	EXP 	text: autoDraw = False
+369.7981 	EXP 	rating: autoDraw = False
+369.7981 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+369.7981 	EXP 	text: pos = array([0.  , 0.07])
+369.7981 	EXP 	text: text = 'Exercising from home'
+369.7981 	EXP 	text: font = 'Arial'
+369.7981 	EXP 	text: height = 0.08
+369.7981 	EXP 	text: autoDraw = True
+369.7981 	EXP 	rating: autoDraw = True
+369.7981 	EXP 	text: text = 'Exercising from home'
+370.8855 	DATA 	Mouse: Left button down, pos=(464,377)
+370.9860 	DATA 	Mouse:  Left button up, pos=(464,377)
+371.2191 	DATA 	Keypress: return
+371.2192 	DATA 	RatingScale rating: (key response) rating=$0
+371.2193 	DATA 	RatingScale rating: rating RT=1.428
+371.2193 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.095), ('$0', 1.428)]
+371.2345 	EXP 	New trial (rep=0, index=94): OrderedDict([('choices', 'Calling a family member over Skype'), ('Type', 'social Media'), ('typeCode', 2)])
+371.2521 	EXP 	RatingScale rating: reset()
+371.2818 	EXP 	text: autoDraw = False
+371.2818 	EXP 	rating: autoDraw = False
+371.2818 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+371.2818 	EXP 	text: pos = array([0.  , 0.07])
+371.2818 	EXP 	text: text = 'Calling a family member over Skype'
+371.2818 	EXP 	text: font = 'Arial'
+371.2818 	EXP 	text: height = 0.08
+371.2818 	EXP 	text: autoDraw = True
+371.2818 	EXP 	rating: autoDraw = True
+371.2818 	EXP 	text: text = 'Calling a family member over Skype'
+372.5565 	DATA 	Mouse: Left button down, pos=(464,377)
+372.7031 	DATA 	Mouse:  Left button up, pos=(464,377)
+373.5702 	DATA 	Mouse: Left button down, pos=(660,385)
+373.6871 	DATA 	Mouse:  Left button up, pos=(660,385)
+374.1032 	DATA 	Keypress: return
+374.1033 	DATA 	RatingScale rating: (key response) rating=$.01
+374.1033 	DATA 	RatingScale rating: rating RT=2.837
+374.1033 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.29), ('$.01', 2.304), ('$.01', 2.837)]
+374.1187 	EXP 	New trial (rep=0, index=95): OrderedDict([('choices', 'Planting flowers \nin a garden'), ('Type', 'nonsocial'), ('typeCode', 0)])
+374.1337 	EXP 	RatingScale rating: reset()
+374.1661 	EXP 	text: autoDraw = False
+374.1661 	EXP 	rating: autoDraw = False
+374.1661 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+374.1661 	EXP 	text: pos = array([0.  , 0.07])
+374.1661 	EXP 	text: text = 'Planting flowers \nin a garden'
+374.1661 	EXP 	text: font = 'Arial'
+374.1661 	EXP 	text: height = 0.08
+374.1661 	EXP 	text: autoDraw = True
+374.1661 	EXP 	rating: autoDraw = True
+374.1661 	EXP 	text: text = 'Planting flowers \nin a garden'
+376.2037 	DATA 	Mouse: Left button down, pos=(1450,375)
+376.3373 	DATA 	Mouse:  Left button up, pos=(1450,375)
+376.5042 	DATA 	Keypress: return
+376.5043 	DATA 	RatingScale rating: (key response) rating=$.05
+376.5043 	DATA 	RatingScale rating: rating RT=2.358
+376.5044 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 2.058), ('$.05', 2.358)]
+376.5198 	EXP 	New trial (rep=0, index=96): OrderedDict([('choices', 'Getting a lot of comments on your Instagram post'), ('Type', 'social Media'), ('typeCode', 2)])
+376.5410 	EXP 	RatingScale rating: reset()
+376.5668 	EXP 	text: autoDraw = False
+376.5668 	EXP 	rating: autoDraw = False
+376.5668 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+376.5668 	EXP 	text: pos = array([0.  , 0.07])
+376.5668 	EXP 	text: text = 'Getting a lot of comments on your Instagram post'
+376.5668 	EXP 	text: font = 'Arial'
+376.5668 	EXP 	text: height = 0.08
+376.5668 	EXP 	text: autoDraw = True
+376.5668 	EXP 	rating: autoDraw = True
+376.5668 	EXP 	text: text = 'Getting a lot of comments on your Instagram post'
+377.9878 	DATA 	Mouse: Left button down, pos=(1445,371)
+378.1716 	DATA 	Mouse:  Left button up, pos=(1445,371)
+378.3214 	DATA 	Keypress: return
+378.3215 	DATA 	RatingScale rating: (key response) rating=$.05
+378.3215 	DATA 	RatingScale rating: rating RT=1.762
+378.3216 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.429), ('$.05', 1.762)]
+378.3368 	EXP 	New trial (rep=0, index=97): OrderedDict([('choices', 'Watching YouTube\nvideos'), ('Type', 'nonsocial'), ('typeCode', 0)])
+378.3516 	EXP 	RatingScale rating: reset()
+378.3841 	EXP 	text: autoDraw = False
+378.3841 	EXP 	rating: autoDraw = False
+378.3841 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+378.3841 	EXP 	text: pos = array([0.  , 0.07])
+378.3841 	EXP 	text: text = 'Watching YouTube\nvideos'
+378.3841 	EXP 	text: font = 'Arial'
+378.3841 	EXP 	text: height = 0.08
+378.3841 	EXP 	text: autoDraw = True
+378.3841 	EXP 	rating: autoDraw = True
+378.3841 	EXP 	text: text = 'Watching YouTube\nvideos'
+378.9708 	DATA 	Mouse: Left button down, pos=(1445,371)
+379.0714 	DATA 	Mouse:  Left button up, pos=(1445,371)
+379.2240 	DATA 	Keypress: return
+379.2242 	DATA 	RatingScale rating: (key response) rating=$.05
+379.2243 	DATA 	RatingScale rating: rating RT=0.861
+379.2243 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.607), ('$.05', 0.861)]
+379.2368 	EXP 	New trial (rep=0, index=98): OrderedDict([('choices', 'Going on vacation \nby yourself'), ('Type', 'nonsocial'), ('typeCode', 0)])
+379.2508 	EXP 	RatingScale rating: reset()
+379.2699 	EXP 	text: autoDraw = False
+379.2699 	EXP 	rating: autoDraw = False
+379.2699 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+379.2699 	EXP 	text: pos = array([0.  , 0.07])
+379.2699 	EXP 	text: text = 'Going on vacation \nby yourself'
+379.2699 	EXP 	text: font = 'Arial'
+379.2699 	EXP 	text: height = 0.08
+379.2699 	EXP 	text: autoDraw = True
+379.2699 	EXP 	rating: autoDraw = True
+379.2699 	EXP 	text: text = 'Going on vacation \nby yourself'
+380.2378 	DATA 	Mouse: Left button down, pos=(1444,370)
+380.3555 	DATA 	Mouse:  Left button up, pos=(1444,370)
+381.1884 	DATA 	Mouse: Left button down, pos=(477,370)
+381.3055 	DATA 	Mouse:  Left button up, pos=(477,370)
+381.4724 	DATA 	Keypress: return
+381.4725 	DATA 	RatingScale rating: (key response) rating=$0
+381.4725 	DATA 	RatingScale rating: rating RT=2.210
+381.4725 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.975), ('$0', 1.926), ('$0', 2.21)]
+381.4869 	EXP 	New trial (rep=0, index=99): OrderedDict([('choices', 'Getting likes on a \nFacebook status'), ('Type', 'social Media'), ('typeCode', 2)])
+381.5035 	EXP 	RatingScale rating: reset()
+381.5349 	EXP 	text: autoDraw = False
+381.5349 	EXP 	rating: autoDraw = False
+381.5349 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+381.5349 	EXP 	text: pos = array([0.  , 0.07])
+381.5349 	EXP 	text: text = 'Getting likes on a \nFacebook status'
+381.5349 	EXP 	text: font = 'Arial'
+381.5349 	EXP 	text: height = 0.08
+381.5349 	EXP 	text: autoDraw = True
+381.5349 	EXP 	rating: autoDraw = True
+381.5349 	EXP 	text: text = 'Getting likes on a \nFacebook status'
+383.3889 	DATA 	Mouse: Left button down, pos=(506,386)
+383.4807 	DATA 	Mouse:  Left button up, pos=(506,386)
+383.7065 	DATA 	Keypress: return
+383.7066 	DATA 	RatingScale rating: (key response) rating=$0
+383.7067 	DATA 	RatingScale rating: rating RT=2.189
+383.7067 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 1.872), ('$0', 2.189)]
+383.7210 	EXP 	New trial (rep=0, index=100): OrderedDict([('choices', 'Viedochatting your friend over Snapchat'), ('Type', 'social Media'), ('typeCode', 2)])
+383.7426 	EXP 	RatingScale rating: reset()
+383.7690 	EXP 	text: autoDraw = False
+383.7690 	EXP 	rating: autoDraw = False
+383.7690 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+383.7690 	EXP 	text: pos = array([0.  , 0.07])
+383.7690 	EXP 	text: text = 'Viedochatting your friend over Snapchat'
+383.7690 	EXP 	text: font = 'Arial'
+383.7690 	EXP 	text: height = 0.08
+383.7690 	EXP 	text: autoDraw = True
+383.7690 	EXP 	rating: autoDraw = True
+383.7690 	EXP 	text: text = 'Viedochatting your friend over Snapchat'
+385.9730 	DATA 	Mouse: Left button down, pos=(462,377)
+386.0568 	DATA 	Mouse:  Left button up, pos=(462,377)
+386.7645 	DATA 	Keypress: return
+386.7649 	DATA 	RatingScale rating: (key response) rating=$0
+386.7650 	DATA 	RatingScale rating: rating RT=3.006
+386.7651 	DATA 	RatingScale rating: history=[(None, 0.0), ('$0', 2.214), ('$0', 3.006)]
+386.7896 	EXP 	New trial (rep=0, index=101): OrderedDict([('choices', 'Buying coffee on \nthe way to work'), ('Type', 'nonsocial'), ('typeCode', 0)])
+386.8151 	EXP 	RatingScale rating: reset()
+386.8365 	EXP 	text: autoDraw = False
+386.8365 	EXP 	rating: autoDraw = False
+386.8365 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+386.8365 	EXP 	text: pos = array([0.  , 0.07])
+386.8365 	EXP 	text: text = 'Buying coffee on \nthe way to work'
+386.8365 	EXP 	text: font = 'Arial'
+386.8365 	EXP 	text: height = 0.08
+386.8365 	EXP 	text: autoDraw = True
+386.8365 	EXP 	rating: autoDraw = True
+386.8365 	EXP 	text: text = 'Buying coffee on \nthe way to work'
+388.9072 	DATA 	Mouse: Left button down, pos=(1062,359)
+389.0578 	DATA 	Mouse:  Left button up, pos=(1062,359)
+389.2247 	DATA 	Keypress: return
+389.2248 	DATA 	RatingScale rating: (key response) rating=$.03
+389.2248 	DATA 	RatingScale rating: rating RT=2.396
+389.2248 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 2.078), ('$.03', 2.396)]
+389.2391 	EXP 	New trial (rep=0, index=102): OrderedDict([('choices', 'Doing your laundry'), ('Type', 'nonsocial'), ('typeCode', 0)])
+389.2518 	EXP 	RatingScale rating: reset()
+389.2704 	EXP 	text: autoDraw = False
+389.2704 	EXP 	rating: autoDraw = False
+389.2704 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+389.2704 	EXP 	text: pos = array([0.  , 0.07])
+389.2704 	EXP 	text: text = 'Doing your laundry'
+389.2704 	EXP 	text: font = 'Arial'
+389.2704 	EXP 	text: height = 0.08
+389.2704 	EXP 	text: autoDraw = True
+389.2704 	EXP 	rating: autoDraw = True
+389.2704 	EXP 	text: text = 'Doing your laundry'
+390.8242 	DATA 	Mouse: Left button down, pos=(1250,371)
+390.9417 	DATA 	Mouse:  Left button up, pos=(1250,371)
+391.1089 	DATA 	Keypress: return
+391.1090 	DATA 	RatingScale rating: (key response) rating=$.04
+391.1090 	DATA 	RatingScale rating: rating RT=1.847
+391.1090 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.04', 1.563), ('$.04', 1.847)]
+391.1233 	EXP 	New trial (rep=0, index=103): OrderedDict([('choices', 'Watching the news'), ('Type', 'nonsocial'), ('typeCode', 0)])
+391.1358 	EXP 	RatingScale rating: reset()
+391.1543 	EXP 	text: autoDraw = False
+391.1543 	EXP 	rating: autoDraw = False
+391.1543 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+391.1543 	EXP 	text: pos = array([0.  , 0.07])
+391.1543 	EXP 	text: text = 'Watching the news'
+391.1543 	EXP 	text: font = 'Arial'
+391.1543 	EXP 	text: height = 0.08
+391.1543 	EXP 	text: autoDraw = True
+391.1543 	EXP 	rating: autoDraw = True
+391.1543 	EXP 	text: text = 'Watching the news'
+392.5914 	DATA 	Mouse: Left button down, pos=(691,360)
+392.6761 	DATA 	Mouse:  Left button up, pos=(691,360)
+392.8919 	DATA 	Keypress: return
+392.8920 	DATA 	RatingScale rating: (key response) rating=$.01
+392.8921 	DATA 	RatingScale rating: rating RT=1.746
+392.8921 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.01', 1.446), ('$.01', 1.746)]
+392.9074 	EXP 	New trial (rep=0, index=104): OrderedDict([('choices', 'Going to a coffee shop with friends'), ('Type', 'social'), ('typeCode', 1)])
+392.9232 	EXP 	RatingScale rating: reset()
+392.9549 	EXP 	text: autoDraw = False
+392.9549 	EXP 	rating: autoDraw = False
+392.9549 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+392.9549 	EXP 	text: pos = array([0.  , 0.07])
+392.9549 	EXP 	text: text = 'Going to a coffee shop with friends'
+392.9549 	EXP 	text: font = 'Arial'
+392.9549 	EXP 	text: height = 0.08
+392.9549 	EXP 	text: autoDraw = True
+392.9549 	EXP 	rating: autoDraw = True
+392.9549 	EXP 	text: text = 'Going to a coffee shop with friends'
+394.5254 	DATA 	Mouse: Left button down, pos=(1445,366)
+394.6259 	DATA 	Mouse:  Left button up, pos=(1445,366)
+394.7929 	DATA 	Keypress: return
+394.7930 	DATA 	RatingScale rating: (key response) rating=$.05
+394.7930 	DATA 	RatingScale rating: rating RT=1.856
+394.7930 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.588), ('$.05', 1.856)]
+394.8084 	EXP 	New trial (rep=0, index=105): OrderedDict([('choices', 'Going to an amusement \npark with a friend'), ('Type', 'social'), ('typeCode', 1)])
+394.8266 	EXP 	RatingScale rating: reset()
+394.8556 	EXP 	text: autoDraw = False
+394.8556 	EXP 	rating: autoDraw = False
+394.8556 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+394.8556 	EXP 	text: pos = array([0.  , 0.07])
+394.8556 	EXP 	text: text = 'Going to an amusement \npark with a friend'
+394.8556 	EXP 	text: font = 'Arial'
+394.8556 	EXP 	text: height = 0.08
+394.8556 	EXP 	text: autoDraw = True
+394.8556 	EXP 	rating: autoDraw = True
+394.8556 	EXP 	text: text = 'Going to an amusement \npark with a friend'
+395.9594 	DATA 	Mouse: Left button down, pos=(1445,366)
+396.0929 	DATA 	Mouse:  Left button up, pos=(1445,366)
+396.3167 	DATA 	Keypress: return
+396.3170 	DATA 	RatingScale rating: (key response) rating=$.05
+396.3172 	DATA 	RatingScale rating: rating RT=1.475
+396.3172 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 1.117), ('$.05', 1.474)]
+396.3276 	EXP 	New trial (rep=0, index=106): OrderedDict([('choices', 'Getting a slice of \npizza with a friend'), ('Type', 'social'), ('typeCode', 1)])
+396.3485 	EXP 	RatingScale rating: reset()
+396.3726 	EXP 	text: autoDraw = False
+396.3726 	EXP 	rating: autoDraw = False
+396.3726 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+396.3726 	EXP 	text: pos = array([0.  , 0.07])
+396.3726 	EXP 	text: text = 'Getting a slice of \npizza with a friend'
+396.3726 	EXP 	text: font = 'Arial'
+396.3726 	EXP 	text: height = 0.08
+396.3726 	EXP 	text: autoDraw = True
+396.3726 	EXP 	rating: autoDraw = True
+396.3726 	EXP 	text: text = 'Getting a slice of \npizza with a friend'
+397.2934 	DATA 	Mouse: Left button down, pos=(1445,366)
+397.4100 	DATA 	Mouse:  Left button up, pos=(1445,366)
+397.6101 	DATA 	Keypress: return
+397.6102 	DATA 	RatingScale rating: (key response) rating=$.05
+397.6102 	DATA 	RatingScale rating: rating RT=1.246
+397.6103 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.929), ('$.05', 1.246)]
+397.6255 	EXP 	New trial (rep=0, index=107): OrderedDict([('choices', 'Going to a karaoke\nbar with friends'), ('Type', 'social'), ('typeCode', 1)])
+397.6407 	EXP 	RatingScale rating: reset()
+397.6731 	EXP 	text: autoDraw = False
+397.6731 	EXP 	rating: autoDraw = False
+397.6731 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+397.6731 	EXP 	text: pos = array([0.  , 0.07])
+397.6731 	EXP 	text: text = 'Going to a karaoke\nbar with friends'
+397.6731 	EXP 	text: font = 'Arial'
+397.6731 	EXP 	text: height = 0.08
+397.6731 	EXP 	text: autoDraw = True
+397.6731 	EXP 	rating: autoDraw = True
+397.6731 	EXP 	text: text = 'Going to a karaoke\nbar with friends'
+398.6434 	DATA 	Mouse: Left button down, pos=(1445,366)
+398.7440 	DATA 	Mouse:  Left button up, pos=(1445,366)
+399.0111 	DATA 	Keypress: return
+399.0112 	DATA 	RatingScale rating: (key response) rating=$.05
+399.0112 	DATA 	RatingScale rating: rating RT=1.358
+399.0113 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.99), ('$.05', 1.357)]
+399.0256 	EXP 	New trial (rep=0, index=108): OrderedDict([('choices', 'Going to a museum \nalone'), ('Type', 'nonsocial'), ('typeCode', 0)])
+399.0387 	EXP 	RatingScale rating: reset()
+399.0567 	EXP 	text: autoDraw = False
+399.0567 	EXP 	rating: autoDraw = False
+399.0567 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+399.0567 	EXP 	text: pos = array([0.  , 0.07])
+399.0567 	EXP 	text: text = 'Going to a museum \nalone'
+399.0567 	EXP 	text: font = 'Arial'
+399.0567 	EXP 	text: height = 0.08
+399.0567 	EXP 	text: autoDraw = True
+399.0567 	EXP 	rating: autoDraw = True
+399.0567 	EXP 	text: text = 'Going to a museum \nalone'
+399.8776 	DATA 	Mouse: Left button down, pos=(1445,366)
+399.9781 	DATA 	Mouse:  Left button up, pos=(1445,366)
+400.9782 	DATA 	Mouse: Left button down, pos=(853,365)
+401.0952 	DATA 	Mouse:  Left button up, pos=(853,365)
+401.2782 	DATA 	Keypress: return
+401.2783 	DATA 	RatingScale rating: (key response) rating=$.02
+401.2783 	DATA 	RatingScale rating: rating RT=2.229
+401.2784 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.05', 0.828), ('$.02', 1.929), ('$.02', 2.229)]
+401.2936 	EXP 	New trial (rep=0, index=109): OrderedDict([('choices', 'Writing journal entries'), ('Type', 'nonsocial'), ('typeCode', 0)])
+401.3075 	EXP 	RatingScale rating: reset()
+401.3407 	EXP 	text: autoDraw = False
+401.3407 	EXP 	rating: autoDraw = False
+401.3407 	EXP 	text: color = '[1. 1. 1.] (rgb)'
+401.3407 	EXP 	text: pos = array([0.  , 0.07])
+401.3407 	EXP 	text: text = 'Writing journal entries'
+401.3407 	EXP 	text: font = 'Arial'
+401.3407 	EXP 	text: height = 0.08
+401.3407 	EXP 	text: autoDraw = True
+401.3407 	EXP 	rating: autoDraw = True
+401.3407 	EXP 	text: text = 'Writing journal entries'
+402.8777 	DATA 	Mouse: Left button down, pos=(1048,371)
+402.9953 	DATA 	Mouse:  Left button up, pos=(1049,371)
+403.1951 	DATA 	Keypress: return
+403.1952 	DATA 	RatingScale rating: (key response) rating=$.03
+403.1953 	DATA 	RatingScale rating: rating RT=1.876
+403.1953 	DATA 	RatingScale rating: history=[(None, 0.0), ('$.03', 1.558), ('$.03', 1.876)]
+403.2247 	EXP 	text: autoDraw = False
+403.2247 	EXP 	rating: autoDraw = False
+403.2247 	EXP 	text_2: autoDraw = True
+404.2248 	EXP 	text_2: autoDraw = False
+405.6441 	DATA 	Keypress: space
+405.6586 	EXP 	text_2: autoDraw = False
+405.7526 	EXP 	window1: mouseVisible = True

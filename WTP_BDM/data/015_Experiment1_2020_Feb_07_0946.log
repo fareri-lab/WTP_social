@@ -1,0 +1,741 @@
+8.3862 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.4500 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000000001AABE048>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000000001AB03E10>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.4500 	EXP 	window1: recordFrameIntervals = False
+9.6162 	EXP 	window1: recordFrameIntervals = True
+9.8005 	EXP 	window1: recordFrameIntervals = False
+10.1036 	EXP 	Created Welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Welcome', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+10.1065 	EXP 	Created firstTrialITI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='firstTrialITI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+10.1082 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=5, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+10.1111 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='?', units='norm', win=Window(...), wrapWidth=1)
+10.1129 	EXP 	Created ISI = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+10.1139 	EXP 	Created polygon2_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=5, name='polygon2_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+10.1190 	EXP 	Created feedback1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback1_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.1232 	EXP 	Created arrow1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='arrow1_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.1251 	EXP 	Created ITI_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+10.1261 	EXP 	Created rectangle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=5, name='rectangle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+10.1279 	EXP 	Created text1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='?', units='norm', win=Window(...), wrapWidth=1)
+10.1296 	EXP 	Created ISI2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ISI2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+10.1306 	EXP 	Created rectangle2_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([0., 0., 0.]), fillColorSpace='rgb', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=5, name='rectangle2_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='norm', vertices=ndarray(...), win=Window(...))
+10.1349 	EXP 	Created feedback2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback2_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.1391 	EXP 	Created arrow2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='arrow2_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=0.2)
+10.1408 	EXP 	Created ITI2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ITI2_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='norm', win=Window(...), wrapWidth=1)
+10.1626 	EXP 	Created Finished = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Finished', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+10.1998 	EXP 	Welcome: autoDraw = True
+43.0458 	DATA 	Keypress: space
+43.0592 	EXP 	Welcome: autoDraw = False
+43.0592 	EXP 	firstTrialITI: autoDraw = True
+49.1016 	EXP 	Imported spreadsheet5.xlsx as conditions, 25 conditions, 1 params
+49.1019 	EXP 	Created sequence: fullRandom, trialTypes=25, nReps=1, seed=None
+49.1021 	EXP 	New trial (rep=0, index=0): OrderedDict([('selectBlock', 1)])
+49.1026 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+49.1028 	EXP 	New trial (rep=0, index=0): None
+49.1130 	EXP 	firstTrialITI: autoDraw = False
+49.1130 	EXP 	firstTrialITI: autoDraw = False
+49.1130 	EXP 	polygon: autoDraw = True
+49.1130 	EXP 	text: autoDraw = True
+50.4644 	DATA 	Keypress: 2
+51.1115 	EXP 	polygon: autoDraw = False
+51.1115 	EXP 	text: autoDraw = False
+51.1283 	EXP 	ISI: autoDraw = True
+53.1122 	EXP 	ISI: autoDraw = False
+53.1122 	EXP 	polygon: autoDraw = False
+53.1122 	EXP 	text: autoDraw = False
+53.1122 	EXP 	ISI: autoDraw = False
+53.1122 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+53.1122 	EXP 	arrow1_2: text = '+$0.50'
+53.1122 	EXP 	polygon2_2: autoDraw = True
+53.1122 	EXP 	feedback1_2: autoDraw = True
+53.6324 	DATA 	Keypress: 2
+54.1124 	EXP 	feedback1_2: autoDraw = False
+54.1292 	EXP 	arrow1_2: autoDraw = True
+55.1127 	EXP 	polygon2_2: autoDraw = False
+55.1127 	EXP 	arrow1_2: autoDraw = False
+55.1293 	EXP 	ITI_2: autoDraw = True
+57.0989 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+57.0991 	EXP 	New trial (rep=0, index=1): OrderedDict([('selectBlock', 2)])
+57.0999 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+57.1001 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+57.1003 	EXP 	New trial (rep=0, index=0): None
+57.1133 	EXP 	ITI_2: autoDraw = False
+57.1133 	EXP 	polygon2_2: autoDraw = False
+57.1133 	EXP 	feedback1_2: autoDraw = False
+57.1133 	EXP 	arrow1_2: autoDraw = False
+57.1133 	EXP 	ITI_2: autoDraw = False
+57.1133 	EXP 	rectangle: autoDraw = True
+57.1133 	EXP 	text1: autoDraw = True
+57.9994 	DATA 	Keypress: 1
+59.1139 	EXP 	rectangle: autoDraw = False
+59.1139 	EXP 	text1: autoDraw = False
+59.1305 	EXP 	ISI2: autoDraw = True
+61.1145 	EXP 	ISI2: autoDraw = False
+61.1145 	EXP 	rectangle: autoDraw = False
+61.1145 	EXP 	text1: autoDraw = False
+61.1145 	EXP 	ISI2: autoDraw = False
+61.1145 	EXP 	feedback2_2: text = 8
+61.1145 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+61.1145 	EXP 	arrow2_2: text = '-$0.25'
+61.1145 	EXP 	rectangle2_2: autoDraw = True
+61.1145 	EXP 	feedback2_2: autoDraw = True
+62.1147 	EXP 	feedback2_2: autoDraw = False
+62.1315 	EXP 	arrow2_2: autoDraw = True
+63.1150 	EXP 	rectangle2_2: autoDraw = False
+63.1150 	EXP 	arrow2_2: autoDraw = False
+63.1319 	EXP 	ITI2_2: autoDraw = True
+65.1011 	EXP 	New trial (rep=0, index=2): OrderedDict([('selectBlock', 2)])
+65.1022 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+65.1024 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+65.1026 	EXP 	New trial (rep=0, index=0): None
+65.1157 	EXP 	ITI2_2: autoDraw = False
+65.1157 	EXP 	rectangle2_2: autoDraw = False
+65.1157 	EXP 	feedback2_2: autoDraw = False
+65.1157 	EXP 	arrow2_2: autoDraw = False
+65.1157 	EXP 	ITI2_2: autoDraw = False
+65.1157 	EXP 	rectangle: autoDraw = True
+65.1157 	EXP 	text1: autoDraw = True
+65.5186 	DATA 	Keypress: 1
+67.1163 	EXP 	rectangle: autoDraw = False
+67.1163 	EXP 	text1: autoDraw = False
+67.1330 	EXP 	ISI2: autoDraw = True
+69.1168 	EXP 	ISI2: autoDraw = False
+69.1168 	EXP 	rectangle: autoDraw = False
+69.1168 	EXP 	text1: autoDraw = False
+69.1168 	EXP 	ISI2: autoDraw = False
+69.1168 	EXP 	feedback2_2: text = 7
+69.1168 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+69.1168 	EXP 	arrow2_2: text = '-$0.25'
+69.1168 	EXP 	rectangle2_2: autoDraw = True
+69.1168 	EXP 	feedback2_2: autoDraw = True
+70.1171 	EXP 	feedback2_2: autoDraw = False
+70.1338 	EXP 	arrow2_2: autoDraw = True
+71.1174 	EXP 	rectangle2_2: autoDraw = False
+71.1174 	EXP 	arrow2_2: autoDraw = False
+71.1341 	EXP 	ITI2_2: autoDraw = True
+73.1034 	EXP 	New trial (rep=0, index=3): OrderedDict([('selectBlock', 1)])
+73.1045 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+73.1047 	EXP 	New trial (rep=0, index=0): None
+73.1180 	EXP 	ITI2_2: autoDraw = False
+73.1180 	EXP 	rectangle2_2: autoDraw = False
+73.1180 	EXP 	feedback2_2: autoDraw = False
+73.1180 	EXP 	arrow2_2: autoDraw = False
+73.1180 	EXP 	ITI2_2: autoDraw = False
+73.1180 	EXP 	polygon: autoDraw = True
+73.1180 	EXP 	text: autoDraw = True
+73.4222 	DATA 	Keypress: 1
+75.1186 	EXP 	polygon: autoDraw = False
+75.1186 	EXP 	text: autoDraw = False
+75.1353 	EXP 	ISI: autoDraw = True
+77.1192 	EXP 	ISI: autoDraw = False
+77.1192 	EXP 	polygon: autoDraw = False
+77.1192 	EXP 	text: autoDraw = False
+77.1192 	EXP 	ISI: autoDraw = False
+77.1192 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+77.1192 	EXP 	arrow1_2: text = '+$0.50'
+77.1192 	EXP 	polygon2_2: autoDraw = True
+77.1192 	EXP 	feedback1_2: autoDraw = True
+78.1195 	EXP 	feedback1_2: autoDraw = False
+78.1363 	EXP 	arrow1_2: autoDraw = True
+79.1197 	EXP 	polygon2_2: autoDraw = False
+79.1197 	EXP 	arrow1_2: autoDraw = False
+79.1365 	EXP 	ITI_2: autoDraw = True
+79.8211 	DATA 	Keypress: 2
+81.1087 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+81.1095 	EXP 	New trial (rep=0, index=4): OrderedDict([('selectBlock', 1)])
+81.1113 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+81.1120 	EXP 	New trial (rep=0, index=0): None
+81.1211 	EXP 	ITI_2: autoDraw = False
+81.1211 	EXP 	polygon2_2: autoDraw = False
+81.1211 	EXP 	feedback1_2: autoDraw = False
+81.1211 	EXP 	arrow1_2: autoDraw = False
+81.1211 	EXP 	ITI_2: autoDraw = False
+81.1211 	EXP 	polygon: autoDraw = True
+81.1211 	EXP 	text: autoDraw = True
+81.4062 	DATA 	Keypress: 2
+83.1209 	EXP 	polygon: autoDraw = False
+83.1209 	EXP 	text: autoDraw = False
+83.1375 	EXP 	ISI: autoDraw = True
+85.1214 	EXP 	ISI: autoDraw = False
+85.1214 	EXP 	polygon: autoDraw = False
+85.1214 	EXP 	text: autoDraw = False
+85.1214 	EXP 	ISI: autoDraw = False
+85.1214 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+85.1214 	EXP 	arrow1_2: text = '+$0.50'
+85.1214 	EXP 	polygon2_2: autoDraw = True
+85.1214 	EXP 	feedback1_2: autoDraw = True
+86.1218 	EXP 	feedback1_2: autoDraw = False
+86.1385 	EXP 	arrow1_2: autoDraw = True
+87.1221 	EXP 	polygon2_2: autoDraw = False
+87.1221 	EXP 	arrow1_2: autoDraw = False
+87.1386 	EXP 	ITI_2: autoDraw = True
+89.1094 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+89.1099 	EXP 	New trial (rep=0, index=5): OrderedDict([('selectBlock', 1)])
+89.1113 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+89.1117 	EXP 	New trial (rep=0, index=0): None
+89.1227 	EXP 	ITI_2: autoDraw = False
+89.1227 	EXP 	polygon2_2: autoDraw = False
+89.1227 	EXP 	feedback1_2: autoDraw = False
+89.1227 	EXP 	arrow1_2: autoDraw = False
+89.1227 	EXP 	ITI_2: autoDraw = False
+89.1227 	EXP 	polygon: autoDraw = True
+89.1227 	EXP 	text: autoDraw = True
+89.4745 	DATA 	Keypress: 2
+91.1231 	EXP 	polygon: autoDraw = False
+91.1231 	EXP 	text: autoDraw = False
+91.1398 	EXP 	ISI: autoDraw = True
+93.1238 	EXP 	ISI: autoDraw = False
+93.1238 	EXP 	polygon: autoDraw = False
+93.1238 	EXP 	text: autoDraw = False
+93.1238 	EXP 	ISI: autoDraw = False
+93.1238 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+93.1238 	EXP 	arrow1_2: text = '+$0.50'
+93.1238 	EXP 	polygon2_2: autoDraw = True
+93.1238 	EXP 	feedback1_2: autoDraw = True
+94.1241 	EXP 	feedback1_2: autoDraw = False
+94.1408 	EXP 	arrow1_2: autoDraw = True
+95.1243 	EXP 	polygon2_2: autoDraw = False
+95.1243 	EXP 	arrow1_2: autoDraw = False
+95.1411 	EXP 	ITI_2: autoDraw = True
+97.1103 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+97.1105 	EXP 	New trial (rep=0, index=6): OrderedDict([('selectBlock', 2)])
+97.1115 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+97.1117 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+97.1119 	EXP 	New trial (rep=0, index=0): None
+97.1250 	EXP 	ITI_2: autoDraw = False
+97.1250 	EXP 	polygon2_2: autoDraw = False
+97.1250 	EXP 	feedback1_2: autoDraw = False
+97.1250 	EXP 	arrow1_2: autoDraw = False
+97.1250 	EXP 	ITI_2: autoDraw = False
+97.1250 	EXP 	rectangle: autoDraw = True
+97.1250 	EXP 	text1: autoDraw = True
+97.4108 	DATA 	Keypress: 1
+99.1256 	EXP 	rectangle: autoDraw = False
+99.1256 	EXP 	text1: autoDraw = False
+99.1422 	EXP 	ISI2: autoDraw = True
+101.1261 	EXP 	ISI2: autoDraw = False
+101.1261 	EXP 	rectangle: autoDraw = False
+101.1261 	EXP 	text1: autoDraw = False
+101.1261 	EXP 	ISI2: autoDraw = False
+101.1261 	EXP 	feedback2_2: text = 6
+101.1261 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+101.1261 	EXP 	arrow2_2: text = '-$0.25'
+101.1261 	EXP 	rectangle2_2: autoDraw = True
+101.1261 	EXP 	feedback2_2: autoDraw = True
+102.1264 	EXP 	feedback2_2: autoDraw = False
+102.1431 	EXP 	arrow2_2: autoDraw = True
+103.1265 	EXP 	rectangle2_2: autoDraw = False
+103.1265 	EXP 	arrow2_2: autoDraw = False
+103.1434 	EXP 	ITI2_2: autoDraw = True
+105.1124 	EXP 	New trial (rep=0, index=7): OrderedDict([('selectBlock', 2)])
+105.1136 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+105.1138 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+105.1139 	EXP 	New trial (rep=0, index=0): None
+105.1275 	EXP 	ITI2_2: autoDraw = False
+105.1275 	EXP 	rectangle2_2: autoDraw = False
+105.1275 	EXP 	feedback2_2: autoDraw = False
+105.1275 	EXP 	arrow2_2: autoDraw = False
+105.1275 	EXP 	ITI2_2: autoDraw = False
+105.1275 	EXP 	rectangle: autoDraw = True
+105.1275 	EXP 	text1: autoDraw = True
+105.4960 	DATA 	Keypress: 1
+107.1281 	EXP 	rectangle: autoDraw = False
+107.1281 	EXP 	text1: autoDraw = False
+107.1446 	EXP 	ISI2: autoDraw = True
+109.1286 	EXP 	ISI2: autoDraw = False
+109.1286 	EXP 	rectangle: autoDraw = False
+109.1286 	EXP 	text1: autoDraw = False
+109.1286 	EXP 	ISI2: autoDraw = False
+109.1286 	EXP 	feedback2_2: text = 7
+109.1286 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+109.1286 	EXP 	arrow2_2: text = '-$0.25'
+109.1286 	EXP 	rectangle2_2: autoDraw = True
+109.1286 	EXP 	feedback2_2: autoDraw = True
+110.1288 	EXP 	feedback2_2: autoDraw = False
+110.1454 	EXP 	arrow2_2: autoDraw = True
+111.1291 	EXP 	rectangle2_2: autoDraw = False
+111.1291 	EXP 	arrow2_2: autoDraw = False
+111.1456 	EXP 	ITI2_2: autoDraw = True
+113.1154 	EXP 	New trial (rep=0, index=8): OrderedDict([('selectBlock', 2)])
+113.1160 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+113.1163 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+113.1166 	EXP 	New trial (rep=0, index=0): None
+113.1297 	EXP 	ITI2_2: autoDraw = False
+113.1297 	EXP 	rectangle2_2: autoDraw = False
+113.1297 	EXP 	feedback2_2: autoDraw = False
+113.1297 	EXP 	arrow2_2: autoDraw = False
+113.1297 	EXP 	ITI2_2: autoDraw = False
+113.1297 	EXP 	rectangle: autoDraw = True
+113.1297 	EXP 	text1: autoDraw = True
+113.5483 	DATA 	Keypress: 1
+115.1302 	EXP 	rectangle: autoDraw = False
+115.1302 	EXP 	text1: autoDraw = False
+115.1468 	EXP 	ISI2: autoDraw = True
+117.1308 	EXP 	ISI2: autoDraw = False
+117.1308 	EXP 	rectangle: autoDraw = False
+117.1308 	EXP 	text1: autoDraw = False
+117.1308 	EXP 	ISI2: autoDraw = False
+117.1308 	EXP 	feedback2_2: text = 7
+117.1308 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+117.1308 	EXP 	arrow2_2: text = '-$0.25'
+117.1308 	EXP 	rectangle2_2: autoDraw = True
+117.1308 	EXP 	feedback2_2: autoDraw = True
+118.1313 	EXP 	feedback2_2: autoDraw = False
+118.1479 	EXP 	arrow2_2: autoDraw = True
+119.1314 	EXP 	rectangle2_2: autoDraw = False
+119.1314 	EXP 	arrow2_2: autoDraw = False
+119.1479 	EXP 	ITI2_2: autoDraw = True
+121.1170 	EXP 	New trial (rep=0, index=9): OrderedDict([('selectBlock', 2)])
+121.1181 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+121.1183 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+121.1185 	EXP 	New trial (rep=0, index=0): None
+121.1319 	EXP 	ITI2_2: autoDraw = False
+121.1319 	EXP 	rectangle2_2: autoDraw = False
+121.1319 	EXP 	feedback2_2: autoDraw = False
+121.1319 	EXP 	arrow2_2: autoDraw = False
+121.1319 	EXP 	ITI2_2: autoDraw = False
+121.1319 	EXP 	rectangle: autoDraw = True
+121.1319 	EXP 	text1: autoDraw = True
+121.5506 	DATA 	Keypress: 1
+123.1325 	EXP 	rectangle: autoDraw = False
+123.1325 	EXP 	text1: autoDraw = False
+123.1493 	EXP 	ISI2: autoDraw = True
+125.1332 	EXP 	ISI2: autoDraw = False
+125.1332 	EXP 	rectangle: autoDraw = False
+125.1332 	EXP 	text1: autoDraw = False
+125.1332 	EXP 	ISI2: autoDraw = False
+125.1332 	EXP 	feedback2_2: text = 8
+125.1332 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+125.1332 	EXP 	arrow2_2: text = '-$0.25'
+125.1332 	EXP 	rectangle2_2: autoDraw = True
+125.1332 	EXP 	feedback2_2: autoDraw = True
+126.1334 	EXP 	feedback2_2: autoDraw = False
+126.1501 	EXP 	arrow2_2: autoDraw = True
+127.1337 	EXP 	rectangle2_2: autoDraw = False
+127.1337 	EXP 	arrow2_2: autoDraw = False
+127.1504 	EXP 	ITI2_2: autoDraw = True
+129.1194 	EXP 	New trial (rep=0, index=10): OrderedDict([('selectBlock', 1)])
+129.1206 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+129.1208 	EXP 	New trial (rep=0, index=0): None
+129.1344 	EXP 	ITI2_2: autoDraw = False
+129.1344 	EXP 	rectangle2_2: autoDraw = False
+129.1344 	EXP 	feedback2_2: autoDraw = False
+129.1344 	EXP 	arrow2_2: autoDraw = False
+129.1344 	EXP 	ITI2_2: autoDraw = False
+129.1344 	EXP 	polygon: autoDraw = True
+129.1344 	EXP 	text: autoDraw = True
+129.5699 	DATA 	Keypress: 1
+131.1349 	EXP 	polygon: autoDraw = False
+131.1349 	EXP 	text: autoDraw = False
+131.1515 	EXP 	ISI: autoDraw = True
+133.1354 	EXP 	ISI: autoDraw = False
+133.1354 	EXP 	polygon: autoDraw = False
+133.1354 	EXP 	text: autoDraw = False
+133.1354 	EXP 	ISI: autoDraw = False
+133.1354 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+133.1354 	EXP 	arrow1_2: text = '+$0.50'
+133.1354 	EXP 	polygon2_2: autoDraw = True
+133.1354 	EXP 	feedback1_2: autoDraw = True
+134.1358 	EXP 	feedback1_2: autoDraw = False
+134.1524 	EXP 	arrow1_2: autoDraw = True
+135.1360 	EXP 	polygon2_2: autoDraw = False
+135.1360 	EXP 	arrow1_2: autoDraw = False
+135.1526 	EXP 	ITI_2: autoDraw = True
+137.1216 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+137.1218 	EXP 	New trial (rep=0, index=11): OrderedDict([('selectBlock', 1)])
+137.1227 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+137.1228 	EXP 	New trial (rep=0, index=0): None
+137.1366 	EXP 	ITI_2: autoDraw = False
+137.1366 	EXP 	polygon2_2: autoDraw = False
+137.1366 	EXP 	feedback1_2: autoDraw = False
+137.1366 	EXP 	arrow1_2: autoDraw = False
+137.1366 	EXP 	ITI_2: autoDraw = False
+137.1366 	EXP 	polygon: autoDraw = True
+137.1366 	EXP 	text: autoDraw = True
+137.5552 	DATA 	Keypress: 1
+139.1371 	EXP 	polygon: autoDraw = False
+139.1371 	EXP 	text: autoDraw = False
+139.1540 	EXP 	ISI: autoDraw = True
+141.1378 	EXP 	ISI: autoDraw = False
+141.1378 	EXP 	polygon: autoDraw = False
+141.1378 	EXP 	text: autoDraw = False
+141.1378 	EXP 	ISI: autoDraw = False
+141.1378 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+141.1378 	EXP 	arrow1_2: text = '+$0.50'
+141.1378 	EXP 	polygon2_2: autoDraw = True
+141.1378 	EXP 	feedback1_2: autoDraw = True
+142.1381 	EXP 	feedback1_2: autoDraw = False
+142.1549 	EXP 	arrow1_2: autoDraw = True
+143.1385 	EXP 	polygon2_2: autoDraw = False
+143.1385 	EXP 	arrow1_2: autoDraw = False
+143.1551 	EXP 	ITI_2: autoDraw = True
+145.1239 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+145.1241 	EXP 	New trial (rep=0, index=12): OrderedDict([('selectBlock', 2)])
+145.1250 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+145.1252 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+145.1253 	EXP 	New trial (rep=0, index=0): None
+145.1389 	EXP 	ITI_2: autoDraw = False
+145.1389 	EXP 	polygon2_2: autoDraw = False
+145.1389 	EXP 	feedback1_2: autoDraw = False
+145.1389 	EXP 	arrow1_2: autoDraw = False
+145.1389 	EXP 	ITI_2: autoDraw = False
+145.1389 	EXP 	rectangle: autoDraw = True
+145.1389 	EXP 	text1: autoDraw = True
+145.4745 	DATA 	Keypress: 2
+147.1395 	EXP 	rectangle: autoDraw = False
+147.1395 	EXP 	text1: autoDraw = False
+147.1562 	EXP 	ISI2: autoDraw = True
+149.1400 	EXP 	ISI2: autoDraw = False
+149.1400 	EXP 	rectangle: autoDraw = False
+149.1400 	EXP 	text1: autoDraw = False
+149.1400 	EXP 	ISI2: autoDraw = False
+149.1400 	EXP 	feedback2_2: text = 3
+149.1400 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+149.1400 	EXP 	arrow2_2: text = '-$0.25'
+149.1400 	EXP 	rectangle2_2: autoDraw = True
+149.1400 	EXP 	feedback2_2: autoDraw = True
+150.1406 	EXP 	feedback2_2: autoDraw = False
+150.1570 	EXP 	arrow2_2: autoDraw = True
+151.1407 	EXP 	rectangle2_2: autoDraw = False
+151.1407 	EXP 	arrow2_2: autoDraw = False
+151.1573 	EXP 	ITI2_2: autoDraw = True
+153.1262 	EXP 	New trial (rep=0, index=13): OrderedDict([('selectBlock', 2)])
+153.1273 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+153.1275 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+153.1276 	EXP 	New trial (rep=0, index=0): None
+153.1414 	EXP 	ITI2_2: autoDraw = False
+153.1414 	EXP 	rectangle2_2: autoDraw = False
+153.1414 	EXP 	feedback2_2: autoDraw = False
+153.1414 	EXP 	arrow2_2: autoDraw = False
+153.1414 	EXP 	ITI2_2: autoDraw = False
+153.1414 	EXP 	rectangle: autoDraw = True
+153.1414 	EXP 	text1: autoDraw = True
+153.6267 	DATA 	Keypress: 2
+155.1418 	EXP 	rectangle: autoDraw = False
+155.1418 	EXP 	text1: autoDraw = False
+155.1585 	EXP 	ISI2: autoDraw = True
+157.1436 	EXP 	ISI2: autoDraw = False
+157.1436 	EXP 	rectangle: autoDraw = False
+157.1436 	EXP 	text1: autoDraw = False
+157.1436 	EXP 	ISI2: autoDraw = False
+157.1436 	EXP 	feedback2_2: text = 1
+157.1436 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+157.1436 	EXP 	arrow2_2: text = '-$0.25'
+157.1436 	EXP 	rectangle2_2: autoDraw = True
+157.1436 	EXP 	feedback2_2: autoDraw = True
+158.1428 	EXP 	feedback2_2: autoDraw = False
+158.1593 	EXP 	arrow2_2: autoDraw = True
+159.1429 	EXP 	rectangle2_2: autoDraw = False
+159.1429 	EXP 	arrow2_2: autoDraw = False
+159.1596 	EXP 	ITI2_2: autoDraw = True
+161.1296 	EXP 	New trial (rep=0, index=14): OrderedDict([('selectBlock', 2)])
+161.1308 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+161.1312 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+161.1316 	EXP 	New trial (rep=0, index=0): None
+161.1436 	EXP 	ITI2_2: autoDraw = False
+161.1436 	EXP 	rectangle2_2: autoDraw = False
+161.1436 	EXP 	feedback2_2: autoDraw = False
+161.1436 	EXP 	arrow2_2: autoDraw = False
+161.1436 	EXP 	ITI2_2: autoDraw = False
+161.1436 	EXP 	rectangle: autoDraw = True
+161.1436 	EXP 	text1: autoDraw = True
+161.6633 	DATA 	Keypress: 2
+163.1441 	EXP 	rectangle: autoDraw = False
+163.1441 	EXP 	text1: autoDraw = False
+163.1608 	EXP 	ISI2: autoDraw = True
+165.1447 	EXP 	ISI2: autoDraw = False
+165.1447 	EXP 	rectangle: autoDraw = False
+165.1447 	EXP 	text1: autoDraw = False
+165.1447 	EXP 	ISI2: autoDraw = False
+165.1447 	EXP 	feedback2_2: text = 3
+165.1447 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+165.1447 	EXP 	arrow2_2: text = '-$0.25'
+165.1447 	EXP 	rectangle2_2: autoDraw = True
+165.1447 	EXP 	feedback2_2: autoDraw = True
+166.1450 	EXP 	feedback2_2: autoDraw = False
+166.1617 	EXP 	arrow2_2: autoDraw = True
+167.1453 	EXP 	rectangle2_2: autoDraw = False
+167.1453 	EXP 	arrow2_2: autoDraw = False
+167.1620 	EXP 	ITI2_2: autoDraw = True
+169.1308 	EXP 	New trial (rep=0, index=15): OrderedDict([('selectBlock', 1)])
+169.1318 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+169.1320 	EXP 	New trial (rep=0, index=0): None
+169.1459 	EXP 	ITI2_2: autoDraw = False
+169.1459 	EXP 	rectangle2_2: autoDraw = False
+169.1459 	EXP 	feedback2_2: autoDraw = False
+169.1459 	EXP 	arrow2_2: autoDraw = False
+169.1459 	EXP 	ITI2_2: autoDraw = False
+169.1459 	EXP 	polygon: autoDraw = True
+169.1459 	EXP 	text: autoDraw = True
+169.7153 	DATA 	Keypress: 2
+171.1465 	EXP 	polygon: autoDraw = False
+171.1465 	EXP 	text: autoDraw = False
+171.1631 	EXP 	ISI: autoDraw = True
+173.1471 	EXP 	ISI: autoDraw = False
+173.1471 	EXP 	polygon: autoDraw = False
+173.1471 	EXP 	text: autoDraw = False
+173.1471 	EXP 	ISI: autoDraw = False
+173.1471 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+173.1471 	EXP 	arrow1_2: text = '+$0.50'
+173.1471 	EXP 	polygon2_2: autoDraw = True
+173.1471 	EXP 	feedback1_2: autoDraw = True
+174.1473 	EXP 	feedback1_2: autoDraw = False
+174.1640 	EXP 	arrow1_2: autoDraw = True
+175.1476 	EXP 	polygon2_2: autoDraw = False
+175.1476 	EXP 	arrow1_2: autoDraw = False
+175.1643 	EXP 	ITI_2: autoDraw = True
+177.1331 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+177.1333 	EXP 	New trial (rep=0, index=16): OrderedDict([('selectBlock', 1)])
+177.1341 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+177.1343 	EXP 	New trial (rep=0, index=0): None
+177.1482 	EXP 	ITI_2: autoDraw = False
+177.1482 	EXP 	polygon2_2: autoDraw = False
+177.1482 	EXP 	feedback1_2: autoDraw = False
+177.1482 	EXP 	arrow1_2: autoDraw = False
+177.1482 	EXP 	ITI_2: autoDraw = False
+177.1482 	EXP 	polygon: autoDraw = True
+177.1482 	EXP 	text: autoDraw = True
+177.4335 	DATA 	Keypress: 2
+179.1489 	EXP 	polygon: autoDraw = False
+179.1489 	EXP 	text: autoDraw = False
+179.1654 	EXP 	ISI: autoDraw = True
+181.1494 	EXP 	ISI: autoDraw = False
+181.1494 	EXP 	polygon: autoDraw = False
+181.1494 	EXP 	text: autoDraw = False
+181.1494 	EXP 	ISI: autoDraw = False
+181.1494 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+181.1494 	EXP 	arrow1_2: text = '+$0.50'
+181.1494 	EXP 	polygon2_2: autoDraw = True
+181.1494 	EXP 	feedback1_2: autoDraw = True
+182.1496 	EXP 	feedback1_2: autoDraw = False
+182.1663 	EXP 	arrow1_2: autoDraw = True
+183.1499 	EXP 	polygon2_2: autoDraw = False
+183.1499 	EXP 	arrow1_2: autoDraw = False
+183.1667 	EXP 	ITI_2: autoDraw = True
+185.1351 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+185.1353 	EXP 	New trial (rep=0, index=17): OrderedDict([('selectBlock', 1)])
+185.1364 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+185.1365 	EXP 	New trial (rep=0, index=0): None
+185.1506 	EXP 	polygon2_2: autoDraw = False
+185.1506 	EXP 	feedback1_2: autoDraw = False
+185.1506 	EXP 	arrow1_2: autoDraw = False
+185.1506 	EXP 	ITI_2: autoDraw = False
+185.1506 	EXP 	polygon: autoDraw = True
+185.1506 	EXP 	text: autoDraw = True
+185.4528 	DATA 	Keypress: 2
+187.1511 	EXP 	polygon: autoDraw = False
+187.1511 	EXP 	text: autoDraw = False
+187.1678 	EXP 	ISI: autoDraw = True
+189.1518 	EXP 	ISI: autoDraw = False
+189.1518 	EXP 	polygon: autoDraw = False
+189.1518 	EXP 	text: autoDraw = False
+189.1518 	EXP 	ISI: autoDraw = False
+189.1518 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+189.1518 	EXP 	arrow1_2: text = '+$0.50'
+189.1518 	EXP 	polygon2_2: autoDraw = True
+189.1518 	EXP 	feedback1_2: autoDraw = True
+190.1520 	EXP 	feedback1_2: autoDraw = False
+190.1688 	EXP 	arrow1_2: autoDraw = True
+191.1523 	EXP 	polygon2_2: autoDraw = False
+191.1523 	EXP 	arrow1_2: autoDraw = False
+191.1691 	EXP 	ITI_2: autoDraw = True
+193.1375 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+193.1377 	EXP 	New trial (rep=0, index=18): OrderedDict([('selectBlock', 1)])
+193.1386 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+193.1388 	EXP 	New trial (rep=0, index=0): None
+193.1530 	EXP 	ITI_2: autoDraw = False
+193.1530 	EXP 	polygon2_2: autoDraw = False
+193.1530 	EXP 	feedback1_2: autoDraw = False
+193.1530 	EXP 	arrow1_2: autoDraw = False
+193.1530 	EXP 	ITI_2: autoDraw = False
+193.1530 	EXP 	polygon: autoDraw = True
+193.1530 	EXP 	text: autoDraw = True
+193.5391 	DATA 	Keypress: 1
+195.1534 	EXP 	polygon: autoDraw = False
+195.1534 	EXP 	text: autoDraw = False
+195.1702 	EXP 	ISI: autoDraw = True
+197.1541 	EXP 	ISI: autoDraw = False
+197.1541 	EXP 	polygon: autoDraw = False
+197.1541 	EXP 	text: autoDraw = False
+197.1541 	EXP 	ISI: autoDraw = False
+197.1541 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+197.1541 	EXP 	arrow1_2: text = '+$0.50'
+197.1541 	EXP 	polygon2_2: autoDraw = True
+197.1541 	EXP 	feedback1_2: autoDraw = True
+198.1544 	EXP 	feedback1_2: autoDraw = False
+198.1711 	EXP 	arrow1_2: autoDraw = True
+199.1546 	EXP 	polygon2_2: autoDraw = False
+199.1546 	EXP 	arrow1_2: autoDraw = False
+199.1713 	EXP 	ITI_2: autoDraw = True
+201.1397 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+201.1399 	EXP 	New trial (rep=0, index=19): OrderedDict([('selectBlock', 1)])
+201.1410 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+201.1411 	EXP 	New trial (rep=0, index=0): None
+201.1553 	EXP 	polygon2_2: autoDraw = False
+201.1553 	EXP 	feedback1_2: autoDraw = False
+201.1553 	EXP 	arrow1_2: autoDraw = False
+201.1553 	EXP 	ITI_2: autoDraw = False
+201.1553 	EXP 	polygon: autoDraw = True
+201.1553 	EXP 	text: autoDraw = True
+201.5073 	DATA 	Keypress: 1
+203.1557 	EXP 	polygon: autoDraw = False
+203.1557 	EXP 	text: autoDraw = False
+203.1726 	EXP 	ISI: autoDraw = True
+205.1730 	EXP 	ISI: autoDraw = False
+205.1730 	EXP 	polygon: autoDraw = False
+205.1730 	EXP 	text: autoDraw = False
+205.1730 	EXP 	ISI: autoDraw = False
+205.1730 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+205.1730 	EXP 	arrow1_2: text = '+$0.50'
+205.1730 	EXP 	polygon2_2: autoDraw = True
+205.1730 	EXP 	feedback1_2: autoDraw = True
+206.1567 	EXP 	feedback1_2: autoDraw = False
+206.1734 	EXP 	arrow1_2: autoDraw = True
+207.1569 	EXP 	polygon2_2: autoDraw = False
+207.1569 	EXP 	arrow1_2: autoDraw = False
+207.1736 	EXP 	ITI_2: autoDraw = True
+209.1422 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+209.1424 	EXP 	New trial (rep=0, index=20): OrderedDict([('selectBlock', 1)])
+209.1434 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+209.1435 	EXP 	New trial (rep=0, index=0): None
+209.1576 	EXP 	polygon2_2: autoDraw = False
+209.1576 	EXP 	feedback1_2: autoDraw = False
+209.1576 	EXP 	arrow1_2: autoDraw = False
+209.1576 	EXP 	ITI_2: autoDraw = False
+209.1576 	EXP 	polygon: autoDraw = True
+209.1576 	EXP 	text: autoDraw = True
+209.5097 	DATA 	Keypress: 2
+211.1581 	EXP 	polygon: autoDraw = False
+211.1581 	EXP 	text: autoDraw = False
+211.1750 	EXP 	ISI: autoDraw = True
+213.1587 	EXP 	ISI: autoDraw = False
+213.1587 	EXP 	polygon: autoDraw = False
+213.1587 	EXP 	text: autoDraw = False
+213.1587 	EXP 	ISI: autoDraw = False
+213.1587 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+213.1587 	EXP 	arrow1_2: text = '+$0.50'
+213.1587 	EXP 	polygon2_2: autoDraw = True
+213.1587 	EXP 	feedback1_2: autoDraw = True
+214.1591 	EXP 	feedback1_2: autoDraw = False
+214.1757 	EXP 	arrow1_2: autoDraw = True
+215.1594 	EXP 	polygon2_2: autoDraw = False
+215.1594 	EXP 	arrow1_2: autoDraw = False
+215.1761 	EXP 	ITI_2: autoDraw = True
+217.1444 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+217.1446 	EXP 	New trial (rep=0, index=21): OrderedDict([('selectBlock', 1)])
+217.1455 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+217.1456 	EXP 	New trial (rep=0, index=0): None
+217.1599 	EXP 	polygon2_2: autoDraw = False
+217.1599 	EXP 	feedback1_2: autoDraw = False
+217.1599 	EXP 	arrow1_2: autoDraw = False
+217.1599 	EXP 	ITI_2: autoDraw = False
+217.1599 	EXP 	polygon: autoDraw = True
+217.1599 	EXP 	text: autoDraw = True
+217.6460 	DATA 	Keypress: 2
+219.1606 	EXP 	polygon: autoDraw = False
+219.1606 	EXP 	text: autoDraw = False
+219.1770 	EXP 	ISI: autoDraw = True
+221.1629 	EXP 	ISI: autoDraw = False
+221.1629 	EXP 	polygon: autoDraw = False
+221.1629 	EXP 	text: autoDraw = False
+221.1629 	EXP 	ISI: autoDraw = False
+221.1629 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+221.1629 	EXP 	arrow1_2: text = '+$0.50'
+221.1629 	EXP 	polygon2_2: autoDraw = True
+221.1629 	EXP 	feedback1_2: autoDraw = True
+222.1614 	EXP 	feedback1_2: autoDraw = False
+222.1780 	EXP 	arrow1_2: autoDraw = True
+223.1616 	EXP 	polygon2_2: autoDraw = False
+223.1616 	EXP 	arrow1_2: autoDraw = False
+223.1783 	EXP 	ITI_2: autoDraw = True
+225.1467 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+225.1469 	EXP 	New trial (rep=0, index=22): OrderedDict([('selectBlock', 1)])
+225.1478 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+225.1479 	EXP 	New trial (rep=0, index=0): None
+225.1622 	EXP 	polygon2_2: autoDraw = False
+225.1622 	EXP 	feedback1_2: autoDraw = False
+225.1622 	EXP 	arrow1_2: autoDraw = False
+225.1622 	EXP 	ITI_2: autoDraw = False
+225.1622 	EXP 	polygon: autoDraw = True
+225.1622 	EXP 	text: autoDraw = True
+225.5812 	DATA 	Keypress: 2
+227.1627 	EXP 	polygon: autoDraw = False
+227.1627 	EXP 	text: autoDraw = False
+227.1794 	EXP 	ISI: autoDraw = True
+229.1634 	EXP 	ISI: autoDraw = False
+229.1634 	EXP 	polygon: autoDraw = False
+229.1634 	EXP 	text: autoDraw = False
+229.1634 	EXP 	ISI: autoDraw = False
+229.1634 	EXP 	arrow1_2: color = '[-1.  1. -1.] (rgb)'
+229.1634 	EXP 	arrow1_2: text = '+$0.50'
+229.1634 	EXP 	polygon2_2: autoDraw = True
+229.1634 	EXP 	feedback1_2: autoDraw = True
+230.1636 	EXP 	feedback1_2: autoDraw = False
+230.1802 	EXP 	arrow1_2: autoDraw = True
+231.1640 	EXP 	polygon2_2: autoDraw = False
+231.1640 	EXP 	arrow1_2: autoDraw = False
+231.1805 	EXP 	ITI_2: autoDraw = True
+233.1522 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+233.1530 	EXP 	New trial (rep=0, index=23): OrderedDict([('selectBlock', 2)])
+233.1547 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+233.1552 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+233.1554 	EXP 	New trial (rep=0, index=0): None
+233.1645 	EXP 	polygon2_2: autoDraw = False
+233.1645 	EXP 	feedback1_2: autoDraw = False
+233.1645 	EXP 	arrow1_2: autoDraw = False
+233.1645 	EXP 	ITI_2: autoDraw = False
+233.1645 	EXP 	rectangle: autoDraw = True
+233.1645 	EXP 	text1: autoDraw = True
+233.5334 	DATA 	Keypress: 1
+235.1652 	EXP 	rectangle: autoDraw = False
+235.1652 	EXP 	text1: autoDraw = False
+235.1817 	EXP 	ISI2: autoDraw = True
+237.1657 	EXP 	ISI2: autoDraw = False
+237.1657 	EXP 	rectangle: autoDraw = False
+237.1657 	EXP 	text1: autoDraw = False
+237.1657 	EXP 	ISI2: autoDraw = False
+237.1657 	EXP 	feedback2_2: text = 7
+237.1657 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+237.1657 	EXP 	arrow2_2: text = '-$0.25'
+237.1657 	EXP 	rectangle2_2: autoDraw = True
+237.1657 	EXP 	feedback2_2: autoDraw = True
+238.1661 	EXP 	feedback2_2: autoDraw = False
+238.1827 	EXP 	arrow2_2: autoDraw = True
+239.1663 	EXP 	rectangle2_2: autoDraw = False
+239.1663 	EXP 	arrow2_2: autoDraw = False
+239.1831 	EXP 	ITI2_2: autoDraw = True
+241.1531 	EXP 	New trial (rep=0, index=24): OrderedDict([('selectBlock', 2)])
+241.1546 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+241.1549 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+241.1552 	EXP 	New trial (rep=0, index=0): None
+241.1668 	EXP 	ITI2_2: autoDraw = False
+241.1668 	EXP 	rectangle2_2: autoDraw = False
+241.1668 	EXP 	feedback2_2: autoDraw = False
+241.1668 	EXP 	arrow2_2: autoDraw = False
+241.1668 	EXP 	ITI2_2: autoDraw = False
+241.1668 	EXP 	rectangle: autoDraw = True
+241.1668 	EXP 	text1: autoDraw = True
+241.5371 	DATA 	Keypress: 1
+243.1675 	EXP 	rectangle: autoDraw = False
+243.1675 	EXP 	text1: autoDraw = False
+243.1840 	EXP 	ISI2: autoDraw = True
+245.1681 	EXP 	ISI2: autoDraw = False
+245.1681 	EXP 	rectangle: autoDraw = False
+245.1681 	EXP 	text1: autoDraw = False
+245.1681 	EXP 	ISI2: autoDraw = False
+245.1681 	EXP 	feedback2_2: text = 8
+245.1681 	EXP 	arrow2_2: color = '[ 1. -1. -1.] (rgb)'
+245.1681 	EXP 	arrow2_2: text = '-$0.25'
+245.1681 	EXP 	rectangle2_2: autoDraw = True
+245.1681 	EXP 	feedback2_2: autoDraw = True
+246.1682 	EXP 	feedback2_2: autoDraw = False
+246.1850 	EXP 	arrow2_2: autoDraw = True
+247.1685 	EXP 	rectangle2_2: autoDraw = False
+247.1685 	EXP 	arrow2_2: autoDraw = False
+247.1854 	EXP 	ITI2_2: autoDraw = True
+249.1691 	EXP 	ITI2_2: autoDraw = False
+249.1691 	EXP 	rectangle2_2: autoDraw = False
+249.1691 	EXP 	feedback2_2: autoDraw = False
+249.1691 	EXP 	arrow2_2: autoDraw = False
+249.1691 	EXP 	ITI2_2: autoDraw = False
+249.1691 	EXP 	Finished: autoDraw = True
+261.4081 	DATA 	Keypress: space
+261.4227 	EXP 	Finished: autoDraw = False
+261.5106 	EXP 	window1: mouseVisible = True
