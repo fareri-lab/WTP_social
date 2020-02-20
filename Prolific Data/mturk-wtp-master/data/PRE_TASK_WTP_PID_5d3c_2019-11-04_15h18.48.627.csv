@@ -1,0 +1,144 @@
+uniqueCode,spacebar.keys,spacebar.rt,spacebar3.keys,spacebar3.rt,resp.keys,resp.rt,exResponses.keys,exResponses.rt,example.thisRepN,example.thisTrialN,example.thisN,example.thisIndex,example.ran,example.order,LeftEx,RightEx,LMoneyEx,RMoneyEx,Participant ID *,Age *,Sex *,date,expName,psychopyVersion,frameRate,responses.keys,responses.rt,Loop.thisRepN,Loop.thisTrialN,Loop.thisN,Loop.thisIndex,Loop.ran,Loop.order,Left,Right,leftmoney,rightmoney,greenText,key_resp_2.keys,key_resp_2.rt,slider1.response,slider1.rt,slideKeys.rt,slider2.response,slider2.rt,slider3.response,slider3.rt,slideKeys3.rt,slider4.response,slider4.rt,slideKeys4.rt,slider6.response,slider6.rt,slideKeys6.rt,slider5.response,slider5.rt,slideKeys5.rt,questions.thisRepN,questions.thisTrialN,questions.thisN,questions.thisIndex,questions.ran,questions.order
+404393,space,18.40400004,space,5.802000046,space,4.809000015,1,3.095999956,1,0,3,2,1,2,"Going for a run
+by yourself","Having lunch with
+a significant other",$0.05 ,$0.05 ,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,1,2.434000015,1,0,3,0,1,2,"Going to a family
+barbeque","Going shopping
+by yourself",$0.03 ,$0.02 ,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,1,2.726999998,1,0,3,1,1,2,"Helping a friend
+study for a test","Watching television
+at home",$0.01 ,$0.04 ,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.161999941,1,0,50,33,1,49,Doing your laundry,"Going on a double 
+date",$0.02 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.698000193,1,0,50,14,1,49,"Taking a road trip 
+with family","Planting flowers 
+in a garden",$0.05 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.046999931,1,0,50,23,1,49,"Rearranging furniture 
+in your house","Going to a carnival 
+with friends",$0.01 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.549999952,1,0,50,28,1,49,"Getting likes on a 
+facebook post",Taking a nap,$0.05 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.480999947,1,0,50,20,1,49,"Getting likes on an 
+Instagram picture",Drawing a picture,$0.01 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.86500001,1,0,50,8,1,49,Playing a team sport,"Going for a walk 
+in the park",$0.05 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,3.144999981,1,0,50,30,1,49,"Traveling abroad with 
+a significant other","Taking a road trip 
+by yourself",$0.05 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,3.463999987,1,0,50,0,1,49,"Going to the movies 
+with a friend","Putting together 
+a puzzle",$0.05 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.900000095,1,0,50,9,1,49,Running a marathon,"Adding new friends
+on facebook",$0.02 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.663000107,1,0,50,43,1,49,"Going to a farmer's
+market by yourself","Getting lunch with 
+coworkers",$0.02 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,3.060000181,1,0,50,12,1,49,"Joining a club 
+at school","Teaching yourself a 
+different language",$0.03 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,3.362999916,1,0,50,1,1,49,"Going grocery shopping 
+alone","Having dinner with 
+family",$0.05 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.398000002,1,0,50,26,1,49,"Going shopping with
+a significant other","Trying to solve a 
+Rubik’s cube",$0.05 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.195999861,1,0,50,38,1,49,"Playing a tennis match
+ with a friend","Cleaning up around 
+the house",$0.03 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.628000021,1,0,50,32,1,49,"Meeting new people 
+at a party","Watching Netflix at home 
+by yourself",$0.03 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.994999886,1,0,50,31,1,49,Watching the news,"Going to a family 
+member’s baby shower",$0.03 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.978000164,1,0,50,46,1,49,"Driving to school
+by yourself","Going to the movies
+with a significant other",$0.02 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.598999977,1,0,50,21,1,49,Studying for a test alone,"Playing cards with 
+friends",$0.01 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.84800005,1,0,50,49,1,49,"Gaining Twitter
+followers ","Taking an online
+class",$0.04 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.097999811,1,0,50,3,1,49,Putting gas in a car,"Going to a sporting
+event with friends",$0.03 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,3.445999861,1,0,50,48,1,49,"Going to a party
+with roommates","Buying clothes 
+for yourself",$0.01 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,3.230999947,1,0,50,45,1,49,Playing with a pet,"Studying abroad 
+with friends",$0.01 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.065999985,1,0,50,18,1,49,"Catching up with friends 
+from high school",Shopping online,$0.03 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.532000065,1,0,50,29,1,49,"Learning how to 
+perform card tricks","Going camping 
+with family",$0.05 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.894999981,1,0,50,13,1,49,"Going for a bicycle
+ride alone","Going on Spring Break 
+vacation with friends",$0.05 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.915999889,1,0,50,35,1,49,"Looking through old 
+photo albums","Having a movie marathon 
+with a roommate",$0.01 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.667999983,1,0,50,19,1,49,"Playing a videogame 
+at home","Snapchatting with
+friends",$0.04 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,3.559999943,1,0,50,4,1,49,"Attending a family 
+barbeque","Watching a football 
+game from home",$0.04 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.81799984,1,0,50,42,1,49,"Listening to music
+by yourself","Giving a friend a ride
+to school",$0.01 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.148000002,1,0,50,40,1,49,"Going to the beach 
+alone","Shopping for clothes
+with friends",$0.02 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.832000017,1,0,50,44,1,49,"Gaining Instagram
+followers","Getting breakfast
+by yourself",$0.01 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.499000072,1,0,50,2,1,49,"Attending a family member’s 
+wedding","Practicing an
+ instrument",$0.02 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,1.880000114,1,0,50,22,1,49,"Attending a Superbowl 
+party",Exercising from home,$0.02 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.065000057,1,0,50,5,1,49,Getting a haircut,"Going on a 
+dinner date",$0.03 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.350000143,1,0,50,37,1,49,Writing journal entries,"Going to a nightclub with 
+a group of friends",$0.01 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,3.011000156,1,0,50,16,1,49,"Spending a day at the 
+beach with a friend","Trying out a new 
+recipe at home",$0.04 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.717999935,1,0,50,39,1,49,"Going on a hike 
+by yourself","Babysitting for a 
+family member",$0.04 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.996999979,1,0,50,41,1,49,"Making breakfast 
+for your family","Watching YouTube
+videos",$0.01 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,2.146000147,1,0,50,15,1,49,"Going to a museum 
+alone","Participating in 
+a debate",$0.05 ,$0.03 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.947999954,1,0,50,36,1,49,"Watching the sunset 
+with a significant other",Reading at the library,$0.02 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.298000097,1,0,50,25,1,49,"Painting your bedroom
+a new color","Having a romantic dinner 
+with a significant other",$0.02 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.046000004,1,0,50,47,1,49,"Watching television
+with family","Reading news 
+articles",$0.04 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.815000057,1,0,50,34,1,49,"Seeing a play with a 
+significant other","Going to the movies 
+by yourself",$0.03 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,3.029999971,1,0,50,17,1,49,"Watching a new 
+episode of a television 
+show","Having a picnic 
+with family",$0.02 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.246999979,1,0,50,27,1,49,Listening to a podcast,"Getting breakfast with 
+a significant other",$0.04 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.964999914,1,0,50,11,1,49,"Going on vacation 
+by yourself","Going to a work outing
+with colleagues",$0.04 ,$0.01 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.878999949,1,0,50,10,1,49,"Going to a concert 
+with a friend",Practicing photography,$0.02 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,1,1.850999832,1,0,50,7,1,49,Reading a book,"Going to a friend’s 
+birthday party",$0.01 ,$0.04 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.280999899,1,0,50,24,1,49,Joining a study group,"Getting a slice of pizza 
+by yourself",$0.03 ,$0.02 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,2,2.463000059,1,0,50,6,1,49,"Getting retweets 
+on a picture","Buying coffee on 
+the way to work",$0.01 ,$0.05 ,green,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,5d3cbeefbaf11000011eda09,22,Female,2019-11-04_15h18.48.627,newer wtp (1),3.1.2,60,,,,,,,,,,,,,,return,6.45600009,3,313.756,10.21000004,4,326.174,3,337.9160001,338.7880001,1,342.9860001,6.103999853,4,350.8280001,10.60500002,3,361.1389999,361.7279999,1,0,1,0,1,0

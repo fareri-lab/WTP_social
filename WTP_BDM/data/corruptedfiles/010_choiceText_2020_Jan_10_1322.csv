@@ -1,0 +1,179 @@
+choices	type	typeCode	trials.thisRepN	trials.thisTrialN	trials.thisN	trials.thisIndex	text_3.started	text_3.stopped	key_resp.keys	key_resp.rt	key_resp.started	key_resp.stopped	Instructions.started	Instructions.stopped	key_resp_3.keys	key_resp_3.rt	key_resp_3.started	key_resp_3.stopped	text_4.started	text_4.stopped	key_resp_5.keys	key_resp_5.rt	key_resp_5.started	key_resp_5.stopped	text_5.started	text_5.stopped	key_resp_6.keys	key_resp_6.rt	key_resp_6.started	key_resp_6.stopped	text.started	text.stopped	rating.response	rating.rt	rating.started	rating.stopped	key_resp_2.keys	key_resp_2.started	key_resp_2.stopped	text_2.started	text_2.stopped	key_resp_4.keys	key_resp_4.rt	key_resp_4.started	key_resp_4.stopped	participant	session	date	expName	psychopyVersion	frameRate
+"Playing a videogame 
+at home"	nonsocial	0	0	0	0	98																									84.46729137	None	$0.02 	19.887	0.738292399	None	None	84.46729137	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Planting flowers 
+in a garden"			0	1	1	67																									104.4062324	None	$0.02 	5.626	0.03272247	None	None	104.4062324	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Having hundreds of friends on Facebook			0	2	2	59																									110.0912184	None	$0 	3.036	0.03625093	None	None	110.0912184	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Reading a book			0	3	3	92																									113.1761512	None	$0.05 	2.917	0.028559539	None	None	113.1761512	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Taking a nap			0	4	4	74																									116.1451384	None	$0.05 	2.099	0.029463347	None	None	116.1451384	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Talking to a friend 
+over Skype"			0	5	5	12																									118.3103092	None	$0.04 	2.704	0.034809689	None	None	118.3103092	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going on vacation 
+by yourself"			0	6	6	94																									121.0786705	None	$0.03 	4.468	0.041763664	None	None	121.0786705	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Doing your laundry			0	7	7	105																									125.6124634	None	$0 	2.437	0.035747398	None	None	125.6124634	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Listening to music
+by yourself"			0	8	8	109																									128.1131222	None	$0.05 	2.693	0.029463036	None	None	128.1131222	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting a slice of 
+pizza with a friend"			0	9	9	10																									130.8639255	None	$0.05 	1.859	0.033566874	None	None	130.8639255	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Make comments on your friend's Instagram post			0	10	10	50																									132.7984432	None	$0.02 	4.051	0.051251165	None	None	132.7984432	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Playing volleyball
+with friends"			0	11	11	16																									136.9157524	None	$0.04 	2.779	0.027591661	None	None	136.9157524	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting drinks 
+with co-workers"			0	12	12	44																									139.7665101	None	$0.05 	2.032	0.039292964	None	None	139.7665101	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Exercising from home			0	13	13	71																									141.8504418	None	$0.05 	1.479	0.027864421	None	None	141.8504418	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Driving to school
+by yourself"			0	14	14	88																									143.3842327	None	$0.05 	2.367	0.03485914	None	None	143.3842327	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Snapchat your friends to keep your ""Snapstreaks"""			0	15	15	51																									145.8349648	None	$0.04 	4.756	0.045138484	None	None	145.8349648	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Putting gas in a car			0	16	16	90																									150.6365163	None	$0 	3.127	0.019776486	None	None	150.6365163	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Taking classes with a friend			0	17	17	25																									153.8208018	None	$0.05 	3.679	0.026484449	None	None	153.8208018	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting tagged in 
+Instagram pictures"			0	18	18	11																									157.5550211	None	$0.05 	1.853	0.039075565	None	None	157.5550211	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Playing ping-pong
+with friends"			0	19	19	22																									159.4725096	None	$0.02 	5.778	0.029476721	None	None	159.4725096	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Drawing a picture			0	20	20	70																									165.3075173	None	$0.05 	1.625	0.031391016	None	None	165.3075173	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Walking around Central 
+Park with family"			0	21	21	13																									167.0078348	None	$0.03 	2.882	0.039242269	None	None	167.0078348	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Becoming ""InstaFamous"""			0	22	22	36																									169.9420219	None	$0 	1.593	0.030510223	None	None	169.9420219	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Buying coffee on 
+the way to work"			0	23	23	63																									171.5926545	None	$0 	3.006	0.029926448	None	None	171.5926545	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking an online
+class"			0	24	24	86																									174.6433085	None	$0.03 	3.001	0.025526213	None	None	174.6433085	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Looking at your friend's Snapchat stories			0	25	25	4																									177.7111097	None	$0.05 	3.104	0.032695411	None	None	177.7111097	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Direct messaging your crush on Snapchat			0	26	26	54																									180.8951318	None	$0.01 	2.965	0.037459533	None	None	180.8951318	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Going out to dinner with friends			0	27	27	3																									183.9128932	None	$0.05 	2.643	0.028827945	None	None	183.9128932	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going for a walk 
+in the park"			0	28	28	64																									186.6135059	None	$0.02 	6.57	0.03439013	None	None	186.6135059	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a bar 
+with friends"			0	29	29	35																									193.2490552	None	$0.05 	1.841	0.031037703	None	None	193.2490552	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Going on a blind date			0	30	30	34																									195.1493066	None	$0.02 	3.17	0.034707676	None	None	195.1493066	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Having a Tweet go viral			0	31	31	15																									198.3503676	None	$0 	2.433	0.013585429	None	None	198.3503676	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a street fair
+with friends"			0	32	32	40																									200.851005	None	$0.03 	3.019	0.036739845	None	None	200.851005	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking your friend 
+to the spa"			0	33	33	1																									203.9352144	None	$0.03 	1.702	0.037996033	None	None	203.9352144	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Learning how to 
+perform card tricks"			0	34	34	103																									205.7025578	None	$0 	2.308	0.028347738	None	None	205.7025578	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Viewing videos and photos on Instagram's Explore page			0	35	35	39																									208.0699655	None	$0 	2.934	0.034695235	None	None	208.0699655	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Sharing Youtube videos with your partner			0	36	36	9																									211.0705879	None	$0.05 	2.416	0.036442204	None	None	211.0705879	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking an art class 
+with friends"			0	37	37	38																									213.5548659	None	$0.05 	2.544	0.02777516	None	None	213.5548659	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Painting your bedroom
+a new color"			0	38	38	101																									216.1553854	None	$0.05 	2.007	0.034042105	None	None	216.1553854	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Watching a new 
+episode of a television 
+show"			0	39	39	97																									218.2392984	None	$0.05 	1.859	0.041763353	None	None	218.2392984	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Direct messaging friends on Instagrams			0	40	40	28																									220.1568151	None	$0.03 	2.685	0.034411901	None	None	220.1568151	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Getting a lot of comments on your Instagram post			0	41	41	41																									222.9240026	None	$0.01 	3.663	0.039606156	None	None	222.9240026	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Practicing an
+ instrument"			0	42	42	61																									226.641778	None	$0 	1.895	0.028606502	None	None	226.641778	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Making cookies with your partner			0	43	43	8																									228.5924754	None	$0.05 	1.886	0.03384461	None	None	228.5924754	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Writing journal entries			0	44	44	107																									230.5431603	None	$0.05 	1.146	0.025891345	None	None	230.5431603	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Make a post on Twitter			0	45	45	53																									231.7434801	None	$0 	5.794	0.028390036	None	None	231.7434801	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going on a first date 
+to the movies"			0	46	46	20																									237.5949713	None	$0.04 	3.36	0.03174184	None	None	237.5949713	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Watching the news			0	47	47	104																									240.9978761	None	$0 	2.581	0.024628003	None	None	240.9978761	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Playing videogames 
+with friends"			0	48	48	31																									243.6469782	None	$0.04 	2.996	0.026512752	None	None	243.6469782	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Watching Netflix at home 
+by yourself"			0	49	49	76																									246.7142718	None	$0.05 	1.624	0.04260527	None	None	246.7142718	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Going to a coffee shop with friends			0	50	50	58																									248.3983077	None	$0.05 	1.596	0.031066317	None	None	248.3983077	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Viedochatting your friend over Snapchat			0	51	51	7																									250.0652257	None	$0.05 	1.948	0.039131237	None	None	250.0652257	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Shopping online			0	52	52	69																									252.0510067	None	$0.05 	2.332	0.027843583	None	None	252.0510067	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Going to the zoo with friends			0	53	53	52																									254.449905	None	$0.02 	2.878	0.025431043	None	None	254.449905	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking a road trip 
+by yourself"			0	54	54	75																									257.3840884	None	$0.05 	1.629	0.027243014	None	None	257.3840884	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to an amusement 
+park with a friend"			0	55	55	27																									259.0701279	None	$0.05 	1.849	0.038616196	None	None	259.0701279	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Celebrating holidays 
+with family"			0	56	56	37																									260.9851602	None	$0.05 	1.182	0.037621572	None	None	260.9851602	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Watching videos on Youtube			0	57	57	14																									262.2206213	None	$0.05 	1.08	0.028673059	None	None	262.2206213	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting retweeted by 
+a celebrity"			0	58	58	29																									263.3691824	None	$0.05 	2.088	0.03734819	None	None	263.3691824	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going dancing with
+a significant other"			0	59	59	21																									265.5199953	None	$0.05 	2.601	0.034981058	None	None	265.5199953	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting likes on an
+Instagram picture"			0	60	60	17																									268.187432	None	$0.02 	4.639	0.030736641	None	None	268.187432	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a music
+festival with friends"			0	61	61	30																									272.8888555	None	$0.05 	1.868	0.034429318	None	None	272.8888555	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Buying clothes 
+for yourself"			0	62	62	85																									274.8224449	None	$0.05 	1.258	0.031160554	None	None	274.8224449	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Uploading photos on social media			0	63	63	5																									276.1395653	None	$0.02 	2.125	0.031276252	None	None	276.1395653	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Listening to a podcast			0	64	64	102																									278.3234645	None	$0.04 	2.297	0.026275137	None	None	278.3234645	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Snapchatting your friends			0	65	65	2																									280.6744106	None	$0.05 	1.547	0.028441664	None	None	280.6744106	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going on a weekend
+getaway with family"			0	66	66	18																									282.2915407	None	$0.05 	2.06	0.038670313	None	None	282.2915407	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting verified on 
+Instagram"			0	67	67	47																									284.4085643	None	$0 	1.958	0.031549944	None	None	284.4085643	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Playing icebreakers
+with classmates"			0	68	68	19																									286.4260941	None	$0.02 	3.469	0.031556165	None	None	286.4260941	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a farmer's
+market by yourself"			0	69	69	83																									289.9604361	None	$0.04 	2.744	0.029472678	None	None	289.9604361	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting breakfast
+by yourself"			0	70	70	84																									292.7612997	None	$0.03 	1.79	0.031138161	None	None	292.7612997	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Working on a group
+project with classmates"			0	71	71	42																									294.6141083	None	$0.03 	2.612	0.036807335	None	None	294.6141083	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Getting 1 million subscribers on Youtube			0	72	72	23																									297.2959407	None	$0.01 	3.281	0.038606244	None	None	297.2959407	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Looking at your Facebook feed			0	73	73	55																									300.6468451	None	$0 	3.864	0.025033255	None	None	300.6468451	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Watching YouTube
+videos"			0	74	74	81																									304.5644427	None	$0.05 	1.729	0.029909031	None	None	304.5644427	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to the beach 
+alone"			0	75	75	80																									306.3486517	None	$0 	3.395	0.026439041	None	None	306.3486517	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Posting Instagram stories			0	76	76	33																									309.799478	None	$0.03 	3.022	0.036861141	None	None	309.799478	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a museum 
+alone"			0	77	77	96																									312.8838015	None	$0.03 	1.819	0.033993897	None	None	312.8838015	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking a family member
+ on a shopping trip"			0	78	78	0																									314.7674062	None	$0.05 	2.491	0.030908632	None	None	314.7674062	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Reading at the library			0	79	79	78																									317.3181695	None	$0.05 	1.179	0.027980741	None	None	317.3181695	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Practicing photography			0	80	80	65																									318.5354042	None	$0.05 	1.217	0.025199026	None	None	318.5354042	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Trying to solve a 
+Rubik’s cube"			0	81	81	73																									319.818861	None	$0.05 	1.228	0.029538613	None	None	319.818861	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Running a marathon			0	82	82	93																									321.1027841	None	$0.05 	2.446	0.027061071	None	None	321.1027841	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Taking your friend 
+on a cruise"			0	83	83	6																									323.6033687	None	$0.05 	1.126	0.033064275	None	None	323.6033687	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Listening to music
+by yourself"			0	84	84	82																									324.8203701	None	$0.05 	1.564	0.041517652	None	None	324.8203701	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Looking through old 
+photo albums"			0	85	85	106																									326.4377335	None	$0.03 	4.071	0.032323438	None	None	326.4377335	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Calling a family member over Skype			0	86	86	32																									330.5719836	None	$0.01 	2.541	0.03353173	None	None	330.5719836	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Playing with a pet			0	87	87	87																									333.1562307	None	$0.05 	1.799	0.02360943	None	None	333.1562307	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Studying for a test alone			0	88	88	99																									335.0069474	None	$0.05 	1.95	0.023682208	None	None	335.0069474	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going on a hike 
+by yourself"			0	89	89	108																									337.0080279	None	$0.03 	2.616	0.027505199	None	None	337.0080279	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Trying out a new 
+recipe at home"			0	90	90	68																									339.6913233	None	$0.05 	3.941	0.034744687	None	None	339.6913233	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Getting a haircut			0	91	91	91																									343.6927008	None	$0.05 	1.045	0.027334763	None	None	343.6927008	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a comedy show 
+with a significant other"			0	92	92	56																									344.8096591	None	$0.04 	4.224	0.040959381	None	None	344.8096591	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting ice cream
+with friends"			0	93	93	49																									349.0778513	None	$0.05 	1.432	0.023885611	None	None	349.0778513	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going for a bicycle
+ride alone"			0	94	94	95																									350.5778331	None	$0.01 	2.511	0.032116613	None	None	350.5778331	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to a karaoke
+bar with friends"			0	95	95	43																									353.1455032	None	$0.05 	1.972	0.032696344	None	None	353.1455032	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going sight-seeing
+with family"			0	96	96	24																									355.1793696	None	$0.05 	1.133	0.03434099	None	None	355.1793696	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting likes on a 
+Facebook status"			0	97	97	45																									356.3795849	None	$0 	3.143	0.02799878	None	None	356.3795849	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Having a celebrity comment on your Facebook post			0	98	98	57																									359.5807489	None	$0.03 	3.466	0.036784631	None	None	359.5807489	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Cleaning up around 
+the house"			0	99	99	79																									363.1148269	None	$0.05 	2.94	0.035848166	None	None	363.1148269	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going to the movies 
+by yourself"			0	100	100	77																									366.1157037	None	$0 	2.469	0.037189572	None	None	366.1157037	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+Looking at your Twitter feed			0	101	101	48																									368.649796	None	$0 	1.727	0.027451083	None	None	368.649796	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Teaching yourself a 
+different language"			0	102	102	66																									370.4335842	None	$0.03 	2.471	0.036984925	None	None	370.4335842	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Watching a football 
+game from home"			0	103	103	62																									372.9678697	None	$0 	1.836	0.032102617	None	None	372.9678697	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Going grocery shopping 
+alone"			0	104	104	89																									374.8517543	None	$0 	1.824	0.019567484	None	None	374.8517543	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Getting a slice of pizza 
+by yourself"			0	105	105	72																									376.7367731	None	$0.01 	4.484	0.039260619	None	None	376.7367731	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Rearranging furniture 
+in your house"			0	106	106	100																									381.2869931	None	$0 	3.402	0.035007494	None	None	381.2869931	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Sleeping over at 
+a friend's house"			0	107	107	26																									384.7546648	None	$0.05 	1.669	0.034572695	None	None	384.7546648	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Putting together 
+a puzzle"			0	108	108	60																									386.4882901	None	$0 	2.604	0.035321619	None	None	386.4882901	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+"Learning to drive 
+with a family member"			0	109	109	46																									389.1557197	None	$0.03 	2.8	0.038063523	None	None	389.1557197	None							10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
+																																								391.9735149	392.9739037	space	11.47998357	391.9735149	None	10	1	2020_Jan_10_1322	choiceText	3.1.2	59.98539209
