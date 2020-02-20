@@ -1,0 +1,183 @@
+choices,,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text_3.started,text_3.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,Instructions.started,Instructions.stopped,key_resp_3.keys,key_resp_3.rt,key_resp_3.started,key_resp_3.stopped,text_4.started,text_4.stopped,key_resp_5.keys,key_resp_5.rt,key_resp_5.started,key_resp_5.stopped,text_5.started,text_5.stopped,key_resp_6.keys,key_resp_6.rt,key_resp_6.started,key_resp_6.stopped,text.started,text.stopped,rating.response,rating.rt,rating.started,rating.stopped,key_resp_2.keys,key_resp_2.started,key_resp_2.stopped,text_2.started,text_2.stopped,key_resp_4.keys,key_resp_4.rt,key_resp_4.started,key_resp_4.stopped,participant,session,date,expName,psychopyVersion,frameRate
+,,,,,,10.19266882,None,space,25.54278435,10.19266882,None,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+,,,,,,,,,,,,35.76469939,None,space,1.594859565,35.76469939,None,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+,,,,,,,,,,,,,,,,,,37.38209808,37.38209808,space,14.10507696,37.38209808,None,,,,,,,,,,,,,,,,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+,,,,,,,,,,,,,,,,,,,,,,,,51.5194487,51.5194487,space,97.2146024,51.5194487,None,,,,,,,,,,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going grocery shopping 
+alone",NS,0,0,0,89,,,,,,,,,,,,,,,,,,,,,,,,,149.7988787,None,$0.04 ,19.409,0.955800368,None,None,149.7988787,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Talking to a friend 
+over Skype",SM,0,1,1,12,,,,,,,,,,,,,,,,,,,,,,,,,169.2548624,None,$0.05 ,9.286,0.021697204,None,None,169.2548624,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Putting together 
+a puzzle",NS,0,2,2,60,,,,,,,,,,,,,,,,,,,,,,,,,178.5909414,None,$0 ,4.46,0.015621788,None,None,178.5909414,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a bar 
+with friends",S,0,3,3,35,,,,,,,,,,,,,,,,,,,,,,,,,183.0923349,None,$0.05 ,6.44,0.01745959,None,None,183.0923349,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Snapchatting your friends,SM,0,4,4,2,,,,,,,,,,,,,,,,,,,,,,,,,189.563197,None,$0.02 ,3.495,0.013905282,None,None,189.563197,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Taking classes with a friend,S,0,5,5,25,,,,,,,,,,,,,,,,,,,,,,,,,193.1120901,None,$0.04 ,3.31,0.015144376,None,None,193.1120901,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Watching a new 
+episode of a television 
+show",NS,0,6,6,97,,,,,,,,,,,,,,,,,,,,,,,,,196.4628084,None,$0.05 ,3.38,0.022754663,None,None,196.4628084,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Painting your bedroom
+a new color",NS,0,7,7,101,,,,,,,,,,,,,,,,,,,,,,,,,199.8973564,None,$0.01 ,3.353,0.019141573,None,None,199.8973564,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting likes on an
+Instagram picture",SM,0,8,8,17,,,,,,,,,,,,,,,,,,,,,,,,,203.2984372,None,$0 ,3.62,0.018483149,None,None,203.2984372,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Going out to dinner with friends,S,0,9,9,3,,,,,,,,,,,,,,,,,,,,,,,,,206.9662558,None,$0.05 ,4.458,0.015577623,None,None,206.9662558,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Looking at your Twitter feed,SM,0,10,10,48,,,,,,,,,,,,,,,,,,,,,,,,,211.4673971,None,$0 ,4.073,0.017348246,None,None,211.4673971,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Drawing a picture,NS,0,11,11,70,,,,,,,,,,,,,,,,,,,,,,,,,215.5692731,None,$0.02 ,2.929,0.013375619,None,None,215.5692731,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting breakfast
+by yourself",NS,0,12,12,84,,,,,,,,,,,,,,,,,,,,,,,,,218.5530389,None,$0.05 ,3.961,0.014428103,None,None,218.5530389,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking an art class 
+with friends",S,0,13,13,38,,,,,,,,,,,,,,,,,,,,,,,,,222.5540699,None,$0.02 ,2.921,0.016143986,None,None,222.5540699,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Walking around Central 
+Park with family",S,0,14,14,13,,,,,,,,,,,,,,,,,,,,,,,,,225.5217166,None,$0.01 ,2.73,0.021870752,None,None,225.5217166,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Teaching yourself a 
+different language",NS,0,15,15,66,,,,,,,,,,,,,,,,,,,,,,,,,228.305678,None,$0.05 ,3.32,0.017904034,None,None,228.305678,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting likes on a 
+Facebook status",SM,0,16,16,45,,,,,,,,,,,,,,,,,,,,,,,,,231.673687,None,$0 ,2.687,0.019380123,None,None,231.673687,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Practicing an
+ instrument",NS,0,17,17,61,,,,,,,,,,,,,,,,,,,,,,,,,234.4077748,None,$0.04 ,2.975,0.015510755,None,None,234.4077748,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Viewing videos and photos on Instagram's Explore page,SM,0,18,18,39,,,,,,,,,,,,,,,,,,,,,,,,,237.4418738,None,$0 ,4.023,0.027405619,None,None,237.4418738,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Taking a nap,NS,0,19,19,74,,,,,,,,,,,,,,,,,,,,,,,,,241.4930856,None,$0.05 ,2.135,0.010214437,None,None,241.4930856,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Watching the news,NS,0,20,20,104,,,,,,,,,,,,,,,,,,,,,,,,,243.6604631,None,$0 ,2.164,0.012606473,None,None,243.6604631,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a museum 
+alone",NS,0,21,21,96,,,,,,,,,,,,,,,,,,,,,,,,,245.8622861,None,$0.03 ,2.112,0.013543258,None,None,245.8622861,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going sight-seeing
+with family",S,0,22,22,24,,,,,,,,,,,,,,,,,,,,,,,,,248.0283477,None,$0.05 ,2.775,0.01562552,None,None,248.0283477,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Direct messaging your crush on Snapchat,SM,0,23,23,54,,,,,,,,,,,,,,,,,,,,,,,,,250.8458538,None,$0.01 ,3.97,0.017302215,None,None,250.8458538,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Celebrating holidays 
+with family",S,0,24,24,37,,,,,,,,,,,,,,,,,,,,,,,,,254.8637134,None,$0.05 ,4.649,0.020664937,None,None,254.8637134,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Watching a football 
+game from home",NS,0,25,25,62,,,,,,,,,,,,,,,,,,,,,,,,,259.5653894,None,$0 ,2.037,0.018642701,None,None,259.5653894,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going on a hike 
+by yourself",NS,0,26,26,108,,,,,,,,,,,,,,,,,,,,,,,,,261.6491048,None,$0 ,2.033,0.021153856,None,None,261.6491048,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to the beach 
+alone",NS,0,27,27,80,,,,,,,,,,,,,,,,,,,,,,,,,263.7165305,None,$0 ,1.679,0.013205493,None,None,263.7165305,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Rearranging furniture 
+in your house",NS,0,28,28,100,,,,,,,,,,,,,,,,,,,,,,,,,265.4502439,None,$0 ,2.388,0.018550018,None,None,265.4502439,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going on vacation 
+by yourself",NS,0,29,29,94,,,,,,,,,,,,,,,,,,,,,,,,,267.8680701,None,$0.04 ,2.666,0.013128982,None,None,267.8680701,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Looking through old 
+photo albums",NS,0,30,30,106,,,,,,,,,,,,,,,,,,,,,,,,,270.6018217,None,$0.04 ,2.793,0.026224686,None,None,270.6018217,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting drinks 
+with co-workers",S,0,31,31,44,,,,,,,,,,,,,,,,,,,,,,,,,273.4359654,None,$0.03 ,2.805,0.017131467,None,None,273.4359654,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting a slice of pizza 
+by yourself",NS,0,32,32,72,,,,,,,,,,,,,,,,,,,,,,,,,276.2869923,None,$0.05 ,2.122,0.017032252,None,None,276.2869923,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Direct messaging friends on Instagrams,SM,0,33,33,28,,,,,,,,,,,,,,,,,,,,,,,,,278.454107,None,$0.02 ,9.51,0.018625284,None,None,278.454107,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Uploading photos on social media,SM,0,34,34,5,,,,,,,,,,,,,,,,,,,,,,,,,288.0238868,None,$0 ,3.108,0.033794541,None,None,288.0238868,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking a family member
+ on a shopping trip",S,0,35,35,0,,,,,,,,,,,,,,,,,,,,,,,,,291.1912854,None,$0.05 ,2.753,0.033067382,None,None,291.1912854,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Make comments on your friend's Instagram post,SM,0,36,36,50,,,,,,,,,,,,,,,,,,,,,,,,,294.0087934,None,$0 ,2.649,0.037224131,None,None,294.0087934,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting a slice of 
+pizza with a friend",S,0,37,37,10,,,,,,,,,,,,,,,,,,,,,,,,,296.7264408,None,$0.05 ,2.709,0.028217375,None,None,296.7264408,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going dancing with
+a significant other",S,0,38,38,21,,,,,,,,,,,,,,,,,,,,,,,,,299.4779524,None,$0.02 ,2.183,0.021886614,None,None,299.4779524,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Putting gas in a car,NS,0,39,39,90,,,,,,,,,,,,,,,,,,,,,,,,,301.7112053,None,$0.05 ,2.049,0.02277799,None,None,301.7112053,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a karaoke
+bar with friends",S,0,40,40,43,,,,,,,,,,,,,,,,,,,,,,,,,303.8117769,None,$0.04 ,4.071,0.020183171,None,None,303.8117769,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Looking at your friend's Snapchat stories,SM,0,41,41,4,,,,,,,,,,,,,,,,,,,,,,,,,307.9463255,None,$0 ,3.276,0.026768033,None,None,307.9463255,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Watching Netflix at home 
+by yourself",NS,0,42,42,76,,,,,,,,,,,,,,,,,,,,,,,,,311.2808998,None,$0.05 ,2.542,0.029813517,None,None,311.2808998,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Becoming ""InstaFamous""",SM,0,43,43,36,,,,,,,,,,,,,,,,,,,,,,,,,313.881461,None,$0.01 ,2.713,0.028878598,None,None,313.881461,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Snapchat your friends to keep your ""Snapstreaks""",SM,0,44,44,51,,,,,,,,,,,,,,,,,,,,,,,,,316.6489125,None,$0.05 ,5.531,0.026090948,None,None,316.6489125,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Getting a lot of comments on your Instagram post,SM,0,45,45,41,,,,,,,,,,,,,,,,,,,,,,,,,322.2508142,None,$0 ,3.149,0.032281752,None,None,322.2508142,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting tagged in 
+Instagram pictures",SM,0,46,46,11,,,,,,,,,,,,,,,,,,,,,,,,,325.4516329,None,$0 ,2.173,0.016372273,None,None,325.4516329,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Driving to school
+by yourself",NS,0,47,47,88,,,,,,,,,,,,,,,,,,,,,,,,,327.6541678,None,$0.05 ,2.745,0.014364966,None,None,327.6541678,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Make a post on Twitter,SM,0,48,48,53,,,,,,,,,,,,,,,,,,,,,,,,,330.4379901,None,$0 ,2.003,0.014177111,None,None,330.4379901,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Buying clothes 
+for yourself",NS,0,49,49,85,,,,,,,,,,,,,,,,,,,,,,,,,332.5204091,None,$0.05 ,2.657,0.031456934,None,None,332.5204091,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Studying for a test alone,NS,0,50,50,99,,,,,,,,,,,,,,,,,,,,,,,,,335.2052517,None,$0.02 ,2.563,0.013839346,None,None,335.2052517,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Listening to a podcast,NS,0,51,51,102,,,,,,,,,,,,,,,,,,,,,,,,,337.8218803,None,$0.02 ,1.966,0.022507405,None,None,337.8218803,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a farmer's
+market by yourself",NS,0,52,52,83,,,,,,,,,,,,,,,,,,,,,,,,,339.8393545,None,$0 ,4.487,0.017386501,None,None,339.8393545,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Reading at the library,NS,0,53,53,78,,,,,,,,,,,,,,,,,,,,,,,,,344.358503,None,$0 ,2.427,0.013493495,None,None,344.358503,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Having hundreds of friends on Facebook,SM,0,54,54,59,,,,,,,,,,,,,,,,,,,,,,,,,346.8415039,None,$0 ,2.152,0.019906365,None,None,346.8415039,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Listening to music
+by yourself",NS,0,55,55,109,,,,,,,,,,,,,,,,,,,,,,,,,349.0277599,None,$0.04 ,1.879,0.014043996,None,None,349.0277599,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Cleaning up around 
+the house",NS,0,56,56,79,,,,,,,,,,,,,,,,,,,,,,,,,350.9594231,None,$0.01 ,1.833,0.020198722,None,None,350.9594231,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking an online
+class",NS,0,57,57,86,,,,,,,,,,,,,,,,,,,,,,,,,352.8432752,None,$0.05 ,2.798,0.015938093,None,None,352.8432752,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Playing a videogame 
+at home",NS,0,58,58,98,,,,,,,,,,,,,,,,,,,,,,,,,355.6940011,None,$0 ,1.908,0.01799734,None,None,355.6940011,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Playing ping-pong
+with friends",S,0,59,59,22,,,,,,,,,,,,,,,,,,,,,,,,,357.6445692,None,$0.02 ,7.333,0.020334636,None,None,357.6445692,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Running a marathon,NS,0,60,60,93,,,,,,,,,,,,,,,,,,,,,,,,,365.0133588,None,$0 ,2.431,0.012572261,None,None,365.0133588,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going on a first date 
+to the movies",S,0,61,61,20,,,,,,,,,,,,,,,,,,,,,,,,,367.497716,None,$0.05 ,2.726,0.015735309,None,None,367.497716,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Playing icebreakers
+with classmates",S,0,62,62,19,,,,,,,,,,,,,,,,,,,,,,,,,370.2651452,None,$0 ,4.001,0.021651795,None,None,370.2651452,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Doing your laundry,NS,0,63,63,105,,,,,,,,,,,,,,,,,,,,,,,,,374.2997394,None,$0.04 ,3.447,0.012228276,None,None,374.2997394,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Having a Tweet go viral,SM,0,64,64,15,,,,,,,,,,,,,,,,,,,,,,,,,377.7840061,None,$0 ,1.967,0.01274923,None,None,377.7840061,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Watching YouTube
+videos",NS,0,65,65,81,,,,,,,,,,,,,,,,,,,,,,,,,379.8013447,None,$0.05 ,2.772,0.019434551,None,None,379.8013447,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Buying coffee on 
+the way to work",NS,0,66,66,63,,,,,,,,,,,,,,,,,,,,,,,,,382.6189799,None,$0 ,2.291,0.014900538,None,None,382.6189799,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going for a bicycle
+ride alone",NS,0,67,67,95,,,,,,,,,,,,,,,,,,,,,,,,,384.9527701,None,$0.03 ,2.494,0.013717739,None,None,384.9527701,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting retweeted by 
+a celebrity",SM,0,68,68,29,,,,,,,,,,,,,,,,,,,,,,,,,387.5036157,None,$0 ,2.143,0.025283858,None,None,387.5036157,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to the movies 
+by yourself",NS,0,69,69,77,,,,,,,,,,,,,,,,,,,,,,,,,389.6876784,None,$0.01 ,4.926,0.014703664,None,None,389.6876784,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Sharing Youtube videos with your partner,SM,0,70,70,9,,,,,,,,,,,,,,,,,,,,,,,,,394.6558712,None,$0 ,2.603,0.01789657,None,None,394.6558712,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going for a walk 
+in the park",NS,0,71,71,64,,,,,,,,,,,,,,,,,,,,,,,,,397.3067273,None,$0 ,1.832,0.022174305,None,None,397.3067273,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Calling a family member over Skype,SM,0,72,72,32,,,,,,,,,,,,,,,,,,,,,,,,,399.2070282,None,$0.04 ,3.006,0.026788872,None,None,399.2070282,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Sleeping over at 
+a friend's house",S,0,73,73,26,,,,,,,,,,,,,,,,,,,,,,,,,402.2580071,None,$0.05 ,2.34,0.017602969,None,None,402.2580071,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Playing videogames 
+with friends",S,0,74,74,31,,,,,,,,,,,,,,,,,,,,,,,,,404.6419383,None,$0 ,1.802,0.020523735,None,None,404.6419383,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Going on a blind date,S,0,75,75,34,,,,,,,,,,,,,,,,,,,,,,,,,406.4925675,None,$0.01 ,2.205,0.01778647,None,None,406.4925675,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a street fair
+with friends",S,0,76,76,40,,,,,,,,,,,,,,,,,,,,,,,,,408.7601091,None,$0.05 ,2.605,0.032695094,None,None,408.7601091,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Getting 1 million subscribers on Youtube,SM,0,77,77,23,,,,,,,,,,,,,,,,,,,,,,,,,411.4108373,None,$0.01 ,3.604,0.017971525,None,None,411.4108373,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Posting Instagram stories,SM,0,78,78,33,,,,,,,,,,,,,,,,,,,,,,,,,415.0619668,None,$0 ,2.754,0.015348403,None,None,415.0619668,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Playing with a pet,NS,0,79,79,87,,,,,,,,,,,,,,,,,,,,,,,,,417.8459378,None,$0.05 ,2.497,0.012101692,None,None,417.8459378,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Making cookies with your partner,S,0,80,80,8,,,,,,,,,,,,,,,,,,,,,,,,,420.3967933,None,$0.05 ,3.509,0.014946258,None,None,420.3967933,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Planting flowers 
+in a garden",NS,0,81,81,67,,,,,,,,,,,,,,,,,,,,,,,,,423.9480147,None,$0 ,3.025,0.015110475,None,None,423.9480147,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Having a celebrity comment on your Facebook post,SM,0,82,82,57,,,,,,,,,,,,,,,,,,,,,,,,,427.0321996,None,$0 ,1.575,0.026349404,None,None,427.0321996,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting ice cream
+with friends",S,0,83,83,49,,,,,,,,,,,,,,,,,,,,,,,,,428.6349301,None,$0.05 ,2.198,0.014157206,None,None,428.6349301,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a comedy show 
+with a significant other",S,0,84,84,56,,,,,,,,,,,,,,,,,,,,,,,,,430.9165481,None,$0 ,2.56,0.03952224,None,None,430.9165481,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Listening to music
+by yourself",NS,0,85,85,82,,,,,,,,,,,,,,,,,,,,,,,,,433.5186789,None,$0.05 ,4.229,0.025718349,None,None,433.5186789,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Going to the zoo with friends,S,0,86,86,52,,,,,,,,,,,,,,,,,,,,,,,,,437.8021338,None,$0 ,2.176,0.014253933,None,None,437.8021338,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Trying out a new 
+recipe at home",NS,0,87,87,68,,,,,,,,,,,,,,,,,,,,,,,,,440.0192414,None,$0.05 ,5.693,0.016359832,None,None,440.0192414,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Learning how to 
+perform card tricks",NS,0,88,88,103,,,,,,,,,,,,,,,,,,,,,,,,,445.7710684,None,$0 ,3.812,0.025224765,None,None,445.7710684,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Exercising from home,NS,0,89,89,71,,,,,,,,,,,,,,,,,,,,,,,,,449.6390091,None,$0.05 ,3.843,0.025937306,None,None,449.6390091,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Getting a haircut,NS,0,90,90,91,,,,,,,,,,,,,,,,,,,,,,,,,453.5068469,None,$0.05 ,3.067,0.011429894,None,None,453.5068469,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking your friend 
+to the spa",S,0,91,91,1,,,,,,,,,,,,,,,,,,,,,,,,,456.6244697,None,$0.05 ,3.445,0.015439843,None,None,456.6244697,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Practicing photography,NS,0,92,92,65,,,,,,,,,,,,,,,,,,,,,,,,,460.0920083,None,$0.02 ,2.433,0.012508191,None,None,460.0920083,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Viedochatting your friend over Snapchat,SM,0,93,93,7,,,,,,,,,,,,,,,,,,,,,,,,,462.5927275,None,$0 ,2.195,0.027174222,None,None,462.5927275,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Shopping online,NS,0,94,94,69,,,,,,,,,,,,,,,,,,,,,,,,,464.8271959,None,$0.05 ,1.824,0.017551962,None,None,464.8271959,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Getting verified on 
+Instagram",SM,0,95,95,47,,,,,,,,,,,,,,,,,,,,,,,,,466.6938972,None,$0.01 ,2.495,0.014374608,None,None,466.6938972,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Playing volleyball
+with friends",S,0,96,96,16,,,,,,,,,,,,,,,,,,,,,,,,,469.2280377,None,$0 ,2.318,0.025876035,None,None,469.2280377,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Writing journal entries,NS,0,97,97,107,,,,,,,,,,,,,,,,,,,,,,,,,471.6122641,None,$0.02 ,3.065,0.028828836,None,None,471.6122641,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking your friend 
+on a cruise",S,0,98,98,6,,,,,,,,,,,,,,,,,,,,,,,,,474.7132496,None,$0.05 ,2.114,0.026134802,None,None,474.7132496,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Watching videos on Youtube,NS,0,99,99,14,,,,,,,,,,,,,,,,,,,,,,,,,476.8650598,None,$0 ,2.749,0.013937628,None,None,476.8650598,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Learning to drive 
+with a family member",S,0,100,100,46,,,,,,,,,,,,,,,,,,,,,,,,,479.6811812,None,$0.04 ,4.138,0.031470618,None,None,479.6811812,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Looking at your Facebook feed,SM,0,101,101,55,,,,,,,,,,,,,,,,,,,,,,,,,483.8659393,None,$0 ,3.789,0.015909168,None,None,483.8659393,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Taking a road trip 
+by yourself",NS,0,102,102,75,,,,,,,,,,,,,,,,,,,,,,,,,487.7002796,None,$0.02 ,3.128,0.015012193,None,None,487.7002796,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Trying to solve a 
+Rubik’s cube",NS,0,103,103,73,,,,,,,,,,,,,,,,,,,,,,,,,490.8845124,None,$0.05 ,2.842,0.025731101,None,None,490.8845124,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going on a weekend
+getaway with family",S,0,104,104,18,,,,,,,,,,,,,,,,,,,,,,,,,493.7689379,None,$0.05 ,3.555,0.0183519,None,None,493.7689379,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Going to a coffee shop with friends,S,0,105,105,58,,,,,,,,,,,,,,,,,,,,,,,,,497.3712625,None,$0.05 ,2.477,0.026432757,None,None,497.3712625,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+Reading a book,NS,0,106,106,92,,,,,,,,,,,,,,,,,,,,,,,,,499.8874054,None,$0.05 ,1.852,0.010977674,None,None,499.8874054,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to an amusement 
+park with a friend",S,0,107,107,27,,,,,,,,,,,,,,,,,,,,,,,,,501.7889603,None,$0.05 ,2.011,0.023770136,None,None,501.7889603,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Working on a group
+project with classmates",S,0,108,108,42,,,,,,,,,,,,,,,,,,,,,,,,,503.8550745,None,$0 ,2.453,0.019070661,None,None,503.8550745,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+"Going to a music
+festival with friends",S,0,109,109,30,,,,,,,,,,,,,,,,,,,,,,,,,506.3560812,None,$0.02 ,3.003,0.022275697,None,None,506.3560812,None,,,,,,,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,509.3737532,510.3739376,space,2.788035654,509.3737532,None,5,1,2020_Jan_08_1132,choiceText,3.1.2,59.8982276
